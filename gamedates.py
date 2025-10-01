@@ -50,7 +50,6 @@ else:
 def make_ics_event(start, title, location, link, early_hours = 1.5, duration_hours=2):
     # Calculate DTEND as start + duration
     from datetime import datetime, timedelta
-    print(start)
     dt = datetime.strptime(start, "%d %B %Y, %H:%M")
     dtstart = dt - timedelta(hours=early_hours)
     dtend = dt + timedelta(hours=duration_hours)
@@ -81,7 +80,8 @@ for link in results:
         # Find the date block
         date_block = soup.find("div", class_="details date")
         names = soup.find_all("div", class_="name")
-        gegner = names[1].get_text()
+        home = names[0].get_text() == "Union VV Döbling"
+        gegner = names[0].get_text() if not home else names[1].get_text()
 
         if date_block:
             # Clean text around comma before <span>
@@ -90,7 +90,8 @@ for link in results:
             ort = parts[1].strip()
             datum_zeit = parts[-2].strip() + ", " + parts[-1].strip()
             
-            titel = "Spieltag VVD vs " + gegner + ", " + runde
+            titel = "Heimspiel VVD" if home else "Auswärtsspiel VVD"
+            titel += " vs " + gegner + ", " + runde
             # After extracting:
             print(f"\nLink: {link}")
             print("Spiel:", titel)
