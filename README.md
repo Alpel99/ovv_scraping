@@ -1,0 +1,1 @@
+# generation of calendar (ics file) from övv website for game dates
