@@ -10,14 +10,10 @@ URL = "https://panel.volleystation.com/website/125/de/schedule/"  # <-- Replace 
 TARGET_TEAM = "Union VV Döbling"
 BASE_URL = "panel.volleystation.com"  # Will be prepended to relative links
 
-# === BUILD REQUEST WITH GERMAN HEADERS ===
-req = urllib.request.Request(URL)
-req.add_header('User-Agent', 'Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:106.0) Gecko/20100101 Firefox/106.0')
-req.add_header('Accept', 'text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,*/*;q=0.8')
-req.add_header('Accept-Language', 'de-DE,de;q=0.9,en;q=0.5')
 
 # === FETCH PAGE ===
-html = urllib.request.urlopen(req).read().decode('utf-8')
+html = req(URL)
+# html = urllib.request.urlopen(req).read().decode('utf-8')
 
 # === PARSE HTML WITH BEAUTIFULSOUP ===
 soup = BeautifulSoup(html, "html.parser")
@@ -35,6 +31,7 @@ for match in matches:
     # Check if TARGET_TEAM is involved
     if TARGET_TEAM in teams:
         href = match.get("href")
+        print("Test: ", href.startswith("http"))
         full_link = href if href.startswith("http") else BASE_URL + href
         results.append("https://"+full_link)
 
