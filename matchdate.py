@@ -23,7 +23,7 @@ class matchdate:
             f"DTEND:{(self.dateT+self.duration).strftime('%Y%m%dT%H%M%S')}\n"
             f"SUMMARY:{self.title}\n"
             f"LOCATION:{self.location}\n"
-            f"DESCRIPTION:Match Link: {link}\n"
+            f"DESCRIPTION:Match Link: {self.link}\n"
             "END:VEVENT\n"
         )
             

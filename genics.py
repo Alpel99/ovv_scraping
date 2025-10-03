@@ -1,4 +1,3 @@
-import matchdate
 
 def genICS(events):
     with open("schedule.ics", "w", encoding="utf-8") as f:
