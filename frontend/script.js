@@ -238,16 +238,25 @@ function renderCalendar(){
             hour12: false
         },
     eventContent: function(arg) {
+        const wrapper = document.createElement('div');
+        wrapper.style.display = 'flex';
+        wrapper.style.flexDirection = 'column';
+        wrapper.style.alignItems = 'flex-start';
+        wrapper.style.lineHeight = '1.2em';
+        
         const timeEl = document.createElement('div');
         timeEl.textContent = arg.timeText;
-        timeEl.style.fontWeight = '600';
+        timeEl.style.fontSize = '1em';
 
         const titleEl = document.createElement('div');
         titleEl.textContent = arg.event.title;
         titleEl.style.whiteSpace = 'normal';
-        titleEl.style.fontSize = '0.9em';
+        titleEl.style.fontSize = '0.85em';
 
-        return { domNodes: [timeEl, titleEl] };
+        wrapper.appendChild(timeEl);
+        wrapper.appendChild(titleEl);
+
+        return { domNodes: [wrapper] };
     },
       headerToolbar: { left: 'prev,next today', center: 'title', right: 'dayGridMonth,timeGridWeek,timeGridDay' },
       events,
@@ -282,7 +291,7 @@ function generateIcsContent(items){
   for (const it of items){
     const dtstart = toIcsDt(it.dateT);
     const dtend = toIcsDt(new Date(new Date(it.dateT).getTime() + durHours*3600*1000).toISOString());
-    const uid = (it.link || it.title + it.dateT).replace(/\s+/g,"_").slice(0,200);
+    const uid = (it.title + it.dateT).replace(/\s+/g,"_").slice(0,200);
     const summary = (it.title||"").replace(/[\r\n]+/g," ");
     const desc = `Link: ${it.link||''}`;
     const loc = it.location || "";

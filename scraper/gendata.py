@@ -1,3 +1,4 @@
+import json
 
 def genICS(events):
     with open("schedule.ics", "w", encoding="utf-8") as f:
@@ -8,7 +9,6 @@ def genICS(events):
         f.write("END:VCALENDAR")
 
 def genJSON(events, path):
-    import json
     data = []
     for event in events:
         data.append(event.make_json_event())

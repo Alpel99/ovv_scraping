@@ -1,6 +1,5 @@
 from datetime import datetime, timedelta
 
-
 class matchdate:
     def __init__(self, home, guest, dateT: datetime, location, link=None, league=None, duration=timedelta(hours=1.5), early=timedelta(hours=1.5)):
         self.home = home

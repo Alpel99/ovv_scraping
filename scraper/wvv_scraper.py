@@ -1,28 +1,19 @@
 import cloudscraper
 from bs4 import BeautifulSoup
-from matchdate import matchdate
 from datetime import datetime
-from selenium import webdriver
-from selenium.webdriver.chrome.service import Service
-from selenium.webdriver.chrome.options import Options
 
-def findCompetitions(url):
-    chrome_options = Options()
-    chrome_options.add_argument("--headless")
-    chrome_options.add_argument("--no-sandbox")
-    chrome_options.add_argument("--disable-dev-shm-usage")
-    driver = webdriver.Chrome(options=chrome_options)
-    driver.get(url)
+from matchdate import matchdate
 
-    soup = BeautifulSoup(driver.page_source, "html.parser")
-    driver.quit()
-    ul = soup.find("ul", id="BewerbslisteTabs")
-    tabs = [(a.get_text(strip=True), a["href"].lstrip('#BID')) for a in ul.find_all("a", href=True)]
-
-    return tabs
+headers = {
+    "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) "
+                  "AppleWebKit/537.36 (KHTML, like Gecko) "
+                  "Chrome/118.0.5993.117 Safari/537.36",
+    "Accept-Language": "en-US,en;q=0.9",
+    "Accept": "text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8",
+}
 
 def findCompetitions2(url):
-    scraper = cloudscraper.create_scraper()
+    scraper = cloudscraper.create_scraper(delay=1000)
     response = scraper.get(url)
     html = response.text
     soup = BeautifulSoup(html, "html.parser")
@@ -32,23 +23,24 @@ def findCompetitions2(url):
         value = comp.get("value")
         text = comp.text.strip()
         comps.append([text, value])
-
     return comps
 
-
-def getCompMatches(comp, targets):
+def getCompMatches(comp):
     (compName, compID) = comp
     url = f"https://www.volleyball-wien.at/index.php?option=com_oevv&view=oevv&Style=Standard&BID={compID}"
-    # print("scraping", compName, compID, "url:", url)
+    print("scraping", compName, compID, "url:", url)
     scraper = cloudscraper.create_scraper()
-    response = scraper.get(url)
+    response = scraper.get(url, headers=headers)
     html = response.text
     soup = BeautifulSoup(html, "html.parser")
     results = []
     for tr in soup.find_all("tr"):
+        # print("new tr", tr)
         classes = tr.get("class", [])
+        
+        # skip header of table (class CH, red)
         if "CH" in classes:
-            continue  # skip rows with class "CH"
+            continue
 
         # skip rows that don't look like match rows (no match number cell)
         spn_td = tr.find("td", class_="ErgSpN")
@@ -58,7 +50,6 @@ def getCompMatches(comp, targets):
         # Check ErgSet presence / content
         ergset_td = tr.find("td", class_="ErgSet")
         ergset_text = ergset_td.get_text(strip=True) if ergset_td else ""
-
         # If ErgSet has text -> match played -> skip
         if ergset_text:
             continue
@@ -71,12 +62,7 @@ def getCompMatches(comp, targets):
         link = url
         dateT = text_of("ErgDat") + " " + text_of("ErgZeit")  # format e.g. "27.09.2025" + " " + "15:00"
         home = text_of("ErgHeim")
-        guest =  text_of("ErgGast")
-
-        if(targets):
-            if not any(x in targets for x in [text_of("ErgHeim"), text_of("ErgGast")]):
-                continue
-        
+        guest =  text_of("ErgGast")        
 
         dt = datetime.strptime(dateT, "%d.%m.%Y %H:%M")
         md = matchdate(home, guest, dt, location, link, compName)
@@ -85,26 +71,12 @@ def getCompMatches(comp, targets):
     print("Found", len(results), "matches for", compName)
     return results
 
-def scrape_wvv(url, targets):
+def scrape_wvv(url):
     data = []
     # find all tabs in each url
-    # store BID37126 in # smthg
     comps = findCompetitions2(url)
-    print("comps: ", comps)
     for comp in comps:
-        res = getCompMatches(comp, targets)
+        res = getCompMatches(comp)
         data.extend(res)
-
+    print("[WVV] found ", len(data), "games")
     return data
-
-# don't need
-def getAllTeamNames_wvv(url):
-    matches = findCompetitions(url)
-    results = set()
-    global base_url
-    for match in matches:
-        # Extract team names
-        team_names = match.find_all("div", class_="name")
-        for t in team_names:
-            results.add(t.text)
-    return list(results)

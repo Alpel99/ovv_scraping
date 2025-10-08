@@ -10,22 +10,15 @@ def getMatchList(url):
     matches = soup.find_all("a", class_="table-row")
     return matches
 
-def filterMatches(matches, targets, base_url):
+def filterMatches(matches, base_url):
     results = []
     for match in matches:
-        # Extract team names
-        team_names = match.find_all("div", class_="name")
-        teams = [t.get_text(strip=True) for t in team_names]
         href = match.get("href")
         full_link = base_url + href
-        # Check if TARGET_TEAM is involved
-        if(targets):
-            if not any(x in targets for x in teams):
-                continue
         results.append(full_link)
     return results
     
-def scrapeMatches(filteredMatchLinks, targets):
+def scrapeMatches(filteredMatchLinks):
     from datetime import datetime
     import locale, time, random
     locale.setlocale(locale.LC_ALL, 'de_DE.utf8')
@@ -44,43 +37,25 @@ def scrapeMatches(filteredMatchLinks, targets):
         location = parts[1].strip()
         dateT = parts[-2].strip() + ", " + parts[-1].strip()
         
-        if(len(targets) == 1):
-            home = names[0].get_text() in targets
-            opponent = names[0].get_text() if not home else names[1].get_text()
-            title = "Heimspiel" if home else "Auswärtsspiel"
-            title += " vs " + opponent + ", " + round
-        else:
-            title = names[0].get_text() + " vs " + names[1].get_text() + ", " + round
+        home = names[0].get_text() 
+        guest = names[1].get_text() 
             
         dt = datetime.strptime(dateT, "%d %B %Y, %H:%M")
-        md = matchdate(title, dt, location, link, "BL2")
-        print("Found match", md)
+        md = matchdate(home, guest, dt, location, link, "BL2")
+        # print("Found match", md)
         results.append(md)
-        time.sleep(random.uniform(3,7))   
+        time.sleep(random.uniform(2,5))   
     return results
         
         
 
-def scrape_ovv(url, targets):
+def scrape_ovv(url):
     # BASE_URL = "panel.volleystation.com"  # Will be prepended to relative links
     base_url = "/".join(url.split("/", 3)[:3])
-    print(base_url)
     matches = getMatchList(url)
-    filteredMatchLinks = filterMatches(matches, targets, base_url)
-    print("[OVV] found ", len(filteredMatchLinks), "games with ", targets)
-    matchdata = scrapeMatches(filteredMatchLinks, targets)
+    filteredMatchLinks = filterMatches(matches, base_url)
+    print("[OVV] found ", len(filteredMatchLinks), "games")
+    matchdata = scrapeMatches(filteredMatchLinks)
     return matchdata
-    
-    
-def getAllTeamNames_ovv(url):
-    matches = getMatchList(url)
-    results = set()
-    global base_url
-    for match in matches:
-        # Extract team names
-        team_names = match.find_all("div", class_="name")
-        for t in team_names:
-            results.add(t.text)
-    return list(results)
 
 
