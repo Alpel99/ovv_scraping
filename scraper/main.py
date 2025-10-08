@@ -1,4 +1,3 @@
-from bs4 import BeautifulSoup
 import locale
 locale.setlocale(locale.LC_ALL, 'de_DE.utf8')
 from ovv_scraper import scrape_ovv
