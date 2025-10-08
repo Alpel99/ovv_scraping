@@ -2,6 +2,15 @@ import cloudscraper
 from bs4 import BeautifulSoup
 from matchdate import matchdate
 
+headers = {
+    "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) "
+                  "AppleWebKit/537.36 (KHTML, like Gecko) "
+                  "Chrome/118.0.5993.117 Safari/537.36",
+    "Accept-Language": "en-US,en;q=0.9",
+    "Accept": "text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8",
+}
+
+
 def getMatchList(url):
     scraper = cloudscraper.create_scraper()
     response = scraper.get(url)
@@ -23,15 +32,18 @@ def scrapeMatches(filteredMatchLinks):
     import locale, time, random
     locale.setlocale(locale.LC_ALL, 'de_DE.utf8')
     results = []
-    for link in filteredMatchLinks:
+    for i, link in enumerate(filteredMatchLinks, start=1):
+        if i % max(1, len(filteredMatchLinks) // 10) == 0 or i == len(filteredMatchLinks):
+            print(f"Processing: {i}/{len(filteredMatchLinks)}")
         scraper = cloudscraper.create_scraper()
-        response = scraper.get(link)
+        response = scraper.get(link,  headers=headers)
         html = response.text
         soup = BeautifulSoup(html, "html.parser")
-        print(link)
+        # print(link)
+        
         date_block = soup.find("div", class_="details date")
         names = soup.find_all("div", class_="name")
-        
+                   
         parts = date_block.get_text(" ", strip=True).split(',')
         round = parts[0].strip()
         location = parts[1].strip()
@@ -44,7 +56,7 @@ def scrapeMatches(filteredMatchLinks):
         md = matchdate(home, guest, dt, location, link, "BL2")
         # print("Found match", md)
         results.append(md)
-        time.sleep(random.uniform(2,5))   
+        time.sleep(random.uniform(3,7))   
     return results
         
         
@@ -54,8 +66,9 @@ def scrape_ovv(url):
     base_url = "/".join(url.split("/", 3)[:3])
     matches = getMatchList(url)
     filteredMatchLinks = filterMatches(matches, base_url)
-    print("[OVV] found ", len(filteredMatchLinks), "games")
+    print("[OVV] found ", len(filteredMatchLinks), "matches")
     matchdata = scrapeMatches(filteredMatchLinks)
+    print("[OVV] scraped ", len(filteredMatchLinks), "matches")
     return matchdata
 
 

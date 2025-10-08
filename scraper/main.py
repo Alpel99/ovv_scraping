@@ -12,7 +12,7 @@ URL_WVV = "https://www.volleyball-wien.at/termine-ergebnisse.html"
 if __name__ == "__main__":
     data = []
 
-    # data.extend(scrape_ovv(URL_OVV))
+    data.extend(scrape_ovv(URL_OVV))
     
     data.extend(scrape_wvv(URL_WVV))
     
@@ -23,6 +23,6 @@ if __name__ == "__main__":
         # print(e)
 
     # genICS(data)
-    path = "../frontend/schedule.json"
+    path = "frontend/schedule.json"
     genJSON(data, path)
     

@@ -13,7 +13,7 @@ headers = {
 }
 
 def findCompetitions2(url):
-    scraper = cloudscraper.create_scraper(delay=1000)
+    scraper = cloudscraper.create_scraper()
     response = scraper.get(url)
     html = response.text
     soup = BeautifulSoup(html, "html.parser")
@@ -28,7 +28,7 @@ def findCompetitions2(url):
 def getCompMatches(comp):
     (compName, compID) = comp
     url = f"https://www.volleyball-wien.at/index.php?option=com_oevv&view=oevv&Style=Standard&BID={compID}"
-    print("scraping", compName, compID, "url:", url)
+    # print("scraping", compName, compID, "url:", url)
     scraper = cloudscraper.create_scraper()
     response = scraper.get(url, headers=headers)
     html = response.text
@@ -78,5 +78,5 @@ def scrape_wvv(url):
     for comp in comps:
         res = getCompMatches(comp)
         data.extend(res)
-    print("[WVV] found ", len(data), "games")
+    print("[WVV] found ", len(data), "matches")
     return data
