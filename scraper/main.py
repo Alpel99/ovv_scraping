@@ -1,5 +1,3 @@
-import locale
-locale.setlocale(locale.LC_ALL, 'de_DE.utf8')
 from ovv_scraper import scrape_ovv
 from wvv_scraper import scrape_wvv
 from gendata import genICS, genJSON
@@ -13,9 +11,7 @@ if __name__ == "__main__":
 
     data.extend(scrape_ovv(URL_OVV))
 
-    
     data.extend(scrape_wvv(URL_WVV))
-    
     
     print("[ALL] found ", len(data))
     
