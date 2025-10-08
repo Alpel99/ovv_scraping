@@ -24,31 +24,30 @@ jobs:
         with:
           fetch-depth: 0
 
-      - name: Run scraper
-      - uses: actions/setup-python@v4
+      - name: Set up Python
+        uses: actions/setup-python@v5
         with:
           python-version: '3.11'
+
+      - name: Install dependencies and run scraper
         run: |
-          # put your scraping script here; produce e.g. data/calendar.json
-          pip3 install -r requirements.txt
+          pip install -r requirements.txt
           python3 main.py
 
       - name: Commit and push data to gh-pages branch
         env:
-          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN  }}
+          GITHUB_TOKEN: ${{ secrets.ACTIONS_TOKEN }}
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
 
-          # prepare gh-pages branch (or adapt to docs/ on main)
           git fetch origin gh-pages || true
           git checkout --orphan gh-pages || git checkout -B gh-pages
 
           if [ ! -f frontend/schedule.json ]; then
             echo "Error: schedule.json not found"; exit 1
           fi
-
+          
           git add -f frontend/schedule.json
-          # use "[skip ci]" so other workflows don't re-run on this commit
           git commit -m "Update schedule data [skip ci]" || echo "no changes to commit"
           git push --force origin gh-pages
