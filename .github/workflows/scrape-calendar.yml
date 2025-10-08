@@ -32,7 +32,7 @@ jobs:
       - name: Install dependencies and run scraper
         run: |
           pip install -r requirements.txt
-          python3 main.py
+          python3 scraper/main.py
 
       - name: Commit and push data to gh-pages branch
         env:
