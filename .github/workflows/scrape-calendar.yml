@@ -29,10 +29,11 @@ jobs:
         with:
           python-version: '3.11'
 
-      - name: Install dependencies and run scraper
-        run: |
-          pip install -r requirements.txt
-          python3 scraper/main.py
+      - name: Install Python dependencies
+        run: pip install -r requirements.txt
+
+      - name: Run scraper
+        run: python3 -u scraper/main.py
 
       - name: Commit and push data to gh-pages branch
         env:

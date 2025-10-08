@@ -27,7 +27,7 @@ GERMAN_MONTH_TO_NUM = {
 
 def getMatchList(url):
     scraper = cloudscraper.create_scraper()
-    response = scraper.get(url)
+    response = scraper.get(url, timeout=30)
     html = response.text
     soup = BeautifulSoup(html, "html.parser")
     matches = soup.find_all("a", class_="table-row")
@@ -49,7 +49,7 @@ def scrapeMatches(filteredMatchLinks):
         if i % max(1, len(filteredMatchLinks) // 10) == 0 or i == len(filteredMatchLinks):
             print(f"Processing: {i}/{len(filteredMatchLinks)}")
         scraper = cloudscraper.create_scraper()
-        response = scraper.get(link,  headers=headers)
+        response = scraper.get(link,  headers=headers, timeout=30)
         html = response.text
         soup = BeautifulSoup(html, "html.parser")
         # print(link)

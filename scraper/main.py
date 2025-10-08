@@ -7,6 +7,7 @@ URL_OVV = "https://panel.volleystation.com/website/125/de/schedule/"
 URL_WVV = "https://www.volleyball-wien.at/termine-ergebnisse.html"
 
 if __name__ == "__main__":
+    print("Running scraper...")
     data = []
 
     data.extend(scrape_ovv(URL_OVV))
