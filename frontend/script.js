@@ -35,8 +35,8 @@ function formatLocal(dt) {
 }
 
 // download helper
-function download(filename, content, mime="application/octet-stream"){
-  const blob = new Blob([content], {type: mime});
+function download(filename, content, mime = "application/octet-stream") {
+  const blob = new Blob([content], { type: mime });
   const url = URL.createObjectURL(blob);
   const a = document.createElement("a");
   a.href = url; a.download = filename; document.body.appendChild(a);
@@ -46,7 +46,7 @@ function download(filename, content, mime="application/octet-stream"){
 }
 
 // load schedule.json or fallback
-async function loadData(){
+async function loadData() {
   try {
     const res = await fetch(DATA_URL);
     if (!res.ok) throw new Error("no local data or CORS");
@@ -60,18 +60,18 @@ async function loadData(){
 }
 
 // sample fallback (very small)
-function sampleData(){
+function sampleData() {
   return [
-    {"title":"UVC RAIBA Waidhofen/Ybbs vs Volleyteam Roadrunners Wien, Runde 2","location":"SH {WAIDHOFEN/YBBS}","dateT":"2025-10-10T20:00:00","link":"https://panel.volleystation.com/website/125/de/matches/2241158/","league":"BL2"},
-    {"title":"HLL: Dimitrios 1 vs VTR 2","location":"Sporthalle Brigittenau","dateT":"2025-10-26T14:30:00","link":"https://www.volleyball-wien.at/index.php?option=com_oevv&view=oevv&Style=Standard&BID=36629","league":"HLL"}
+    { "title": "UVC RAIBA Waidhofen/Ybbs vs Volleyteam Roadrunners Wien, Runde 2", "location": "SH {WAIDHOFEN/YBBS}", "dateT": "2025-10-10T20:00:00", "link": "https://panel.volleystation.com/website/125/de/matches/2241158/", "league": "BL2" },
+    { "title": "HLL: Dimitrios 1 vs VTR 2", "location": "Sporthalle Brigittenau", "dateT": "2025-10-26T14:30:00", "link": "https://www.volleyball-wien.at/index.php?option=com_oevv&view=oevv&Style=Standard&BID=36629", "league": "HLL" }
   ];
 }
 
 // populate team datalist and league select
-function populateTeamLeagueLists(){
+function populateTeamLeagueLists() {
   const teams = new Set();
   const leagues = new Set();
-  DATA.forEach(item=>{
+  DATA.forEach(item => {
     if (item.home) teams.add(item.home);
     if (item.guest) teams.add(item.guest)
     if (item.league) leagues.add(item.league);
@@ -79,15 +79,15 @@ function populateTeamLeagueLists(){
 
   // fill datalist
   teamsListEl.innerHTML = "";
-  Array.from(teams).sort().forEach(t=>{
+  Array.from(teams).sort().forEach(t => {
     const opt = document.createElement("option");
     opt.value = t;
     teamsListEl.appendChild(opt);
   });
 
   // fill league select (keep Any)
-  const existing = new Set(Array.from(leagueSelect.options).map(o=>o.value));
-  Array.from(leagues).sort().forEach(l=>{
+  const existing = new Set(Array.from(leagueSelect.options).map(o => o.value));
+  Array.from(leagues).sort().forEach(l => {
     if (!existing.has(l)) {
       const opt = document.createElement("option");
       opt.value = l;
@@ -99,59 +99,59 @@ function populateTeamLeagueLists(){
   // set default date to today
   const today = new Date();
   const yyyy = today.getFullYear();
-  const mm = String(today.getMonth()+1).padStart(2,"0");
-  const dd = String(today.getDate()).padStart(2,"0");
+  const mm = String(today.getMonth() + 1).padStart(2, "0");
+  const dd = String(today.getDate()).padStart(2, "0");
   startDateInput.value = `${yyyy}-${mm}-${dd}`;
 }
 
 // add filter to list
-function addFilter(){
+function addFilter() {
   const team = (teamInput.value || "").trim();
   const league = (leagueSelect.value || "Any");
   const start = startDateInput.value || null;
-  const f = {team, league, start};
+  const f = { team, league, start };
   // avoid exact duplicates
-  if (FILTERS.some(x => x.team===f.team && x.league===f.league && x.start===f.start)) return;
+  if (FILTERS.some(x => x.team === f.team && x.league === f.league && x.start === f.start)) return;
   FILTERS.push(f);
   renderFilters();
 }
 
 // render filters list
-function renderFilters(){
+function renderFilters() {
   filtersListEl.innerHTML = "";
-  FILTERS.forEach((f, idx)=>{
+  FILTERS.forEach((f, idx) => {
     const chip = document.createElement("div");
     chip.className = "filter-chip";
-    const text = `${f.team||"Any team"} | ${f.league||"Any"} | ${f.start||"Any date"}`;
+    const text = `${f.team || "Any team"} | ${f.league || "Any"} | ${f.start || "Any date"}`;
     chip.appendChild(document.createTextNode(text));
     const btn = document.createElement("button");
     btn.textContent = "✕";
     btn.title = "Remove filter";
-    btn.onclick = ()=>{ FILTERS.splice(idx,1); renderFilters(); };
+    btn.onclick = () => { FILTERS.splice(idx, 1); renderFilters(); };
     chip.appendChild(btn);
     filtersListEl.appendChild(chip);
   });
 }
 
 // run filters: for each filter, find matches and union by link
-function runFilters(){
+function runFilters() {
   const unique = new Map(); // key: link or composite, value: item
-  if (FILTERS.length===0){
+  if (FILTERS.length === 0) {
     // if no filters, use default: startdate = today + league/team Any => return none or all?
     // we'll treat "no filters" as "use single filter: Any, Any, today"
-    const defaultFilter = {team:"", league:"Any", start: startDateInput.value};
+    const defaultFilter = { team: "", league: "Any", start: startDateInput.value };
     FILTERS = [defaultFilter];
     renderFilters();
   }
 
   const minDurationHours = parseFloat(defaultDurationInput.value) || 2;
 
-  for (const f of FILTERS){
-    const teamQ = (f.team||"").toLowerCase();
-    const leagueQ = (f.league||"Any");
+  for (const f of FILTERS) {
+    const teamQ = (f.team || "").toLowerCase();
+    const leagueQ = (f.league || "Any");
     const startQ = f.start ? new Date(f.start) : null;
 
-    for (const item of DATA){
+    for (const item of DATA) {
       // parse date
       if (!item.dateT) continue;
       const dt = new Date(item.dateT);
@@ -161,12 +161,12 @@ function runFilters(){
       if (startQ && dt < startQ) continue;
 
       // league filter
-      if (leagueQ && leagueQ !== "Any" && String(item.league||"").toLowerCase() !== String(leagueQ).toLowerCase()) continue;
+      if (leagueQ && leagueQ !== "Any" && String(item.league || "").toLowerCase() !== String(leagueQ).toLowerCase()) continue;
 
       // team filter: match against title and location (case-insensitive substring)
       if (teamQ) {
-        if(!(item.home.toLowerCase().includes(teamQ) || item.guest.toLowerCase().includes(teamQ)))
-            continue;
+        if (!(item.home.toLowerCase().includes(teamQ) || item.guest.toLowerCase().includes(teamQ)))
+          continue;
       }
 
       // uniqueness key: prefer link if present
@@ -176,43 +176,43 @@ function runFilters(){
   }
 
   // store results
-  FILTERED = Array.from(unique.values()).sort((a,b)=> new Date(a.dateT) - new Date(b.dateT));
+  FILTERED = Array.from(unique.values()).sort((a, b) => new Date(a.dateT) - new Date(b.dateT));
   renderResults();
   renderCalendar();
 }
 
 // render results table
-function renderResults(){
+function renderResults() {
   resultsTableBody.innerHTML = "";
   resultsCount.textContent = `${FILTERED.length} result(s)`;
-  FILTERED.forEach(it=>{
+  FILTERED.forEach(it => {
     const tr = document.createElement("tr");
-    const linkCell = `<a class="link" href="${it.link||'#'}" target="_blank" rel="noopener noreferrer">link</a>`;
+    const linkCell = `<a class="link" href="${it.link || '#'}" target="_blank" rel="noopener noreferrer">link</a>`;
     const dateStr = it.dateT ? new Date(it.dateT).toLocaleString() : "";
-    tr.innerHTML = `<td>${escapeHtml(it.title||"")}</td>
+    tr.innerHTML = `<td>${escapeHtml(it.title || "")}</td>
                     <td>${escapeHtml(dateStr)}</td>
-                    <td>${escapeHtml(it.location||"")}</td>
-                    <td>${escapeHtml(it.league||"")}</td>
+                    <td>${escapeHtml(it.location || "")}</td>
+                    <td>${escapeHtml(it.league || "")}</td>
                     <td>${it.link ? `<a class="link" href="${it.link}" target="_blank">open</a>` : ""}</td>`;
     resultsTableBody.appendChild(tr);
   });
 }
 
 // escape helper
-function escapeHtml(s){
-  return String(s||"").replaceAll("&","&amp;").replaceAll("<","&lt;").replaceAll(">","&gt;");
+function escapeHtml(s) {
+  return String(s || "").replaceAll("&", "&amp;").replaceAll("<", "&lt;").replaceAll(">", "&gt;");
 }
 
 /* === FullCalendar integration === */
 let calendar;
-function renderCalendar(){
+function renderCalendar() {
   const calEl = document.getElementById("calendar");
   // prepare events
   const durationHours = parseFloat(defaultDurationInput.value) || 2;
-  const events = FILTERED.map(it=>{
+  const events = FILTERED.map(it => {
     const start = it.dateT;
     const dt = new Date(start);
-    const dtEnd = new Date(dt.getTime() + durationHours*3600*1000);
+    const dtEnd = new Date(dt.getTime() + durationHours * 3600 * 1000);
     return {
       title: it.title,
       start: dt.toISOString(),
@@ -222,28 +222,28 @@ function renderCalendar(){
     };
   });
 
-  if (!calendar){
+  if (!calendar) {
     calendar = new FullCalendar.Calendar(calEl, {
       initialView: 'dayGridMonth',
       locale: 'de',               // German locale (for months, days, etc.)
       firstDay: 1,                // Week starts on Monday
-        slotLabelFormat: {          // 24-hour time format
-            hour: '2-digit',
-            minute: '2-digit',
-            hour12: false
-        },
-        eventTimeFormat: {          // Also show events in 24h format
-            hour: '2-digit',
-            minute: '2-digit',
-            hour12: false
-        },
-    eventContent: function(arg) {
+      slotLabelFormat: {          // 24-hour time format
+        hour: '2-digit',
+        minute: '2-digit',
+        hour12: false
+      },
+      eventTimeFormat: {          // Also show events in 24h format
+        hour: '2-digit',
+        minute: '2-digit',
+        hour12: false
+      },
+      eventContent: function (arg) {
         const wrapper = document.createElement('div');
         wrapper.style.display = 'flex';
         wrapper.style.flexDirection = 'column';
         wrapper.style.alignItems = 'flex-start';
         wrapper.style.lineHeight = '1.2em';
-        
+
         const timeEl = document.createElement('div');
         timeEl.textContent = arg.timeText;
         timeEl.style.fontSize = '1em';
@@ -257,13 +257,13 @@ function renderCalendar(){
         wrapper.appendChild(titleEl);
 
         return { domNodes: [wrapper] };
-    },
+      },
       headerToolbar: { left: 'prev,next today', center: 'title', right: 'dayGridMonth,timeGridWeek,timeGridDay' },
       events,
       height: 500,
-      eventClick: function(info){
+      eventClick: function (info) {
         // allow opening link in new tab if exists
-        if (info.event.url){
+        if (info.event.url) {
           window.open(info.event.url, "_blank");
           info.jsEvent.preventDefault();
         }
@@ -272,28 +272,28 @@ function renderCalendar(){
     calendar.render();
   } else {
     calendar.removeAllEvents();
-    events.forEach(e=>calendar.addEvent(e));
+    events.forEach(e => calendar.addEvent(e));
   }
 }
 
 /* === ICS generation === */
-function toIcsDt(dateIso){
+function toIcsDt(dateIso) {
   // returns YYYYMMDDTHHMMSS (local time)
   const d = new Date(dateIso);
-  const pad = n => String(n).padStart(2,"0");
-  return `${d.getFullYear()}${pad(d.getMonth()+1)}${pad(d.getDate())}T${pad(d.getHours())}${pad(d.getMinutes())}${pad(d.getSeconds())}`;
+  const pad = n => String(n).padStart(2, "0");
+  return `${d.getFullYear()}${pad(d.getMonth() + 1)}${pad(d.getDate())}T${pad(d.getHours())}${pad(d.getMinutes())}${pad(d.getSeconds())}`;
 }
 
-function generateIcsContent(items){
+function generateIcsContent(items) {
   const durHours = parseFloat(defaultDurationInput.value) || 2;
   const dtstamp = toIcsDt(new Date().toISOString());
   let ics = "BEGIN:VCALENDAR\nVERSION:2.0\nPRODID:-//ovv-scraper//EN\n";
-  for (const it of items){
+  for (const it of items) {
     const dtstart = toIcsDt(it.dateT);
-    const dtend = toIcsDt(new Date(new Date(it.dateT).getTime() + durHours*3600*1000).toISOString());
-    const uid = (it.title + it.dateT).replace(/\s+/g,"_").slice(0,200);
-    const summary = (it.title||"").replace(/[\r\n]+/g," ");
-    const desc = `Link: ${it.link||''}`;
+    const dtend = toIcsDt(new Date(new Date(it.dateT).getTime() + durHours * 3600 * 1000).toISOString());
+    const uid = (it.title + it.dateT).replace(/\s+/g, "_").slice(0, 200);
+    const summary = (it.title || "").replace(/[\r\n]+/g, " ");
+    const desc = `Link: ${it.link || ''}`;
     const loc = it.location || "";
     ics += "BEGIN:VEVENT\n";
     ics += `UID:${uid}\n`;
@@ -308,23 +308,23 @@ function generateIcsContent(items){
   ics += "END:VCALENDAR\n";
   return ics;
 }
-function escapeIcs(s){ return String(s||"").replace(/\n/g,"\\n").replace(/,/g,"\\,"); }
+function escapeIcs(s) { return String(s || "").replace(/\n/g, "\\n").replace(/,/g, "\\,"); }
 
 /* === JSON download of filtered data === */
-function downloadFilteredJson(){
+function downloadFilteredJson() {
   const content = JSON.stringify(FILTERED, null, 2);
   download("filtered_matches.json", content, "application/json");
 }
 
 /* === event wiring === */
-addFilterBtn.addEventListener("click", e=>{ addFilter(); });
-runFiltersBtn.addEventListener("click", e=>{ runFilters(); });
-downloadJsonBtn.addEventListener("click", e=>{ downloadFilteredJson(); });
-downloadIcsBtn.addEventListener("click", e=>{
+addFilterBtn.addEventListener("click", e => { addFilter(); });
+runFiltersBtn.addEventListener("click", e => { runFilters(); });
+downloadJsonBtn.addEventListener("click", e => { downloadFilteredJson(); });
+downloadIcsBtn.addEventListener("click", e => {
   if (!FILTERED.length) return alert("No filtered events to export.");
   const ics = generateIcsContent(FILTERED);
   download("matches.ics", ics, "text/calendar;charset=utf-8");
 });
 
 // boot
-loadData().then(()=>{ /* nothing else */ });
+loadData().then(() => { /* nothing else */ });

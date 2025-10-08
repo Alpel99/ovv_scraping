@@ -10,7 +10,6 @@ headers = {
     "Accept": "text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8",
 }
 
-
 def getMatchList(url):
     scraper = cloudscraper.create_scraper()
     response = scraper.get(url)

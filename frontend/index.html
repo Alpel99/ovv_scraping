@@ -1,20 +1,18 @@
 <!doctype html>
 <html lang="de">
+
 <head>
   <meta charset="utf-8" />
   <meta name="viewport" content="width=device-width,initial-scale=1" />
   <title>Match Filter & Export</title>
 
   <!-- FullCalendar (CSS + JS) from CDN -->
-  <!-- <link href="https://cdn.jsdelivr.net/npm/fullcalendar@6.1.8/main.min.css" rel="stylesheet"> -->
-  <link href="https://cdn.jsdelivr.net/npm/fullcalendar@6.1.10/index.global.min.css" rel="stylesheet" />
-
-  <!-- <script src="https://cdn.jsdelivr.net/npm/fullcalendar@6.1.8/main.min.js"></script> -->
-  <script src="https://cdn.jsdelivr.net/npm/fullcalendar@6.1.10/index.global.min.js"></script>
-
+  <link href='https://cdn.jsdelivr.net/npm/fullcalendar@6.1.19/index.global.min.js' rel="stylesheet" />
+  <script src='https://cdn.jsdelivr.net/npm/fullcalendar@6.1.19/index.global.min.js'></script>
 
   <link rel="stylesheet" href="style.css">
 </head>
+
 <body>
   <main class="container">
     <h1>Matches — Filter & Export</h1>
@@ -48,12 +46,17 @@
     <section class="results">
       <h2>Filtered Matches</h2>
       <div class="actions-row">
-        <button id="downloadJsonBtn">Download JSON</button>
-        <button id="downloadIcsBtn">Download ICS</button>
-        <label>Default duration (hours):
-          <input id="defaultDuration" type="number" min="0.25" step="0.25" value="2">
+        <label>Duration (hours):
+          <input id="defaultDuration" type="number" min="0.25" step="0.25" value="1.5">
+
+        </label>
+        <label>Time to set event earlier than match start (hours):
+          <input id="earlyDuration" type="number" min="0" step="0.25" value="0">
         </label>
       </div>
+
+      <button id="downloadIcsBtn">Download ICS</button>
+
 
       <div id="resultsCount">No results yet</div>
 
@@ -61,7 +64,13 @@
         <div class="left">
           <table id="resultsTable">
             <thead>
-              <tr><th>Title</th><th>Date</th><th>Location</th><th>League</th><th>Link</th></tr>
+              <tr>
+                <th>Title</th>
+                <th>Date</th>
+                <th>Location</th>
+                <th>League</th>
+                <th>Link</th>
+              </tr>
             </thead>
             <tbody></tbody>
           </table>
@@ -75,4 +84,5 @@
 
   <script src="script.js"></script>
 </body>
+
 </html>
