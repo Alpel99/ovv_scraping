@@ -16,11 +16,13 @@ def filterMatches(matches, targets, base_url):
         # Extract team names
         team_names = match.find_all("div", class_="name")
         teams = [t.get_text(strip=True) for t in team_names]
+        href = match.get("href")
+        full_link = base_url + href
         # Check if TARGET_TEAM is involved
-        if any(x in targets for x in teams):
-            href = match.get("href")
-            full_link = base_url + href
-            results.append(full_link)
+        if(targets):
+            if not any(x in targets for x in teams):
+                continue
+        results.append(full_link)
     return results
     
 def scrapeMatches(filteredMatchLinks, targets):
@@ -51,7 +53,7 @@ def scrapeMatches(filteredMatchLinks, targets):
             title = names[0].get_text() + " vs " + names[1].get_text() + ", " + round
             
         dt = datetime.strptime(dateT, "%d %B %Y, %H:%M")
-        md = matchdate(title, dt, location, link)
+        md = matchdate(title, dt, location, link, "BL2")
         print("Found match", md)
         results.append(md)
         time.sleep(random.uniform(3,7))   

@@ -4,15 +4,15 @@ import locale
 locale.setlocale(locale.LC_ALL, 'de_DE.utf8')
 from ovv_scraper import scrape_ovv, getAllTeamNames_ovv
 from wvv_scraper import scrape_wvv
-from genics import genICS
+from gendata import genICS, genJSON
 
 # === CONFIGURATION ===
-BL = True
-LL = False
+BL = False
+LL = True
 URL_OVV = "https://panel.volleystation.com/website/125/de/schedule/"
-URLS_WVV = ["https://www.volleyball-wien.at/tabellen/herren.html", "https://www.volleyball-wien.at/tabellen/damen.html", "https://www.volleyball-wien.at/tabellen/nachwuchs-burschen.html", "https://www.volleyball-wien.at/tabellen/nachwuchs-maedchen.html"]
-
-TARGET_TEAMS = ["Union VV Döbling"]
+# URLS_WVV = ["https://www.volleyball-wien.at/tabellen/herren.html", "https://www.volleyball-wien.at/tabellen/damen.html", "https://www.volleyball-wien.at/tabellen/nachwuchs-burschen.html", "https://www.volleyball-wien.at/tabellen/nachwuchs-maedchen.html"]
+URLS_WVV = "https://www.volleyball-wien.at/termine-ergebnisse.html"
+TARGET_TEAMS = []
 
 if __name__ == "__main__":
     # print(getAllTeamNames_ovv(URL_OVV))
@@ -29,5 +29,7 @@ if __name__ == "__main__":
     for e in data:
         print(e)
 
-    genICS(data)
+    # genICS(data)
+    path = "../frontend/schedule.json"
+    genJSON(data, path)
     

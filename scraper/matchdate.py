@@ -2,13 +2,16 @@ from datetime import datetime, timedelta
 
 
 class matchdate:
-    def __init__(self, title, dateT: datetime, location, link=None, duration=timedelta(hours=1.5), early=timedelta(hours=1.5)):
-        self.title = title
+    def __init__(self, home, guest, dateT: datetime, location, link=None, league=None, duration=timedelta(hours=1.5), early=timedelta(hours=1.5)):
+        self.home = home
+        self.guest = guest
+        self.title = league + ": " + home + " vs " + guest
         self.location = location
         self.dateT = dateT
         self.link = link
         self.duration=duration
         self.early = early
+        self.league = league
         
     def __str__(self):
         return self.__repr__()
@@ -26,4 +29,15 @@ class matchdate:
             f"DESCRIPTION:Match Link: {self.link}\n"
             "END:VEVENT\n"
         )
+    
+    def make_json_event(self):
+        return {
+            "title": self.title,
+            "location": self.location,
+            "dateT": self.dateT.isoformat(),
+            "link": self.link,
+            "league": self.league,
+            "home": self.home,
+            "guest": self.guest
+        }
             
