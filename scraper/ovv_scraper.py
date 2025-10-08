@@ -43,8 +43,7 @@ def filterMatches(matches, base_url):
     
 def scrapeMatches(filteredMatchLinks):
     from datetime import datetime
-    import locale, time, random
-    locale.setlocale(locale.LC_ALL, 'de_DE.utf8')
+    import time, random
     results = []
     for i, link in enumerate(filteredMatchLinks, start=1):
         if i % max(1, len(filteredMatchLinks) // 10) == 0 or i == len(filteredMatchLinks):
@@ -83,8 +82,8 @@ def scrape_ovv(url):
     matches = getMatchList(url)
     filteredMatchLinks = filterMatches(matches, base_url)
     print("[OVV] found ", len(filteredMatchLinks), "matches")
-    # matchdata = scrapeMatches(filteredMatchLinks)
-    matchdata = scrapeMatches(filteredMatchLinks[:5])
+    matchdata = scrapeMatches(filteredMatchLinks)
+    # matchdata = scrapeMatches(filteredMatchLinks[:5])
 
     print("[OVV] scraped ", len(filteredMatchLinks), "matches")
     return matchdata
