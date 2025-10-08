@@ -14,7 +14,6 @@ const filtersListEl = document.querySelector("#filtersList");
 const runFiltersBtn = document.querySelector("#runFiltersBtn");
 const resultsTableBody = document.querySelector("#resultsTable tbody");
 const resultsCount = document.querySelector("#resultsCount");
-const downloadJsonBtn = document.querySelector("#downloadJsonBtn");
 const downloadIcsBtn = document.querySelector("#downloadIcsBtn");
 const defaultDurationInput = document.querySelector("#defaultDuration");
 
@@ -319,7 +318,6 @@ function downloadFilteredJson() {
 /* === event wiring === */
 addFilterBtn.addEventListener("click", e => { addFilter(); });
 runFiltersBtn.addEventListener("click", e => { runFilters(); });
-downloadJsonBtn.addEventListener("click", e => { downloadFilteredJson(); });
 downloadIcsBtn.addEventListener("click", e => {
   if (!FILTERED.length) return alert("No filtered events to export.");
   const ics = generateIcsContent(FILTERED);
