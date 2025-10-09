@@ -30,6 +30,11 @@ h1 {
     font-size: 20px;
 }
 
+h2 {
+    display: inline-block;
+    margin: 0 10px 12px 0;
+    font-size: 20px;
+}
 .controls {
     background: var(--card);
     padding: 12px;

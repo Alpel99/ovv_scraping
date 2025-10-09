@@ -26,11 +26,13 @@ GERMAN_MONTH_TO_NUM = {
 }
 
 def getMatchList(url):
+    import time, random
     scraper = cloudscraper.create_scraper()
     response = scraper.get(url, timeout=30)
     html = response.text
     soup = BeautifulSoup(html, "html.parser")
     matches = soup.find_all("a", class_="table-row")
+    time.sleep(random.uniform(3,7))
     return matches
 
 def filterMatches(matches, base_url):
@@ -56,6 +58,9 @@ def scrapeMatches(filteredMatchLinks, compName):
         
         date_block = soup.find("div", class_="details date")
         names = soup.find_all("div", class_="name")
+
+        if(date_block == None):
+            print("Error scraping, propably hit rate limit")
                    
         parts = date_block.get_text(" ", strip=True).split(',')
         round = parts[0].strip()
@@ -71,7 +76,7 @@ def scrapeMatches(filteredMatchLinks, compName):
         md = matchdate(home, guest, dt, location, link, compName)
         # print("Found match", md)
         results.append(md)
-        time.sleep(random.uniform(3,7))   
+        time.sleep(random.uniform(3,7))
     return results
         
         
@@ -83,6 +88,6 @@ def scrape_ovv(url, compName):
     filteredMatchLinks = filterMatches(matches, base_url)
     print("Found", len(filteredMatchLinks), "matches for", compName)
     matchdata = scrapeMatches(filteredMatchLinks, compName)
-    # matchdata = scrapeMatches(filteredMatchLinks[:5], compName)
+    # matchdata = scrapeMatches(filteredMatchLinks[:3], compName)
     print("Scraped", len(matchdata), "matches for", compName)
     return matchdata

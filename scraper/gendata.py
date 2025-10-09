@@ -9,9 +9,13 @@ def genICS(events):
         f.write("END:VCALENDAR")
 
 def genJSON(events, path):
+    from datetime import datetime
     data = []
     for event in events:
         data.append(event.make_json_event())
     
+    jdata = {"lastScrape": datetime.now().isoformat(),
+             "matches": data}
+
     with open(path, "w", encoding="utf-8") as f:
-        json.dump(data, f, ensure_ascii=False, indent=2)
+        json.dump(jdata, f, ensure_ascii=False, indent=2)

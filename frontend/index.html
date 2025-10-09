@@ -4,6 +4,7 @@
 <head>
   <meta charset="utf-8" />
   <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <link rel="icon" type="image/png" href="favicon.png">
   <title>Match Filter & Export</title>
   <!-- FullCalendar (CSS + JS) from CDN -->
   <script src='https://cdnjs.cloudflare.com/ajax/libs/fullcalendar/6.1.19/index.global.min.js'></script>
@@ -44,6 +45,7 @@
 
     <section class="results">
       <h2>Filtered Matches</h2>
+      <span id="lastScraped" style="font-style: italic;"></span>
       <div class="actions-row">
         <label>Duration from match start (hours):
           <input id="defaultDuration" type="number" min="0.25" step="0.25" value="1.5">

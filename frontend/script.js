@@ -60,17 +60,32 @@ async function loadData() {
 
 // sample fallback (very small)
 function sampleData() {
-  return [
+  return {
+    "lastScrape": "2025-10-09T11:45:00",
+    "matches": [
     { "title": "UVC RAIBA Waidhofen/Ybbs vs Volleyteam Roadrunners Wien, Runde 2", "location": "SH {WAIDHOFEN/YBBS}", "dateT": "2025-10-10T20:00:00", "link": "https://panel.volleystation.com/website/125/de/matches/2241158/", "league": "BL2" },
     { "title": "HLL: Dimitrios 1 vs VTR 2", "location": "Sporthalle Brigittenau", "dateT": "2025-10-26T14:30:00", "link": "https://www.volleyball-wien.at/index.php?option=com_oevv&view=oevv&Style=Standard&BID=36629", "league": "HLL" }
-  ];
+  ]
+  };
 }
 
 // populate team datalist and league select
 function populateTeamLeagueLists() {
+  if (DATA.lastScrape) {
+    console.log("Last scraped:", DATA.lastScrape);
+    const lastScrapeEl = document.getElementById("lastScraped");
+        const scrapeDate = new Date(DATA.lastScrape);
+        lastScrapeEl.textContent = "Last scraped: " + scrapeDate.toLocaleString("de-DE", {
+            day: "2-digit",
+            month: "2-digit",
+            year: "numeric",
+            hour: "2-digit",
+            minute: "2-digit"
+        });
+  }
   const teams = new Set();
   const leagues = new Set();
-  DATA.forEach(item => {
+  DATA.matches.forEach(item => {
     if (item.home) teams.add(item.home);
     if (item.guest) teams.add(item.guest)
     if (item.league) leagues.add(item.league);
@@ -150,7 +165,7 @@ function runFilters() {
     const leagueQ = (f.league || "Any");
     const startQ = f.start ? new Date(f.start) : null;
 
-    for (const item of DATA) {
+    for (const item of DATA.matches) {
       // parse date
       if (!item.dateT) continue;
       const dt = new Date(item.dateT);
