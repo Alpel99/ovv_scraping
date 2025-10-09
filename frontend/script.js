@@ -259,7 +259,7 @@ function renderCalendar() {
       },
       headerToolbar: { left: 'prev,next today', center: 'title', right: 'dayGridMonth,timeGridWeek,timeGridDay' },
       events,
-      height: 500,
+    //   height: 500,
       eventClick: function (info) {
         // allow opening link in new tab if exists
         if (info.event.url) {
@@ -308,12 +308,6 @@ function generateIcsContent(items) {
   return ics;
 }
 function escapeIcs(s) { return String(s || "").replace(/\n/g, "\\n").replace(/,/g, "\\,"); }
-
-/* === JSON download of filtered data === */
-function downloadFilteredJson() {
-  const content = JSON.stringify(FILTERED, null, 2);
-  download("filtered_matches.json", content, "application/json");
-}
 
 /* === event wiring === */
 addFilterBtn.addEventListener("click", e => { addFilter(); });

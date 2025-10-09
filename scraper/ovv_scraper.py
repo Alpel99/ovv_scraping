@@ -41,7 +41,7 @@ def filterMatches(matches, base_url):
         results.append(full_link)
     return results
     
-def scrapeMatches(filteredMatchLinks):
+def scrapeMatches(filteredMatchLinks, compName):
     from datetime import datetime
     import time, random
     results = []
@@ -68,7 +68,7 @@ def scrapeMatches(filteredMatchLinks):
         guest = names[1].get_text() 
             
         dt = datetime.strptime(dateT, "%d %m %Y, %H:%M")
-        md = matchdate(home, guest, dt, location, link, "BL2")
+        md = matchdate(home, guest, dt, location, link, compName)
         # print("Found match", md)
         results.append(md)
         time.sleep(random.uniform(3,7))   
@@ -76,16 +76,13 @@ def scrapeMatches(filteredMatchLinks):
         
         
 
-def scrape_ovv(url):
+def scrape_ovv(url, compName):
     # BASE_URL = "panel.volleystation.com"  # Will be prepended to relative links
     base_url = "/".join(url.split("/", 3)[:3])
     matches = getMatchList(url)
     filteredMatchLinks = filterMatches(matches, base_url)
-    print("[OVV] found ", len(filteredMatchLinks), "matches")
-    matchdata = scrapeMatches(filteredMatchLinks)
-    # matchdata = scrapeMatches(filteredMatchLinks[:5])
-
-    print("[OVV] scraped ", len(filteredMatchLinks), "matches")
+    print("Found", len(filteredMatchLinks), "matches for", compName)
+    matchdata = scrapeMatches(filteredMatchLinks, compName)
+    # matchdata = scrapeMatches(filteredMatchLinks[:5], compName)
+    print("Scraped", len(matchdata), "matches for", compName)
     return matchdata
-
-

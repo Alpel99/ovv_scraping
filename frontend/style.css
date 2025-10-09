@@ -65,7 +65,9 @@ button {
     border-radius: 6px;
     border: 1px solid var(--border);
     background: white;
-    cursor: pointer
+    cursor: pointer;
+    height: 2.65em;
+    align-self: flex-end;
 }
 
 button.primary {
@@ -157,7 +159,8 @@ a.link {
 }
 
 #calendar {
-    min-height: 450px
+    min-height: 450px;
+    aspect-ratio: 1 / 1
 }
 
 #resultsCount {
