@@ -5,7 +5,6 @@
   <meta charset="utf-8" />
   <meta name="viewport" content="width=device-width,initial-scale=1" />
   <title>Match Filter & Export</title>
-
   <!-- FullCalendar (CSS + JS) from CDN -->
   <script src='https://cdnjs.cloudflare.com/ajax/libs/fullcalendar/6.1.19/index.global.min.js'></script>
 
@@ -14,7 +13,8 @@
 
 <body>
   <main class="container">
-    <h1>Matches — Filter & Export</h1>
+    <h1>Volleyball Matches — Filter & Export</h1>
+    <span>More info on <a href="https://github.com/Alpel99/ovv_scraping">GitHub</a></span>
 
     <section class="controls">
       <div class="row">
@@ -52,7 +52,7 @@
         <label>Time to set event earlier than match start (hours):
           <input id="earlyDuration" type="number" min="0" step="0.25" value="0">
         </label>
-        <button id="downloadIcsBtn">Download ICS</button>
+        <button id="downloadIcsBtn" class="primary">Download ICS</button>
       </div>
 
 
