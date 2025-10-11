@@ -63,9 +63,9 @@ function sampleData() {
   return {
     "lastScrape": "2025-10-09T11:45:00",
     "matches": [
-    { "title": "UVC RAIBA Waidhofen/Ybbs vs Volleyteam Roadrunners Wien, Runde 2", "location": "SH {WAIDHOFEN/YBBS}", "dateT": "2025-10-10T20:00:00", "link": "https://panel.volleystation.com/website/125/de/matches/2241158/", "league": "BL2" },
-    { "title": "HLL: Dimitrios 1 vs VTR 2", "location": "Sporthalle Brigittenau", "dateT": "2025-10-26T14:30:00", "link": "https://www.volleyball-wien.at/index.php?option=com_oevv&view=oevv&Style=Standard&BID=36629", "league": "HLL" }
-  ]
+      { "title": "UVC RAIBA Waidhofen/Ybbs vs Volleyteam Roadrunners Wien, Runde 2", "location": "SH {WAIDHOFEN/YBBS}", "dateT": "2025-10-10T20:00:00", "link": "https://panel.volleystation.com/website/125/de/matches/2241158/", "league": "BL2" },
+      { "title": "HLL: Dimitrios 1 vs VTR 2", "location": "Sporthalle Brigittenau", "dateT": "2025-10-26T14:30:00", "link": "https://www.volleyball-wien.at/index.php?option=com_oevv&view=oevv&Style=Standard&BID=36629", "league": "HLL" }
+    ]
   };
 }
 
@@ -74,14 +74,14 @@ function populateTeamLeagueLists() {
   if (DATA.lastScrape) {
     console.log("Last scraped:", DATA.lastScrape);
     const lastScrapeEl = document.getElementById("lastScraped");
-        const scrapeDate = new Date(DATA.lastScrape);
-        lastScrapeEl.textContent = "Last scraped: " + scrapeDate.toLocaleString("de-DE", {
-            day: "2-digit",
-            month: "2-digit",
-            year: "numeric",
-            hour: "2-digit",
-            minute: "2-digit"
-        });
+    const scrapeDate = new Date(DATA.lastScrape);
+    lastScrapeEl.textContent = "Last scraped: " + scrapeDate.toLocaleString("de-DE", {
+      day: "2-digit",
+      month: "2-digit",
+      year: "numeric",
+      hour: "2-digit",
+      minute: "2-digit"
+    }) + " (once every 24h)";
   }
   const teams = new Set();
   const leagues = new Set();
@@ -274,7 +274,7 @@ function renderCalendar() {
       },
       headerToolbar: { left: 'prev,next today', center: 'title', right: 'dayGridMonth,timeGridWeek,timeGridDay' },
       events,
-    //   height: 500,
+      //   height: 500,
       eventClick: function (info) {
         // allow opening link in new tab if exists
         if (info.event.url) {
