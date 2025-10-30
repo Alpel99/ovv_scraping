@@ -76,7 +76,7 @@ def scrapeMatches(filteredMatchLinks, compName):
         md = matchdate(home, guest, dt, location, link, compName)
         # print("Found match", md)
         results.append(md)
-        time.sleep(random.uniform(3,7))
+        time.sleep(random.uniform(4,6))
     return results
         
         
