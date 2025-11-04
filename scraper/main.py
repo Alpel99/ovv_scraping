@@ -9,7 +9,7 @@ URL_DBL = "https://panel.volleystation.com/website/121/de/schedule/"
 URL_HBL = "https://panel.volleystation.com/website/122/de/schedule/"
 URL_HBCUP = "https://panel.volleystation.com/website/123/de/schedule/"
 URL_DBCUP = "https://panel.volleystation.com/website/119/de/schedule/"
-URL_WVV = "https://www.volleyball-wien.at/termine-ergebnisse.html"
+URL_WVV = "https://www.volleyball-wien.at/WVVJoomla3/termine-ergebnisse.html"
 
 if __name__ == "__main__":
     print("Running scraper...")
