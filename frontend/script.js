@@ -16,6 +16,7 @@ const resultsTableBody = document.querySelector("#resultsTable tbody");
 const resultsCount = document.querySelector("#resultsCount");
 const downloadIcsBtn = document.querySelector("#downloadIcsBtn");
 const defaultDurationInput = document.querySelector("#defaultDuration");
+const earlyDurationInput = document.querySelector("#earlyDuration");
 
 let DATA = [];      // loaded dataset
 let FILTERS = [];   // array of {team, league, startDate}
@@ -158,8 +159,6 @@ function runFilters() {
     renderFilters();
   }
 
-  const minDurationHours = parseFloat(defaultDurationInput.value) || 2;
-
   for (const f of FILTERS) {
     const teamQ = (f.team || "").toLowerCase();
     const leagueQ = (f.league || "Any");
@@ -222,14 +221,16 @@ let calendar;
 function renderCalendar() {
   const calEl = document.getElementById("calendar");
   // prepare events
-  const durationHours = parseFloat(defaultDurationInput.value) || 2;
+  const durationHours = parseFloat(defaultDurationInput.value) || 1.5;
+  const earlyHours = parseFloat(earlyDurationInput.value) || 0.0;
   const events = FILTERED.map(it => {
     const start = it.dateT;
     const dt = new Date(start);
+    const dtStart = new Date(dt.getTime() - earlyHours * 3600 * 1000);
     const dtEnd = new Date(dt.getTime() + durationHours * 3600 * 1000);
     return {
       title: it.title,
-      start: dt.toISOString(),
+      start: dtStart.toISOString(),
       end: dtEnd.toISOString(),
       url: it.link || undefined,
       extendedProps: { location: it.location || "", league: it.league || "" }
@@ -299,11 +300,13 @@ function toIcsDt(dateIso) {
 }
 
 function generateIcsContent(items) {
-  const durHours = parseFloat(defaultDurationInput.value) || 2;
+  const durHours = parseFloat(defaultDurationInput.value) || 1.5;
+  const earlyHours = parseFloat(earlyDurationInput.value) || 0.0;
   const dtstamp = toIcsDt(new Date().toISOString());
   let ics = "BEGIN:VCALENDAR\nVERSION:2.0\nPRODID:-//ovv-scraper//EN\n";
   for (const it of items) {
-    const dtstart = toIcsDt(it.dateT);
+    // const dtstart = toIcsDt(it.dateT);
+    const dtstart = toIcsDt(new Date(new Date(it.dateT).getTime() - earlyHours * 3600 * 1000).toISOString());
     const dtend = toIcsDt(new Date(new Date(it.dateT).getTime() + durHours * 3600 * 1000).toISOString());
     const uid = (it.title + it.dateT).replace(/\s+/g, "_").slice(0, 200);
     const summary = (it.title || "").replace(/[\r\n]+/g, " ");
