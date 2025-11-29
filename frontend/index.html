@@ -1,0 +1,94 @@
+<!doctype html>
+<html lang="de">
+
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <link rel="icon" type="image/png" href="favicon.png">
+  <title>Match Filter & Export</title>
+  <!-- FullCalendar (CSS + JS) from CDN -->
+  <script src='https://cdnjs.cloudflare.com/ajax/libs/fullcalendar/6.1.19/index.global.min.js'></script>
+
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+  <main class="container">
+
+    <h1>
+      Volleyball Matches — Filter &amp; Export
+      <span class="subtitle">More info on <a href="https://github.com/Alpel99/ovv_scraping">GitHub</a></span>
+    </h1>
+
+    <section class="controls">
+      <div class="row">
+        <label>Team (type to filter):
+          <input id="teamInput" list="teamsList" placeholder="Any / type team name">
+          <datalist id="teamsList"></datalist>
+        </label>
+
+        <label>League:
+          <select id="leagueSelect">
+            <option value="Any">Any</option>
+          </select>
+        </label>
+
+        <label>Start date:
+          <input id="startDate" type="date">
+        </label>
+
+        <button id="addFilterBtn">Add Filter</button>
+        <button id="runFiltersBtn" class="primary">Run Filters</button>
+      </div>
+
+      <div id="filtersList" class="filters-list" aria-live="polite">
+        <!-- filter chips will appear here -->
+      </div>
+    </section>
+
+    <section class="results">
+      <h2>Filtered Matches
+        <span class="subtitle" id="lastScraped">More info on </span>
+      </h2>
+
+      <div class="actions-row">
+        <label>Duration from match start (hours):
+          <input id="defaultDuration" type="number" min="0.25" step="0.25" value="1.5">
+
+        </label>
+        <label>Time to set event earlier than match start (hours):
+          <input id="earlyDuration" type="number" min="0" step="0.25" value="0">
+        </label>
+      </div>
+      <button id="downloadIcsBtn" class="primary">Download ICS</button>
+
+
+
+      <div id="resultsCount">No results yet</div>
+
+      <div class="layout">
+        <div class="left">
+          <table id="resultsTable">
+            <thead>
+              <tr>
+                <th>Title</th>
+                <th>Date</th>
+                <th>Location</th>
+                <th>League</th>
+                <th>Link</th>
+              </tr>
+            </thead>
+            <tbody></tbody>
+          </table>
+        </div>
+        <div class="right">
+          <div id="calendar"></div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <script src="script.js"></script>
+</body>
+
+</html>
