@@ -1,0 +1,4487 @@
+{
+  "lastScrape": "2025-12-13T13:48:04.628099",
+  "matches": [
+    {
+      "title": "HBL2: UVC Holding Graz/2 vs VBS Laßnitzhöhe",
+      "location": "Raiffeisen Sportpark {GRAZ}",
+      "dateT": "2025-12-13T12:30:00",
+      "link": "https://panel.volleystation.com/website/125/de/matches/2240753/",
+      "league": "HBL2",
+      "home": "UVC Holding Graz/2",
+      "guest": "VBS Laßnitzhöhe"
+    },
+    {
+      "title": "HBL2: Volleyteam Roadrunners Wien vs UVC RAIBA Waidhofen/Ybbs",
+      "location": "Sporthalle Brigittenau {WIEN}",
+      "dateT": "2025-12-13T14:30:00",
+      "link": "https://panel.volleystation.com/website/125/de/matches/2239528/",
+      "league": "HBL2",
+      "home": "Volleyteam Roadrunners Wien",
+      "guest": "UVC RAIBA Waidhofen/Ybbs"
+    },
+    {
+      "title": "HBL2: VC Hausmannstätten vs VBC TLC Weiz",
+      "location": "Sporthalle {HAUSMANNSTÄTTEN}",
+      "dateT": "2025-12-13T17:00:00",
+      "link": "https://panel.volleystation.com/website/125/de/matches/2239574/",
+      "league": "HBL2",
+      "home": "VC Hausmannstätten",
+      "guest": "VBC TLC Weiz"
+    },
+    {
+      "title": "HBL2: UVC Bruck vs Union Raiffeisen Waldviertel/2",
+      "location": "SH {BRUCK/MUR}",
+      "dateT": "2025-12-13T17:00:00",
+      "link": "https://panel.volleystation.com/website/125/de/matches/2239529/",
+      "league": "HBL2",
+      "home": "UVC Bruck",
+      "guest": "Union Raiffeisen Waldviertel/2"
+    },
+    {
+      "title": "HBL2: VCU Wiener Neustadt vs PSV Volleyballgemeinschaft Salzburg",
+      "location": "Europaschule {WIENER NEUSTADT}",
+      "dateT": "2025-12-13T19:30:00",
+      "link": "https://panel.volleystation.com/website/125/de/matches/2240361/",
+      "league": "HBL2",
+      "home": "VCU Wiener Neustadt",
+      "guest": "PSV Volleyballgemeinschaft Salzburg"
+    },
+    {
+      "title": "HBL2: Union VV Döbling vs Mühlviertel Volleys",
+      "location": "Sporthalle Brigittenau {WIEN}",
+      "dateT": "2025-12-13T19:30:00",
+      "link": "https://panel.volleystation.com/website/125/de/matches/2240232/",
+      "league": "HBL2",
+      "home": "Union VV Döbling",
+      "guest": "Mühlviertel Volleys"
+    },
+    {
+      "title": "HBL2: VBK Kelag Wörther-See-Löwen Klagenfurt/2 vs TSV Raiffeisen Hartberg/2",
+      "location": "BSH Sportpark {KLAGENFURT}",
+      "dateT": "2025-12-13T19:30:00",
+      "link": "https://panel.volleystation.com/website/125/de/matches/2239575/",
+      "league": "HBL2",
+      "home": "VBK Kelag Wörther-See-Löwen Klagenfurt/2",
+      "guest": "TSV Raiffeisen Hartberg/2"
+    },
+    {
+      "title": "HBL2: hotVolleys Wien vs Raiffeisen VC Wolfurt",
+      "location": "RH Simmering {WIEN}",
+      "dateT": "2025-12-13T19:30:00",
+      "link": "https://panel.volleystation.com/website/125/de/matches/2240735/",
+      "league": "HBL2",
+      "home": "hotVolleys Wien",
+      "guest": "Raiffeisen VC Wolfurt"
+    },
+    {
+      "title": "HBL2: Akademie Graz vs Union Leibnitz",
+      "location": "Bluebox-Arena {GRAZ}",
+      "dateT": "2025-12-13T20:00:00",
+      "link": "https://panel.volleystation.com/website/125/de/matches/2239576/",
+      "league": "HBL2",
+      "home": "Akademie Graz",
+      "guest": "Union Leibnitz"
+    },
+    {
+      "title": "HBL2: HIB Volley Graz vs SK Zadruga Aich/Dob/2",
+      "location": "Uni-Sport-Zentrum Rosenhain {GRAZ}",
+      "dateT": "2025-12-13T20:00:00",
+      "link": "https://panel.volleystation.com/website/125/de/matches/2240466/",
+      "league": "HBL2",
+      "home": "HIB Volley Graz",
+      "guest": "SK Zadruga Aich/Dob/2"
+    },
+    {
+      "title": "HBL2: Volleyteam Roadrunners Wien vs Raiffeisen VC Wolfurt",
+      "location": "Sporthalle Brigittenau {WIEN}",
+      "dateT": "2025-12-14T13:30:00",
+      "link": "https://panel.volleystation.com/website/125/de/matches/2239539/",
+      "league": "HBL2",
+      "home": "Volleyteam Roadrunners Wien",
+      "guest": "Raiffeisen VC Wolfurt"
+    },
+    {
+      "title": "HBL2: UVC Holding Graz/2 vs Akademie Graz",
+      "location": "Raiffeisen Sportpark {GRAZ}",
+      "dateT": "2025-12-15T20:00:00",
+      "link": "https://panel.volleystation.com/website/125/de/matches/2240003/",
+      "league": "HBL2",
+      "home": "UVC Holding Graz/2",
+      "guest": "Akademie Graz"
+    },
+    {
+      "title": "HBL2: TSV Raiffeisen Hartberg/2 vs HIB Volley Graz",
+      "location": "Hartberghalle {HARTBERG}",
+      "dateT": "2025-12-20T14:00:00",
+      "link": "https://panel.volleystation.com/website/125/de/matches/2239577/",
+      "league": "HBL2",
+      "home": "TSV Raiffeisen Hartberg/2",
+      "guest": "HIB Volley Graz"
+    },
+    {
+      "title": "HBL2: Union VV Döbling vs PSV Volleyballgemeinschaft Salzburg",
+      "location": "Sporthalle Brigittenau {WIEN}",
+      "dateT": "2025-12-20T17:00:00",
+      "link": "https://panel.volleystation.com/website/125/de/matches/2240233/",
+      "league": "HBL2",
+      "home": "Union VV Döbling",
+      "guest": "PSV Volleyballgemeinschaft Salzburg"
+    },
+    {
+      "title": "HBL2: UVC Bruck vs VCU Wiener Neustadt",
+      "location": "SH {BRUCK/MUR}",
+      "dateT": "2025-12-20T17:00:00",
+      "link": "https://panel.volleystation.com/website/125/de/matches/2239530/",
+      "league": "HBL2",
+      "home": "UVC Bruck",
+      "guest": "VCU Wiener Neustadt"
+    },
+    {
+      "title": "HBL2: Mühlviertel Volleys vs Volleyteam Roadrunners Wien",
+      "location": "Bezirkssporthalle {PERG}",
+      "dateT": "2025-12-20T19:00:00",
+      "link": "https://panel.volleystation.com/website/125/de/matches/2240056/",
+      "league": "HBL2",
+      "home": "Mühlviertel Volleys",
+      "guest": "Volleyteam Roadrunners Wien"
+    },
+    {
+      "title": "HBL2: VBC TLC Weiz vs VBK Kelag Wörther-See-Löwen Klagenfurt/2",
+      "location": "HS {WEIZ}",
+      "dateT": "2025-12-20T19:30:00",
+      "link": "https://panel.volleystation.com/website/125/de/matches/2240004/",
+      "league": "HBL2",
+      "home": "VBC TLC Weiz",
+      "guest": "VBK Kelag Wörther-See-Löwen Klagenfurt/2"
+    },
+    {
+      "title": "HBL2: VC Hausmannstätten vs Union Leibnitz",
+      "location": "Sporthalle {HAUSMANNSTÄTTEN}",
+      "dateT": "2025-12-20T19:30:00",
+      "link": "https://panel.volleystation.com/website/125/de/matches/2239578/",
+      "league": "HBL2",
+      "home": "VC Hausmannstätten",
+      "guest": "Union Leibnitz"
+    },
+    {
+      "title": "HBL2: VBS Laßnitzhöhe vs SK Zadruga Aich/Dob/2",
+      "location": "Uni-Sport-Zentrum Rosenhain {GRAZ}",
+      "dateT": "2025-12-20T19:30:00",
+      "link": "https://panel.volleystation.com/website/125/de/matches/2240754/",
+      "league": "HBL2",
+      "home": "VBS Laßnitzhöhe",
+      "guest": "SK Zadruga Aich/Dob/2"
+    },
+    {
+      "title": "HBL2: SK Zadruga Aich/Dob/2 vs UVC Holding Graz/2",
+      "location": "Kulturheim {BLEIBURG}",
+      "dateT": "2026-01-10T16:00:00",
+      "link": "https://panel.volleystation.com/website/125/de/matches/2239580/",
+      "league": "HBL2",
+      "home": "SK Zadruga Aich/Dob/2",
+      "guest": "UVC Holding Graz/2"
+    },
+    {
+      "title": "HBL2: PSV Volleyballgemeinschaft Salzburg vs UVC RAIBA Waidhofen/Ybbs",
+      "location": "Sportzentrum Rif {HALLEIN}",
+      "dateT": "2026-01-10T16:30:00",
+      "link": "https://panel.volleystation.com/website/125/de/matches/2239532/",
+      "league": "HBL2",
+      "home": "PSV Volleyballgemeinschaft Salzburg",
+      "guest": "UVC RAIBA Waidhofen/Ybbs"
+    },
+    {
+      "title": "HBL2: VCU Wiener Neustadt vs Union VV Döbling",
+      "location": "Europaschule {WIENER NEUSTADT}",
+      "dateT": "2026-01-10T19:00:00",
+      "link": "https://panel.volleystation.com/website/125/de/matches/2240362/",
+      "league": "HBL2",
+      "home": "VCU Wiener Neustadt",
+      "guest": "Union VV Döbling"
+    },
+    {
+      "title": "HBL2: Raiffeisen VC Wolfurt vs UVC Bruck",
+      "location": "Hofsteighalle {WOLFURT}",
+      "dateT": "2026-01-10T19:00:00",
+      "link": "https://panel.volleystation.com/website/125/de/matches/2239533/",
+      "league": "HBL2",
+      "home": "Raiffeisen VC Wolfurt",
+      "guest": "UVC Bruck"
+    },
+    {
+      "title": "HBL2: VBK Kelag Wörther-See-Löwen Klagenfurt/2 vs VBS Laßnitzhöhe",
+      "location": "BSH Sportpark {KLAGENFURT}",
+      "dateT": "2026-01-10T19:30:00",
+      "link": "https://panel.volleystation.com/website/125/de/matches/2240755/",
+      "league": "HBL2",
+      "home": "VBK Kelag Wörther-See-Löwen Klagenfurt/2",
+      "guest": "VBS Laßnitzhöhe"
+    },
+    {
+      "title": "HBL2: HIB Volley Graz vs VBC TLC Weiz",
+      "location": "Uni-Sport-Zentrum Rosenhain {GRAZ}",
+      "dateT": "2026-01-10T20:00:00",
+      "link": "https://panel.volleystation.com/website/125/de/matches/2240467/",
+      "league": "HBL2",
+      "home": "HIB Volley Graz",
+      "guest": "VBC TLC Weiz"
+    },
+    {
+      "title": "HBL2: Union Leibnitz vs TSV Raiffeisen Hartberg/2",
+      "location": "JUFA Hotel Leibnitz {LEIBNITZ}",
+      "dateT": "2026-01-10T20:00:00",
+      "link": "https://panel.volleystation.com/website/125/de/matches/2239579/",
+      "league": "HBL2",
+      "home": "Union Leibnitz",
+      "guest": "TSV Raiffeisen Hartberg/2"
+    },
+    {
+      "title": "HBL2: Volleyteam Roadrunners Wien vs Union Raiffeisen Waldviertel/2",
+      "location": "Sporthalle Brigittenau {WIEN}",
+      "dateT": "2026-01-11T15:30:00",
+      "link": "https://panel.volleystation.com/website/125/de/matches/2239534/",
+      "league": "HBL2",
+      "home": "Volleyteam Roadrunners Wien",
+      "guest": "Union Raiffeisen Waldviertel/2"
+    },
+    {
+      "title": "HBL2: Akademie Graz vs VC Hausmannstätten",
+      "location": "Bluebox-Arena {GRAZ}",
+      "dateT": "2026-01-11T16:00:00",
+      "link": "https://panel.volleystation.com/website/125/de/matches/2239581/",
+      "league": "HBL2",
+      "home": "Akademie Graz",
+      "guest": "VC Hausmannstätten"
+    },
+    {
+      "title": "HBL2: PSV Volleyballgemeinschaft Salzburg vs UVC Bruck",
+      "location": "Sportzentrum Rif {HALLEIN}",
+      "dateT": "2026-01-11T18:00:00",
+      "link": "https://panel.volleystation.com/website/125/de/matches/2239537/",
+      "league": "HBL2",
+      "home": "PSV Volleyballgemeinschaft Salzburg",
+      "guest": "UVC Bruck"
+    },
+    {
+      "title": "HBL2: UVC Holding Graz/2 vs HIB Volley Graz",
+      "location": "Raiffeisen Sportpark {GRAZ}",
+      "dateT": "2026-01-17T15:00:00",
+      "link": "https://panel.volleystation.com/website/125/de/matches/2240005/",
+      "league": "HBL2",
+      "home": "UVC Holding Graz/2",
+      "guest": "HIB Volley Graz"
+    },
+    {
+      "title": "HBL2: UVC Bruck vs hotVolleys Wien",
+      "location": "SH {BRUCK/MUR}",
+      "dateT": "2026-01-17T16:00:00",
+      "link": "https://panel.volleystation.com/website/125/de/matches/2239535/",
+      "league": "HBL2",
+      "home": "UVC Bruck",
+      "guest": "hotVolleys Wien"
+    },
+    {
+      "title": "HBL2: Mühlviertel Volleys vs PSV Volleyballgemeinschaft Salzburg",
+      "location": "Bezirkssporthalle {PERG}",
+      "dateT": "2026-01-17T16:30:00",
+      "link": "https://panel.volleystation.com/website/125/de/matches/2240057/",
+      "league": "HBL2",
+      "home": "Mühlviertel Volleys",
+      "guest": "PSV Volleyballgemeinschaft Salzburg"
+    },
+    {
+      "title": "HBL2: Union Raiffeisen Waldviertel/2 vs VCU Wiener Neustadt",
+      "location": "Stadthalle {ZWETTL}",
+      "dateT": "2026-01-17T16:30:00",
+      "link": "https://panel.volleystation.com/website/125/de/matches/2239536/",
+      "league": "HBL2",
+      "home": "Union Raiffeisen Waldviertel/2",
+      "guest": "VCU Wiener Neustadt"
+    },
+    {
+      "title": "HBL2: UVC RAIBA Waidhofen/Ybbs vs Raiffeisen VC Wolfurt",
+      "location": "SH {WAIDHOFEN/YBBS}",
+      "dateT": "2026-01-17T18:00:00",
+      "link": "https://panel.volleystation.com/website/125/de/matches/2241164/",
+      "league": "HBL2",
+      "home": "UVC RAIBA Waidhofen/Ybbs",
+      "guest": "Raiffeisen VC Wolfurt"
+    },
+    {
+      "title": "HBL2: VBC TLC Weiz vs Union Leibnitz",
+      "location": "Bundesschulzentrum {WEIZ}",
+      "dateT": "2026-01-17T18:30:00",
+      "link": "https://panel.volleystation.com/website/125/de/matches/2241113/",
+      "league": "HBL2",
+      "home": "VBC TLC Weiz",
+      "guest": "Union Leibnitz"
+    },
+    {
+      "title": "HBL2: VC Hausmannstätten vs VBK Kelag Wörther-See-Löwen Klagenfurt/2",
+      "location": "Sporthalle {HAUSMANNSTÄTTEN}",
+      "dateT": "2026-01-17T19:30:00",
+      "link": "https://panel.volleystation.com/website/125/de/matches/2239582/",
+      "league": "HBL2",
+      "home": "VC Hausmannstätten",
+      "guest": "VBK Kelag Wörther-See-Löwen Klagenfurt/2"
+    },
+    {
+      "title": "HBL2: Union VV Döbling vs Volleyteam Roadrunners Wien",
+      "location": "Sporthalle Brigittenau {WIEN}",
+      "dateT": "2026-01-17T19:30:00",
+      "link": "https://panel.volleystation.com/website/125/de/matches/2240234/",
+      "league": "HBL2",
+      "home": "Union VV Döbling",
+      "guest": "Volleyteam Roadrunners Wien"
+    },
+    {
+      "title": "HBL2: VBS Laßnitzhöhe vs Akademie Graz",
+      "location": "Uni-Sport-Zentrum Rosenhain {GRAZ}",
+      "dateT": "2026-01-17T20:00:00",
+      "link": "https://panel.volleystation.com/website/125/de/matches/2240756/",
+      "league": "HBL2",
+      "home": "VBS Laßnitzhöhe",
+      "guest": "Akademie Graz"
+    },
+    {
+      "title": "HBL2: UVC Bruck vs Raiffeisen VC Wolfurt",
+      "location": "SH {BRUCK/MUR}",
+      "dateT": "2026-01-18T14:00:00",
+      "link": "https://panel.volleystation.com/website/125/de/matches/2239510/",
+      "league": "HBL2",
+      "home": "UVC Bruck",
+      "guest": "Raiffeisen VC Wolfurt"
+    },
+    {
+      "title": "HBL2: TSV Raiffeisen Hartberg/2 vs SK Zadruga Aich/Dob/2",
+      "location": "Hartberghalle {HARTBERG}",
+      "dateT": "2026-01-18T14:00:00",
+      "link": "https://panel.volleystation.com/website/125/de/matches/2239583/",
+      "league": "HBL2",
+      "home": "TSV Raiffeisen Hartberg/2",
+      "guest": "SK Zadruga Aich/Dob/2"
+    },
+    {
+      "title": "HBL2: hotVolleys Wien vs Mühlviertel Volleys",
+      "location": "Sporthalle Brigittenau {WIEN}",
+      "dateT": "2026-01-18T14:30:00",
+      "link": "https://panel.volleystation.com/website/125/de/matches/2240740/",
+      "league": "HBL2",
+      "home": "hotVolleys Wien",
+      "guest": "Mühlviertel Volleys"
+    },
+    {
+      "title": "HBL2: TSV Raiffeisen Hartberg/2 vs Akademie Graz",
+      "location": "Hartberghalle {HARTBERG}",
+      "dateT": "2026-01-24T14:00:00",
+      "link": "https://panel.volleystation.com/website/125/de/matches/2239584/",
+      "league": "HBL2",
+      "home": "TSV Raiffeisen Hartberg/2",
+      "guest": "Akademie Graz"
+    },
+    {
+      "title": "HBL2: SK Zadruga Aich/Dob/2 vs VC Hausmannstätten",
+      "location": "Kulturheim {BLEIBURG}",
+      "dateT": "2026-01-24T16:00:00",
+      "link": "https://panel.volleystation.com/website/125/de/matches/2239585/",
+      "league": "HBL2",
+      "home": "SK Zadruga Aich/Dob/2",
+      "guest": "VC Hausmannstätten"
+    },
+    {
+      "title": "HBL2: Raiffeisen VC Wolfurt vs Union VV Döbling",
+      "location": "Hofsteighalle {WOLFURT}",
+      "dateT": "2026-01-24T19:00:00",
+      "link": "https://panel.volleystation.com/website/125/de/matches/2239538/",
+      "league": "HBL2",
+      "home": "Raiffeisen VC Wolfurt",
+      "guest": "Union VV Döbling"
+    },
+    {
+      "title": "HBL2: Mühlviertel Volleys vs Union Raiffeisen Waldviertel/2",
+      "location": "Bezirkssporthalle {PERG}",
+      "dateT": "2026-01-24T19:00:00",
+      "link": "https://panel.volleystation.com/website/125/de/matches/2240058/",
+      "league": "HBL2",
+      "home": "Mühlviertel Volleys",
+      "guest": "Union Raiffeisen Waldviertel/2"
+    },
+    {
+      "title": "HBL2: hotVolleys Wien vs Volleyteam Roadrunners Wien",
+      "location": "RH Simmering {WIEN}",
+      "dateT": "2026-01-24T19:30:00",
+      "link": "https://panel.volleystation.com/website/125/de/matches/2240736/",
+      "league": "HBL2",
+      "home": "hotVolleys Wien",
+      "guest": "Volleyteam Roadrunners Wien"
+    },
+    {
+      "title": "HBL2: VBC TLC Weiz vs VBS Laßnitzhöhe",
+      "location": "HS {WEIZ}",
+      "dateT": "2026-01-24T19:30:00",
+      "link": "https://panel.volleystation.com/website/125/de/matches/2240757/",
+      "league": "HBL2",
+      "home": "VBC TLC Weiz",
+      "guest": "VBS Laßnitzhöhe"
+    },
+    {
+      "title": "HBL2: Union Leibnitz vs UVC Holding Graz/2",
+      "location": "JUFA Hotel Leibnitz {LEIBNITZ}",
+      "dateT": "2026-01-24T20:00:00",
+      "link": "https://panel.volleystation.com/website/125/de/matches/2239586/",
+      "league": "HBL2",
+      "home": "Union Leibnitz",
+      "guest": "UVC Holding Graz/2"
+    },
+    {
+      "title": "HBL2: HIB Volley Graz vs VBK Kelag Wörther-See-Löwen Klagenfurt/2",
+      "location": "Uni-Sport-Zentrum Rosenhain {GRAZ}",
+      "dateT": "2026-01-24T20:00:00",
+      "link": "https://panel.volleystation.com/website/125/de/matches/2240468/",
+      "league": "HBL2",
+      "home": "HIB Volley Graz",
+      "guest": "VBK Kelag Wörther-See-Löwen Klagenfurt/2"
+    },
+    {
+      "title": "HBL2: UVC Holding Graz/2 vs TSV Raiffeisen Hartberg/2",
+      "location": "Raiffeisen Sportpark {GRAZ}",
+      "dateT": "2026-01-31T12:30:00",
+      "link": "https://panel.volleystation.com/website/125/de/matches/2240006/",
+      "league": "HBL2",
+      "home": "UVC Holding Graz/2",
+      "guest": "TSV Raiffeisen Hartberg/2"
+    },
+    {
+      "title": "HBL2: UVC Bruck vs UVC RAIBA Waidhofen/Ybbs",
+      "location": "SH {BRUCK/MUR}",
+      "dateT": "2026-01-31T14:00:00",
+      "link": "https://panel.volleystation.com/website/125/de/matches/2239541/",
+      "league": "HBL2",
+      "home": "UVC Bruck",
+      "guest": "UVC RAIBA Waidhofen/Ybbs"
+    },
+    {
+      "title": "HBL2: Union VV Döbling vs hotVolleys Wien",
+      "location": "Sporthalle Brigittenau {WIEN}",
+      "dateT": "2026-01-31T14:30:00",
+      "link": "https://panel.volleystation.com/website/125/de/matches/2240235/",
+      "league": "HBL2",
+      "home": "Union VV Döbling",
+      "guest": "hotVolleys Wien"
+    },
+    {
+      "title": "HBL2: Union Raiffeisen Waldviertel/2 vs PSV Volleyballgemeinschaft Salzburg",
+      "location": "Stadthalle {ZWETTL}",
+      "dateT": "2026-01-31T16:30:00",
+      "link": "https://panel.volleystation.com/website/125/de/matches/2239540/",
+      "league": "HBL2",
+      "home": "Union Raiffeisen Waldviertel/2",
+      "guest": "PSV Volleyballgemeinschaft Salzburg"
+    },
+    {
+      "title": "HBL2: VCU Wiener Neustadt vs Mühlviertel Volleys",
+      "location": "Europaschule {WIENER NEUSTADT}",
+      "dateT": "2026-01-31T19:00:00",
+      "link": "https://panel.volleystation.com/website/125/de/matches/2240363/",
+      "league": "HBL2",
+      "home": "VCU Wiener Neustadt",
+      "guest": "Mühlviertel Volleys"
+    },
+    {
+      "title": "HBL2: VBS Laßnitzhöhe vs Union Leibnitz",
+      "location": "Uni-Sport-Zentrum Rosenhain {GRAZ}",
+      "dateT": "2026-01-31T19:30:00",
+      "link": "https://panel.volleystation.com/website/125/de/matches/2240758/",
+      "league": "HBL2",
+      "home": "VBS Laßnitzhöhe",
+      "guest": "Union Leibnitz"
+    },
+    {
+      "title": "HBL2: VBK Kelag Wörther-See-Löwen Klagenfurt/2 vs SK Zadruga Aich/Dob/2",
+      "location": "BSH Sportpark {KLAGENFURT}",
+      "dateT": "2026-01-31T19:30:00",
+      "link": "https://panel.volleystation.com/website/125/de/matches/2239588/",
+      "league": "HBL2",
+      "home": "VBK Kelag Wörther-See-Löwen Klagenfurt/2",
+      "guest": "SK Zadruga Aich/Dob/2"
+    },
+    {
+      "title": "HBL2: VC Hausmannstätten vs HIB Volley Graz",
+      "location": "Sporthalle {HAUSMANNSTÄTTEN}",
+      "dateT": "2026-01-31T19:30:00",
+      "link": "https://panel.volleystation.com/website/125/de/matches/2239587/",
+      "league": "HBL2",
+      "home": "VC Hausmannstätten",
+      "guest": "HIB Volley Graz"
+    },
+    {
+      "title": "HBL2: Akademie Graz vs VBC TLC Weiz",
+      "location": "Bluebox-Arena {GRAZ}",
+      "dateT": "2026-01-31T20:00:00",
+      "link": "https://panel.volleystation.com/website/125/de/matches/2239589/",
+      "league": "HBL2",
+      "home": "Akademie Graz",
+      "guest": "VBC TLC Weiz"
+    },
+    {
+      "title": "HBL2: UVC RAIBA Waidhofen/Ybbs vs Mühlviertel Volleys",
+      "location": "SH {WAIDHOFEN/YBBS}",
+      "dateT": "2026-02-06T19:00:00",
+      "link": "https://panel.volleystation.com/website/125/de/matches/2241165/",
+      "league": "HBL2",
+      "home": "UVC RAIBA Waidhofen/Ybbs",
+      "guest": "Mühlviertel Volleys"
+    },
+    {
+      "title": "HBL2: TSV Raiffeisen Hartberg/2 vs VBC TLC Weiz",
+      "location": "Hartberghalle {HARTBERG}",
+      "dateT": "2026-02-07T14:00:00",
+      "link": "https://panel.volleystation.com/website/125/de/matches/2239590/",
+      "league": "HBL2",
+      "home": "TSV Raiffeisen Hartberg/2",
+      "guest": "VBC TLC Weiz"
+    },
+    {
+      "title": "HBL2: SK Zadruga Aich/Dob/2 vs Union Leibnitz",
+      "location": "Kulturheim {BLEIBURG}",
+      "dateT": "2026-02-07T16:00:00",
+      "link": "https://panel.volleystation.com/website/125/de/matches/2239591/",
+      "league": "HBL2",
+      "home": "SK Zadruga Aich/Dob/2",
+      "guest": "Union Leibnitz"
+    },
+    {
+      "title": "HBL2: VC Hausmannstätten vs VBS Laßnitzhöhe",
+      "location": "Sporthalle {HAUSMANNSTÄTTEN}",
+      "dateT": "2026-02-07T17:00:00",
+      "link": "https://panel.volleystation.com/website/125/de/matches/2240759/",
+      "league": "HBL2",
+      "home": "VC Hausmannstätten",
+      "guest": "VBS Laßnitzhöhe"
+    },
+    {
+      "title": "HBL2: Raiffeisen VC Wolfurt vs PSV Volleyballgemeinschaft Salzburg",
+      "location": "Hofsteighalle {WOLFURT}",
+      "dateT": "2026-02-07T17:00:00",
+      "link": "https://panel.volleystation.com/website/125/de/matches/2239542/",
+      "league": "HBL2",
+      "home": "Raiffeisen VC Wolfurt",
+      "guest": "PSV Volleyballgemeinschaft Salzburg"
+    },
+    {
+      "title": "HBL2: Union VV Döbling vs Union Raiffeisen Waldviertel/2",
+      "location": "RH Simmering {WIEN}",
+      "dateT": "2026-02-07T17:00:00",
+      "link": "https://panel.volleystation.com/website/125/de/matches/2240236/",
+      "league": "HBL2",
+      "home": "Union VV Döbling",
+      "guest": "Union Raiffeisen Waldviertel/2"
+    },
+    {
+      "title": "HBL2: Volleyteam Roadrunners Wien vs UVC Bruck",
+      "location": "RH Simmering {WIEN}",
+      "dateT": "2026-02-07T19:30:00",
+      "link": "https://panel.volleystation.com/website/125/de/matches/2239543/",
+      "league": "HBL2",
+      "home": "Volleyteam Roadrunners Wien",
+      "guest": "UVC Bruck"
+    },
+    {
+      "title": "HBL2: VBK Kelag Wörther-See-Löwen Klagenfurt/2 vs UVC Holding Graz/2",
+      "location": "BSH Sportpark {KLAGENFURT}",
+      "dateT": "2026-02-07T19:30:00",
+      "link": "https://panel.volleystation.com/website/125/de/matches/2239592/",
+      "league": "HBL2",
+      "home": "VBK Kelag Wörther-See-Löwen Klagenfurt/2",
+      "guest": "UVC Holding Graz/2"
+    },
+    {
+      "title": "HBL2: Union VV Döbling vs UVC RAIBA Waidhofen/Ybbs",
+      "location": "Sporthalle Brigittenau {WIEN}",
+      "dateT": "2026-02-08T13:30:00",
+      "link": "https://panel.volleystation.com/website/125/de/matches/2240228/",
+      "league": "HBL2",
+      "home": "Union VV Döbling",
+      "guest": "UVC RAIBA Waidhofen/Ybbs"
+    },
+    {
+      "title": "HBL2: hotVolleys Wien vs VCU Wiener Neustadt",
+      "location": "Sporthalle Brigittenau {WIEN}",
+      "dateT": "2026-02-08T18:30:00",
+      "link": "https://panel.volleystation.com/website/125/de/matches/2240737/",
+      "league": "HBL2",
+      "home": "hotVolleys Wien",
+      "guest": "VCU Wiener Neustadt"
+    },
+    {
+      "title": "HBL2: Akademie Graz vs HIB Volley Graz",
+      "location": "Bluebox-Arena {GRAZ}",
+      "dateT": "2026-02-08T18:30:00",
+      "link": "https://panel.volleystation.com/website/125/de/matches/2240365/",
+      "league": "HBL2",
+      "home": "Akademie Graz",
+      "guest": "HIB Volley Graz"
+    },
+    {
+      "title": "HBL2: Union Raiffeisen Waldviertel/2 vs UVC RAIBA Waidhofen/Ybbs",
+      "location": "Stadthalle {ZWETTL}",
+      "dateT": "2026-02-14T14:00:00",
+      "link": "https://panel.volleystation.com/website/125/de/matches/2239544/",
+      "league": "HBL2",
+      "home": "Union Raiffeisen Waldviertel/2",
+      "guest": "UVC RAIBA Waidhofen/Ybbs"
+    },
+    {
+      "title": "HBL2: PSV Volleyballgemeinschaft Salzburg vs hotVolleys Wien",
+      "location": "Sportzentrum Rif {HALLEIN}",
+      "dateT": "2026-02-14T16:30:00",
+      "link": "https://panel.volleystation.com/website/125/de/matches/2239545/",
+      "league": "HBL2",
+      "home": "PSV Volleyballgemeinschaft Salzburg",
+      "guest": "hotVolleys Wien"
+    },
+    {
+      "title": "HBL2: Mühlviertel Volleys vs Raiffeisen VC Wolfurt",
+      "location": "Bezirkssporthalle {PERG}",
+      "dateT": "2026-02-14T19:30:00",
+      "link": "https://panel.volleystation.com/website/125/de/matches/2240059/",
+      "league": "HBL2",
+      "home": "Mühlviertel Volleys",
+      "guest": "Raiffeisen VC Wolfurt"
+    },
+    {
+      "title": "HBL2: VCU Wiener Neustadt vs Volleyteam Roadrunners Wien",
+      "location": "Europaschule {WIENER NEUSTADT}",
+      "dateT": "2026-02-14T19:30:00",
+      "link": "https://panel.volleystation.com/website/125/de/matches/2240364/",
+      "league": "HBL2",
+      "home": "VCU Wiener Neustadt",
+      "guest": "Volleyteam Roadrunners Wien"
+    },
+    {
+      "title": "HBL2: VBC TLC Weiz vs SK Zadruga Aich/Dob/2",
+      "location": "HS {WEIZ}",
+      "dateT": "2026-02-14T19:30:00",
+      "link": "https://panel.volleystation.com/website/125/de/matches/2240007/",
+      "league": "HBL2",
+      "home": "VBC TLC Weiz",
+      "guest": "SK Zadruga Aich/Dob/2"
+    },
+    {
+      "title": "HBL2: VBS Laßnitzhöhe vs TSV Raiffeisen Hartberg/2",
+      "location": "Uni-Sport-Zentrum Rosenhain {GRAZ}",
+      "dateT": "2026-02-14T19:30:00",
+      "link": "https://panel.volleystation.com/website/125/de/matches/2240760/",
+      "league": "HBL2",
+      "home": "VBS Laßnitzhöhe",
+      "guest": "TSV Raiffeisen Hartberg/2"
+    },
+    {
+      "title": "HBL2: Union Leibnitz vs HIB Volley Graz",
+      "location": "JUFA Hotel Leibnitz {LEIBNITZ}",
+      "dateT": "2026-02-14T20:00:00",
+      "link": "https://panel.volleystation.com/website/125/de/matches/2239593/",
+      "league": "HBL2",
+      "home": "Union Leibnitz",
+      "guest": "HIB Volley Graz"
+    },
+    {
+      "title": "HBL2: Union Raiffeisen Waldviertel/2 vs Raiffeisen VC Wolfurt",
+      "location": "Stadthalle {ZWETTL}",
+      "dateT": "2026-02-15T11:00:00",
+      "link": "https://panel.volleystation.com/website/125/de/matches/2239531/",
+      "league": "HBL2",
+      "home": "Union Raiffeisen Waldviertel/2",
+      "guest": "Raiffeisen VC Wolfurt"
+    },
+    {
+      "title": "HBL2: UVC Holding Graz/2 vs VC Hausmannstätten",
+      "location": "Raiffeisen Sportpark {GRAZ}",
+      "dateT": "2026-02-15T13:30:00",
+      "link": "https://panel.volleystation.com/website/125/de/matches/2240008/",
+      "league": "HBL2",
+      "home": "UVC Holding Graz/2",
+      "guest": "VC Hausmannstätten"
+    },
+    {
+      "title": "HBL2: Akademie Graz vs VBK Kelag Wörther-See-Löwen Klagenfurt/2",
+      "location": "Bluebox-Arena {GRAZ}",
+      "dateT": "2026-02-15T16:00:00",
+      "link": "https://panel.volleystation.com/website/125/de/matches/2239594/",
+      "league": "HBL2",
+      "home": "Akademie Graz",
+      "guest": "VBK Kelag Wörther-See-Löwen Klagenfurt/2"
+    },
+    {
+      "title": "HBL2: UVC Bruck vs Union VV Döbling",
+      "location": "SH {BRUCK/MUR}",
+      "dateT": "2026-02-15T17:00:00",
+      "link": "https://panel.volleystation.com/website/125/de/matches/2239546/",
+      "league": "HBL2",
+      "home": "UVC Bruck",
+      "guest": "Union VV Döbling"
+    },
+    {
+      "title": "HBCUP: Mühlviertel Volleys vs Union VV Döbling",
+      "location": "Offen",
+      "dateT": "2025-12-21T00:00:00",
+      "link": "https://panel.volleystation.com/website/123/de/matches/2261460/",
+      "league": "HBCUP",
+      "home": "Mühlviertel Volleys",
+      "guest": "Union VV Döbling"
+    },
+    {
+      "title": "HBCUP: Union Raiffeisen Waldviertel/2 vs VBC TLC Weiz",
+      "location": "Offen",
+      "dateT": "2025-12-21T00:00:00",
+      "link": "https://panel.volleystation.com/website/123/de/matches/2261461/",
+      "league": "HBCUP",
+      "home": "Union Raiffeisen Waldviertel/2",
+      "guest": "VBC TLC Weiz"
+    },
+    {
+      "title": "HBCUP: Raiffeisen VC Wolfurt vs hotVolleys Wien",
+      "location": "Offen",
+      "dateT": "2025-12-21T00:00:00",
+      "link": "https://panel.volleystation.com/website/123/de/matches/2261463/",
+      "league": "HBCUP",
+      "home": "Raiffeisen VC Wolfurt",
+      "guest": "hotVolleys Wien"
+    },
+    {
+      "title": "HBCUP: PSV Volleyballgemeinschaft Salzburg vs UVC Holding Graz 2",
+      "location": "Offen",
+      "dateT": "2025-12-21T00:00:00",
+      "link": "https://panel.volleystation.com/website/123/de/matches/2261462/",
+      "league": "HBCUP",
+      "home": "PSV Volleyballgemeinschaft Salzburg",
+      "guest": "UVC Holding Graz 2"
+    },
+    {
+      "title": "HBCUP: Union Raiffeisen Waldviertel vs TJ Sokol V/Post SV Wien",
+      "location": "Stadthalle {ZWETTL}",
+      "dateT": "2025-12-21T17:00:00",
+      "link": "https://panel.volleystation.com/website/123/de/matches/2261456/",
+      "league": "HBCUP",
+      "home": "Union Raiffeisen Waldviertel",
+      "guest": "TJ Sokol V/Post SV Wien"
+    },
+    {
+      "title": "HBCUP: TSV Raiffeisen Hartberg vs VCA Amstetten NÖ",
+      "location": "Hartberghalle {HARTBERG}",
+      "dateT": "2025-12-21T17:00:00",
+      "link": "https://panel.volleystation.com/website/123/de/matches/2261458/",
+      "league": "HBCUP",
+      "home": "TSV Raiffeisen Hartberg",
+      "guest": "VCA Amstetten NÖ"
+    },
+    {
+      "title": "HBCUP: UVC Holding Graz vs SPORTUNION z+p St. Pölten",
+      "location": "Raiffeisen Sportpark {GRAZ}",
+      "dateT": "2025-12-21T19:30:00",
+      "link": "https://panel.volleystation.com/website/123/de/matches/2261459/",
+      "league": "HBCUP",
+      "home": "UVC Holding Graz",
+      "guest": "SPORTUNION z+p St. Pölten"
+    },
+    {
+      "title": "HBCUP: SK Zadruga Aich/Dob vs UVC McDonalds Ried/Innkreis",
+      "location": "Jugend & Familiengästehaus {BLEIBURG}",
+      "dateT": "2026-01-14T19:00:00",
+      "link": "https://panel.volleystation.com/website/123/de/matches/2261457/",
+      "league": "HBCUP",
+      "home": "SK Zadruga Aich/Dob",
+      "guest": "UVC McDonalds Ried/Innkreis"
+    },
+    {
+      "title": "HBCUP: Sieger Viertelfinale vs Sieger Viertelfinale",
+      "location": "Offen",
+      "dateT": "2026-01-25T00:00:00",
+      "link": "https://panel.volleystation.com/website/123/de/matches/2269733/",
+      "league": "HBCUP",
+      "home": "Sieger Viertelfinale",
+      "guest": "Sieger Viertelfinale"
+    },
+    {
+      "title": "HBCUP: Sieger Viertelfinale vs Sieger Viertelfinale",
+      "location": "Offen",
+      "dateT": "2026-01-25T00:00:00",
+      "link": "https://panel.volleystation.com/website/123/de/matches/2269729/",
+      "league": "HBCUP",
+      "home": "Sieger Viertelfinale",
+      "guest": "Sieger Viertelfinale"
+    },
+    {
+      "title": "HBCUP: Sieger Viertelfinale vs Sieger Viertelfinale",
+      "location": "Offen",
+      "dateT": "2026-01-25T00:00:00",
+      "link": "https://panel.volleystation.com/website/123/de/matches/2269730/",
+      "league": "HBCUP",
+      "home": "Sieger Viertelfinale",
+      "guest": "Sieger Viertelfinale"
+    },
+    {
+      "title": "HBCUP: Sieger Viertelfinale vs Sieger Viertelfinale",
+      "location": "Offen",
+      "dateT": "2026-01-25T00:00:00",
+      "link": "https://panel.volleystation.com/website/123/de/matches/2269732/",
+      "league": "HBCUP",
+      "home": "Sieger Viertelfinale",
+      "guest": "Sieger Viertelfinale"
+    },
+    {
+      "title": "HBCUP: Sieger Halbfinale vs Sieger Halbfinale",
+      "location": "Offen",
+      "dateT": "2026-02-28T00:00:00",
+      "link": "https://panel.volleystation.com/website/123/de/matches/2269734/",
+      "league": "HBCUP",
+      "home": "Sieger Halbfinale",
+      "guest": "Sieger Halbfinale"
+    },
+    {
+      "title": "HBCUP: Sieger Halbfinale vs Sieger Halbfinale",
+      "location": "Offen",
+      "dateT": "2026-02-28T00:00:00",
+      "link": "https://panel.volleystation.com/website/123/de/matches/2269731/",
+      "league": "HBCUP",
+      "home": "Sieger Halbfinale",
+      "guest": "Sieger Halbfinale"
+    },
+    {
+      "title": "HBL: VBK Kelag Wörther-See-Löwen Klagenfurt vs TSV Raiffeisen Hartberg",
+      "location": "BSH Sportpark {KLAGENFURT}",
+      "dateT": "2025-12-13T17:00:00",
+      "link": "https://panel.volleystation.com/website/122/de/matches/2230088/",
+      "league": "HBL",
+      "home": "VBK Kelag Wörther-See-Löwen Klagenfurt",
+      "guest": "TSV Raiffeisen Hartberg"
+    },
+    {
+      "title": "HBL: UVC Holding Graz vs Union Raiffeisen Waldviertel",
+      "location": "Raiffeisen Sportpark {GRAZ}",
+      "dateT": "2025-12-13T17:30:00",
+      "link": "https://panel.volleystation.com/website/122/de/matches/2239988/",
+      "league": "HBL",
+      "home": "UVC Holding Graz",
+      "guest": "Union Raiffeisen Waldviertel"
+    },
+    {
+      "title": "HBL: UVC McDonalds Ried/Innkreis vs VCA Amstetten NÖ",
+      "location": "Raiffeisen Volleydome {RIED/INNKREIS}",
+      "dateT": "2025-12-13T19:00:00",
+      "link": "https://panel.volleystation.com/website/122/de/matches/2239830/",
+      "league": "HBL",
+      "home": "UVC McDonalds Ried/Innkreis",
+      "guest": "VCA Amstetten NÖ"
+    },
+    {
+      "title": "HBL: TJ Sokol V/Post SV Wien vs SK Zadruga Aich/Dob",
+      "location": "Sport Arena {WIEN}",
+      "dateT": "2025-12-13T19:00:00",
+      "link": "https://panel.volleystation.com/website/122/de/matches/2240353/",
+      "league": "HBL",
+      "home": "TJ Sokol V/Post SV Wien",
+      "guest": "SK Zadruga Aich/Dob"
+    },
+    {
+      "title": "HBL: SPORTUNION z+p St. Pölten vs UNIONvolleys Bisamberg-Hollabrunn",
+      "location": "Sportzentrum NÖ {ST. PÖLTEN}",
+      "dateT": "2025-12-14T15:30:00",
+      "link": "https://panel.volleystation.com/website/122/de/matches/2237843/",
+      "league": "HBL",
+      "home": "SPORTUNION z+p St. Pölten",
+      "guest": "UNIONvolleys Bisamberg-Hollabrunn"
+    },
+    {
+      "title": "HBL: UNIONvolleys Bisamberg-Hollabrunn vs VBK Kelag Wörther-See-Löwen Klagenfurt",
+      "location": "BG/BRG {KORNEUBURG}",
+      "dateT": "2025-12-20T17:00:00",
+      "link": "https://panel.volleystation.com/website/122/de/matches/2237844/",
+      "league": "HBL",
+      "home": "UNIONvolleys Bisamberg-Hollabrunn",
+      "guest": "VBK Kelag Wörther-See-Löwen Klagenfurt"
+    },
+    {
+      "title": "HBL: TSV Raiffeisen Hartberg vs TJ Sokol V/Post SV Wien",
+      "location": "Hartberghalle {HARTBERG}",
+      "dateT": "2025-12-20T19:00:00",
+      "link": "https://panel.volleystation.com/website/122/de/matches/2237878/",
+      "league": "HBL",
+      "home": "TSV Raiffeisen Hartberg",
+      "guest": "TJ Sokol V/Post SV Wien"
+    },
+    {
+      "title": "HBL: Union Raiffeisen Waldviertel vs SK Zadruga Aich/Dob",
+      "location": "Stadthalle {ZWETTL}",
+      "dateT": "2025-12-20T19:00:00",
+      "link": "https://panel.volleystation.com/website/122/de/matches/2237609/",
+      "league": "HBL",
+      "home": "Union Raiffeisen Waldviertel",
+      "guest": "SK Zadruga Aich/Dob"
+    },
+    {
+      "title": "HBL: SPORTUNION z+p St. Pölten vs VCA Amstetten NÖ",
+      "location": "Sportzentrum NÖ {ST. PÖLTEN}",
+      "dateT": "2025-12-20T19:00:00",
+      "link": "https://panel.volleystation.com/website/122/de/matches/2237845/",
+      "league": "HBL",
+      "home": "SPORTUNION z+p St. Pölten",
+      "guest": "VCA Amstetten NÖ"
+    },
+    {
+      "title": "HBL: UVC Holding Graz vs UVC McDonalds Ried/Innkreis",
+      "location": "Raiffeisen Sportpark {GRAZ}",
+      "dateT": "2025-12-20T20:00:00",
+      "link": "https://panel.volleystation.com/website/122/de/matches/2239989/",
+      "league": "HBL",
+      "home": "UVC Holding Graz",
+      "guest": "UVC McDonalds Ried/Innkreis"
+    },
+    {
+      "title": "HBL: VBK Kelag Wörther-See-Löwen Klagenfurt vs Union Raiffeisen Waldviertel",
+      "location": "BSH Sportpark {KLAGENFURT}",
+      "dateT": "2026-01-10T17:00:00",
+      "link": "https://panel.volleystation.com/website/122/de/matches/2237550/",
+      "league": "HBL",
+      "home": "VBK Kelag Wörther-See-Löwen Klagenfurt",
+      "guest": "Union Raiffeisen Waldviertel"
+    },
+    {
+      "title": "HBL: UVC McDonalds Ried/Innkreis vs SPORTUNION z+p St. Pölten",
+      "location": "Raiffeisen Volleydome {RIED/INNKREIS}",
+      "dateT": "2026-01-10T18:00:00",
+      "link": "https://panel.volleystation.com/website/122/de/matches/2239831/",
+      "league": "HBL",
+      "home": "UVC McDonalds Ried/Innkreis",
+      "guest": "SPORTUNION z+p St. Pölten"
+    },
+    {
+      "title": "HBL: TJ Sokol V/Post SV Wien vs UNIONvolleys Bisamberg-Hollabrunn",
+      "location": "Sport Arena {WIEN}",
+      "dateT": "2026-01-10T19:00:00",
+      "link": "https://panel.volleystation.com/website/122/de/matches/2240354/",
+      "league": "HBL",
+      "home": "TJ Sokol V/Post SV Wien",
+      "guest": "UNIONvolleys Bisamberg-Hollabrunn"
+    },
+    {
+      "title": "HBL: SK Zadruga Aich/Dob vs UVC Holding Graz",
+      "location": "Jugend & Familiengästehaus {BLEIBURG}",
+      "dateT": "2026-01-10T19:00:00",
+      "link": "https://panel.volleystation.com/website/122/de/matches/2230089/",
+      "league": "HBL",
+      "home": "SK Zadruga Aich/Dob",
+      "guest": "UVC Holding Graz"
+    },
+    {
+      "title": "HBL: VCA Amstetten NÖ vs TSV Raiffeisen Hartberg",
+      "location": "Johann Pölz-Halle {AMSTETTEN}",
+      "dateT": "2026-01-11T16:30:00",
+      "link": "https://panel.volleystation.com/website/122/de/matches/2240476/",
+      "league": "HBL",
+      "home": "VCA Amstetten NÖ",
+      "guest": "TSV Raiffeisen Hartberg"
+    },
+    {
+      "title": "HBL: UNIONvolleys Bisamberg-Hollabrunn vs VCA Amstetten NÖ",
+      "location": "BG/BRG {KORNEUBURG}",
+      "dateT": "2026-01-17T17:00:00",
+      "link": "https://panel.volleystation.com/website/122/de/matches/2237846/",
+      "league": "HBL",
+      "home": "UNIONvolleys Bisamberg-Hollabrunn",
+      "guest": "VCA Amstetten NÖ"
+    },
+    {
+      "title": "HBL: UVC Holding Graz vs TJ Sokol V/Post SV Wien",
+      "location": "Raiffeisen Sportpark {GRAZ}",
+      "dateT": "2026-01-17T17:30:00",
+      "link": "https://panel.volleystation.com/website/122/de/matches/2239991/",
+      "league": "HBL",
+      "home": "UVC Holding Graz",
+      "guest": "TJ Sokol V/Post SV Wien"
+    },
+    {
+      "title": "HBL: Union Raiffeisen Waldviertel vs UVC McDonalds Ried/Innkreis",
+      "location": "Stadthalle {ZWETTL}",
+      "dateT": "2026-01-17T19:00:00",
+      "link": "https://panel.volleystation.com/website/122/de/matches/2237610/",
+      "league": "HBL",
+      "home": "Union Raiffeisen Waldviertel",
+      "guest": "UVC McDonalds Ried/Innkreis"
+    },
+    {
+      "title": "HBL: SPORTUNION z+p St. Pölten vs VBK Kelag Wörther-See-Löwen Klagenfurt",
+      "location": "Sportzentrum NÖ {ST. PÖLTEN}",
+      "dateT": "2026-01-18T15:30:00",
+      "link": "https://panel.volleystation.com/website/122/de/matches/2237847/",
+      "league": "HBL",
+      "home": "SPORTUNION z+p St. Pölten",
+      "guest": "VBK Kelag Wörther-See-Löwen Klagenfurt"
+    },
+    {
+      "title": "HBL: TSV Raiffeisen Hartberg vs SK Zadruga Aich/Dob",
+      "location": "Hartberghalle {HARTBERG}",
+      "dateT": "2026-01-18T19:00:00",
+      "link": "https://panel.volleystation.com/website/122/de/matches/2237879/",
+      "league": "HBL",
+      "home": "TSV Raiffeisen Hartberg",
+      "guest": "SK Zadruga Aich/Dob"
+    },
+    {
+      "title": "HBL: SK Zadruga Aich/Dob vs SPORTUNION z+p St. Pölten",
+      "location": "Jugend & Familiengästehaus {BLEIBURG}",
+      "dateT": "2026-01-23T19:00:00",
+      "link": "https://panel.volleystation.com/website/122/de/matches/2230090/",
+      "league": "HBL",
+      "home": "SK Zadruga Aich/Dob",
+      "guest": "SPORTUNION z+p St. Pölten"
+    },
+    {
+      "title": "HBL: TJ Sokol V/Post SV Wien vs VBK Kelag Wörther-See-Löwen Klagenfurt",
+      "location": "Sport Arena {WIEN}",
+      "dateT": "2026-01-24T16:30:00",
+      "link": "https://panel.volleystation.com/website/122/de/matches/2240355/",
+      "league": "HBL",
+      "home": "TJ Sokol V/Post SV Wien",
+      "guest": "VBK Kelag Wörther-See-Löwen Klagenfurt"
+    },
+    {
+      "title": "HBL: VCA Amstetten NÖ vs UVC Holding Graz",
+      "location": "Johann Pölz-Halle {AMSTETTEN}",
+      "dateT": "2026-01-24T18:00:00",
+      "link": "https://panel.volleystation.com/website/122/de/matches/2240475/",
+      "league": "HBL",
+      "home": "VCA Amstetten NÖ",
+      "guest": "UVC Holding Graz"
+    },
+    {
+      "title": "HBL: TSV Raiffeisen Hartberg vs UVC McDonalds Ried/Innkreis",
+      "location": "Hartberghalle {HARTBERG}",
+      "dateT": "2026-01-24T19:00:00",
+      "link": "https://panel.volleystation.com/website/122/de/matches/2237880/",
+      "league": "HBL",
+      "home": "TSV Raiffeisen Hartberg",
+      "guest": "UVC McDonalds Ried/Innkreis"
+    },
+    {
+      "title": "HBL: UNIONvolleys Bisamberg-Hollabrunn vs Union Raiffeisen Waldviertel",
+      "location": "BG/BRG {KORNEUBURG}",
+      "dateT": "2026-01-24T19:30:00",
+      "link": "https://panel.volleystation.com/website/122/de/matches/2237848/",
+      "league": "HBL",
+      "home": "UNIONvolleys Bisamberg-Hollabrunn",
+      "guest": "Union Raiffeisen Waldviertel"
+    },
+    {
+      "title": "HBL: SPORTUNION z+p St. Pölten vs TJ Sokol V/Post SV Wien",
+      "location": "Sportzentrum NÖ {ST. PÖLTEN}",
+      "dateT": "2026-01-30T19:30:00",
+      "link": "https://panel.volleystation.com/website/122/de/matches/2238557/",
+      "league": "HBL",
+      "home": "SPORTUNION z+p St. Pölten",
+      "guest": "TJ Sokol V/Post SV Wien"
+    },
+    {
+      "title": "HBL: UVC McDonalds Ried/Innkreis vs UNIONvolleys Bisamberg-Hollabrunn",
+      "location": "Raiffeisen Volleydome {RIED/INNKREIS}",
+      "dateT": "2026-01-31T15:00:00",
+      "link": "https://panel.volleystation.com/website/122/de/matches/2239832/",
+      "league": "HBL",
+      "home": "UVC McDonalds Ried/Innkreis",
+      "guest": "UNIONvolleys Bisamberg-Hollabrunn"
+    },
+    {
+      "title": "HBL: VBK Kelag Wörther-See-Löwen Klagenfurt vs SK Zadruga Aich/Dob",
+      "location": "BSH Sportpark {KLAGENFURT}",
+      "dateT": "2026-01-31T17:00:00",
+      "link": "https://panel.volleystation.com/website/122/de/matches/2237551/",
+      "league": "HBL",
+      "home": "VBK Kelag Wörther-See-Löwen Klagenfurt",
+      "guest": "SK Zadruga Aich/Dob"
+    },
+    {
+      "title": "HBL: Union Raiffeisen Waldviertel vs VCA Amstetten NÖ",
+      "location": "Stadthalle {ZWETTL}",
+      "dateT": "2026-01-31T19:00:00",
+      "link": "https://panel.volleystation.com/website/122/de/matches/2237611/",
+      "league": "HBL",
+      "home": "Union Raiffeisen Waldviertel",
+      "guest": "VCA Amstetten NÖ"
+    },
+    {
+      "title": "HBL: UVC Holding Graz vs TSV Raiffeisen Hartberg",
+      "location": "Raiffeisen Sportpark {GRAZ}",
+      "dateT": "2026-01-31T20:00:00",
+      "link": "https://panel.volleystation.com/website/122/de/matches/2239992/",
+      "league": "HBL",
+      "home": "UVC Holding Graz",
+      "guest": "TSV Raiffeisen Hartberg"
+    },
+    {
+      "title": "HBL: VBK Kelag Wörther-See-Löwen Klagenfurt vs UVC Holding Graz",
+      "location": "BSH Sportpark {KLAGENFURT}",
+      "dateT": "2026-02-07T17:00:00",
+      "link": "https://panel.volleystation.com/website/122/de/matches/2237552/",
+      "league": "HBL",
+      "home": "VBK Kelag Wörther-See-Löwen Klagenfurt",
+      "guest": "UVC Holding Graz"
+    },
+    {
+      "title": "HBL: TJ Sokol V/Post SV Wien vs UVC McDonalds Ried/Innkreis",
+      "location": "Sport Arena {WIEN}",
+      "dateT": "2026-02-07T19:00:00",
+      "link": "https://panel.volleystation.com/website/122/de/matches/2242667/",
+      "league": "HBL",
+      "home": "TJ Sokol V/Post SV Wien",
+      "guest": "UVC McDonalds Ried/Innkreis"
+    },
+    {
+      "title": "HBL: TSV Raiffeisen Hartberg vs UNIONvolleys Bisamberg-Hollabrunn",
+      "location": "Hartberghalle {HARTBERG}",
+      "dateT": "2026-02-07T19:00:00",
+      "link": "https://panel.volleystation.com/website/122/de/matches/2237881/",
+      "league": "HBL",
+      "home": "TSV Raiffeisen Hartberg",
+      "guest": "UNIONvolleys Bisamberg-Hollabrunn"
+    },
+    {
+      "title": "HBL: SPORTUNION z+p St. Pölten vs Union Raiffeisen Waldviertel",
+      "location": "Sportzentrum NÖ {ST. PÖLTEN}",
+      "dateT": "2026-02-07T19:00:00",
+      "link": "https://panel.volleystation.com/website/122/de/matches/2237849/",
+      "league": "HBL",
+      "home": "SPORTUNION z+p St. Pölten",
+      "guest": "Union Raiffeisen Waldviertel"
+    },
+    {
+      "title": "HBL: SK Zadruga Aich/Dob vs VCA Amstetten NÖ",
+      "location": "Jugend & Familiengästehaus {BLEIBURG}",
+      "dateT": "2026-02-07T19:00:00",
+      "link": "https://panel.volleystation.com/website/122/de/matches/2230091/",
+      "league": "HBL",
+      "home": "SK Zadruga Aich/Dob",
+      "guest": "VCA Amstetten NÖ"
+    },
+    {
+      "title": "HBL: UNIONvolleys Bisamberg-Hollabrunn vs SK Zadruga Aich/Dob",
+      "location": "BG/BRG {KORNEUBURG}",
+      "dateT": "2026-02-14T17:00:00",
+      "link": "https://panel.volleystation.com/website/122/de/matches/2237850/",
+      "league": "HBL",
+      "home": "UNIONvolleys Bisamberg-Hollabrunn",
+      "guest": "SK Zadruga Aich/Dob"
+    },
+    {
+      "title": "HBL: Union Raiffeisen Waldviertel vs TSV Raiffeisen Hartberg",
+      "location": "Stadthalle {ZWETTL}",
+      "dateT": "2026-02-14T19:00:00",
+      "link": "https://panel.volleystation.com/website/122/de/matches/2237612/",
+      "league": "HBL",
+      "home": "Union Raiffeisen Waldviertel",
+      "guest": "TSV Raiffeisen Hartberg"
+    },
+    {
+      "title": "HBL: UVC McDonalds Ried/Innkreis vs VBK Kelag Wörther-See-Löwen Klagenfurt",
+      "location": "Raiffeisen Volleydome {RIED/INNKREIS}",
+      "dateT": "2026-02-14T19:00:00",
+      "link": "https://panel.volleystation.com/website/122/de/matches/2239833/",
+      "league": "HBL",
+      "home": "UVC McDonalds Ried/Innkreis",
+      "guest": "VBK Kelag Wörther-See-Löwen Klagenfurt"
+    },
+    {
+      "title": "HBL: VCA Amstetten NÖ vs TJ Sokol V/Post SV Wien",
+      "location": "Johann Pölz-Halle {AMSTETTEN}",
+      "dateT": "2026-02-15T16:30:00",
+      "link": "https://panel.volleystation.com/website/122/de/matches/2240477/",
+      "league": "HBL",
+      "home": "VCA Amstetten NÖ",
+      "guest": "TJ Sokol V/Post SV Wien"
+    },
+    {
+      "title": "HBL: UVC Holding Graz vs SPORTUNION z+p St. Pölten",
+      "location": "Raiffeisen Sportpark {GRAZ}",
+      "dateT": "2026-02-15T18:30:00",
+      "link": "https://panel.volleystation.com/website/122/de/matches/2239993/",
+      "league": "HBL",
+      "home": "UVC Holding Graz",
+      "guest": "SPORTUNION z+p St. Pölten"
+    },
+    {
+      "title": "DBL2: VC Hausmannstätten vs VBC TLC Weiz",
+      "location": "Sporthalle {HAUSMANNSTÄTTEN}",
+      "dateT": "2025-12-13T14:30:00",
+      "link": "https://panel.volleystation.com/website/118/de/matches/2239681/",
+      "league": "DBL2",
+      "home": "VC Hausmannstätten",
+      "guest": "VBC TLC Weiz"
+    },
+    {
+      "title": "DBL2: VBK Kelag Wörther-See-Löwen Klagenfurt vs USV FIDAS Volleys Jennersdorf",
+      "location": "BSH Sportpark {KLAGENFURT}",
+      "dateT": "2025-12-13T14:30:00",
+      "link": "https://panel.volleystation.com/website/118/de/matches/2239680/",
+      "league": "DBL2",
+      "home": "VBK Kelag Wörther-See-Löwen Klagenfurt",
+      "guest": "USV FIDAS Volleys Jennersdorf"
+    },
+    {
+      "title": "DBL2: UVC Holding Graz/2 vs ATSC Kelag Wildcats Klagenfurt/2",
+      "location": "Raiffeisen Sportpark {GRAZ}",
+      "dateT": "2025-12-13T15:00:00",
+      "link": "https://panel.volleystation.com/website/118/de/matches/2239976/",
+      "league": "DBL2",
+      "home": "UVC Holding Graz/2",
+      "guest": "ATSC Kelag Wildcats Klagenfurt/2"
+    },
+    {
+      "title": "DBL2: LINZ AG Steelvolleys/2 vs TV Oberndorf Volleyball",
+      "location": "SMS Kleinmünchen {LINZ}",
+      "dateT": "2025-12-13T15:30:00",
+      "link": "https://panel.volleystation.com/website/118/de/matches/2239628/",
+      "league": "DBL2",
+      "home": "LINZ AG Steelvolleys/2",
+      "guest": "TV Oberndorf Volleyball"
+    },
+    {
+      "title": "DBL2: TI-volley vs Mühlviertel Volleys",
+      "location": "Uni-Sportinstitut {INNSBRUCK}",
+      "dateT": "2025-12-13T16:00:00",
+      "link": "https://panel.volleystation.com/website/118/de/matches/2240722/",
+      "league": "DBL2",
+      "home": "TI-volley",
+      "guest": "Mühlviertel Volleys"
+    },
+    {
+      "title": "DBL2: ATSE Graz vs Erzbergmadln Trofaiach Eisenerz/2",
+      "location": "ASKÖ-Halle Eggenberg {GRAZ}",
+      "dateT": "2025-12-13T16:15:00",
+      "link": "https://panel.volleystation.com/website/118/de/matches/2239682/",
+      "league": "DBL2",
+      "home": "ATSE Graz",
+      "guest": "Erzbergmadln Trofaiach Eisenerz/2"
+    },
+    {
+      "title": "DBL2: hotVolleys Wien vs VC Raiffeisen Dornbirn",
+      "location": "RH Simmering {WIEN}",
+      "dateT": "2025-12-13T17:00:00",
+      "link": "https://panel.volleystation.com/website/118/de/matches/2240723/",
+      "league": "DBL2",
+      "home": "hotVolleys Wien",
+      "guest": "VC Raiffeisen Dornbirn"
+    },
+    {
+      "title": "DBL2: Volleyteam Roadrunners Wien vs blum VBC Höchst",
+      "location": "Sporthalle Brigittenau {WIEN}",
+      "dateT": "2025-12-13T17:00:00",
+      "link": "https://panel.volleystation.com/website/118/de/matches/2239629/",
+      "league": "DBL2",
+      "home": "Volleyteam Roadrunners Wien",
+      "guest": "blum VBC Höchst"
+    },
+    {
+      "title": "DBL2: Akademie Graz vs TUS Bad Radkersburg",
+      "location": "Bluebox-Arena {GRAZ}",
+      "dateT": "2025-12-13T17:30:00",
+      "link": "https://panel.volleystation.com/website/118/de/matches/2239683/",
+      "league": "DBL2",
+      "home": "Akademie Graz",
+      "guest": "TUS Bad Radkersburg"
+    },
+    {
+      "title": "DBL2: SU Inzingvolley/VC Mils vs Union Raiffeisen Waldviertel",
+      "location": "ASO Halle {ZIRL}",
+      "dateT": "2025-12-13T19:00:00",
+      "link": "https://panel.volleystation.com/website/118/de/matches/2239630/",
+      "league": "DBL2",
+      "home": "SU Inzingvolley/VC Mils",
+      "guest": "Union Raiffeisen Waldviertel"
+    },
+    {
+      "title": "DBL2: SU Inzingvolley/VC Mils vs Mühlviertel Volleys",
+      "location": "ASO Halle {ZIRL}",
+      "dateT": "2025-12-14T11:00:00",
+      "link": "https://panel.volleystation.com/website/118/de/matches/2239597/",
+      "league": "DBL2",
+      "home": "SU Inzingvolley/VC Mils",
+      "guest": "Mühlviertel Volleys"
+    },
+    {
+      "title": "DBL2: Volleyteam Roadrunners Wien vs VC Raiffeisen Dornbirn",
+      "location": "Sporthalle Brigittenau {WIEN}",
+      "dateT": "2025-12-14T11:00:00",
+      "link": "https://panel.volleystation.com/website/118/de/matches/2239645/",
+      "league": "DBL2",
+      "home": "Volleyteam Roadrunners Wien",
+      "guest": "VC Raiffeisen Dornbirn"
+    },
+    {
+      "title": "DBL2: TI-volley vs Union Raiffeisen Waldviertel",
+      "location": "Uni-Sportinstitut {INNSBRUCK}",
+      "dateT": "2025-12-14T11:30:00",
+      "link": "https://panel.volleystation.com/website/118/de/matches/2240728/",
+      "league": "DBL2",
+      "home": "TI-volley",
+      "guest": "Union Raiffeisen Waldviertel"
+    },
+    {
+      "title": "DBL2: hotVolleys Wien vs blum VBC Höchst",
+      "location": "RH Simmering {WIEN}",
+      "dateT": "2025-12-14T12:00:00",
+      "link": "https://panel.volleystation.com/website/118/de/matches/2240715/",
+      "league": "DBL2",
+      "home": "hotVolleys Wien",
+      "guest": "blum VBC Höchst"
+    },
+    {
+      "title": "DBL2: UVC Holding Graz/2 vs Akademie Graz",
+      "location": "Raiffeisen Sportpark {GRAZ}",
+      "dateT": "2025-12-17T19:15:00",
+      "link": "https://panel.volleystation.com/website/118/de/matches/2239977/",
+      "league": "DBL2",
+      "home": "UVC Holding Graz/2",
+      "guest": "Akademie Graz"
+    },
+    {
+      "title": "DBL2: SU Inzingvolley/VC Mils vs blum VBC Höchst",
+      "location": "ASO Halle {ZIRL}",
+      "dateT": "2025-12-19T20:30:00",
+      "link": "https://panel.volleystation.com/website/118/de/matches/2239648/",
+      "league": "DBL2",
+      "home": "SU Inzingvolley/VC Mils",
+      "guest": "blum VBC Höchst"
+    },
+    {
+      "title": "DBL2: ATSC Kelag Wildcats Klagenfurt/2 vs Erzbergmadln Trofaiach Eisenerz/2",
+      "location": "BG Lerchenfeldstraße {KLAGENFURT}",
+      "dateT": "2025-12-20T16:30:00",
+      "link": "https://panel.volleystation.com/website/118/de/matches/2239684/",
+      "league": "DBL2",
+      "home": "ATSC Kelag Wildcats Klagenfurt/2",
+      "guest": "Erzbergmadln Trofaiach Eisenerz/2"
+    },
+    {
+      "title": "DBL2: VC Hausmannstätten vs TUS Bad Radkersburg",
+      "location": "Sporthalle {HAUSMANNSTÄTTEN}",
+      "dateT": "2025-12-20T17:00:00",
+      "link": "https://panel.volleystation.com/website/118/de/matches/2239685/",
+      "league": "DBL2",
+      "home": "VC Hausmannstätten",
+      "guest": "TUS Bad Radkersburg"
+    },
+    {
+      "title": "DBL2: VBC TLC Weiz vs VBK Kelag Wörther-See-Löwen Klagenfurt",
+      "location": "HS {WEIZ}",
+      "dateT": "2025-12-20T17:00:00",
+      "link": "https://panel.volleystation.com/website/118/de/matches/2239978/",
+      "league": "DBL2",
+      "home": "VBC TLC Weiz",
+      "guest": "VBK Kelag Wörther-See-Löwen Klagenfurt"
+    },
+    {
+      "title": "DBL2: USV FIDAS Volleys Jennersdorf vs ATSE Graz",
+      "location": "BORG {JENNERSDORF}",
+      "dateT": "2025-12-20T19:00:00",
+      "link": "https://panel.volleystation.com/website/118/de/matches/2240378/",
+      "league": "DBL2",
+      "home": "USV FIDAS Volleys Jennersdorf",
+      "guest": "ATSE Graz"
+    },
+    {
+      "title": "DBL2: VC Raiffeisen Dornbirn vs SU Inzingvolley/VC Mils",
+      "location": "Messehalle 1 {DORNBIRN}",
+      "dateT": "2026-01-10T13:00:00",
+      "link": "https://panel.volleystation.com/website/118/de/matches/2239964/",
+      "league": "DBL2",
+      "home": "VC Raiffeisen Dornbirn",
+      "guest": "SU Inzingvolley/VC Mils"
+    },
+    {
+      "title": "DBL2: ATSE Graz vs VBC TLC Weiz",
+      "location": "ASKÖ-Halle Eggenberg {GRAZ}",
+      "dateT": "2026-01-10T14:15:00",
+      "link": "https://panel.volleystation.com/website/118/de/matches/2239686/",
+      "league": "DBL2",
+      "home": "ATSE Graz",
+      "guest": "VBC TLC Weiz"
+    },
+    {
+      "title": "DBL2: VBK Kelag Wörther-See-Löwen Klagenfurt vs ATSC Kelag Wildcats Klagenfurt/2",
+      "location": "BSH Sportpark {KLAGENFURT}",
+      "dateT": "2026-01-10T14:30:00",
+      "link": "https://panel.volleystation.com/website/118/de/matches/2239687/",
+      "league": "DBL2",
+      "home": "VBK Kelag Wörther-See-Löwen Klagenfurt",
+      "guest": "ATSC Kelag Wildcats Klagenfurt/2"
+    },
+    {
+      "title": "DBL2: hotVolleys Wien vs Mühlviertel Volleys",
+      "location": "Sporthalle Brigittenau {WIEN}",
+      "dateT": "2026-01-10T17:00:00",
+      "link": "https://panel.volleystation.com/website/118/de/matches/2240725/",
+      "league": "DBL2",
+      "home": "hotVolleys Wien",
+      "guest": "Mühlviertel Volleys"
+    },
+    {
+      "title": "DBL2: Erzbergmadln Trofaiach Eisenerz/2 vs UVC Holding Graz/2",
+      "location": "SH {EISENERZ}",
+      "dateT": "2026-01-10T18:00:00",
+      "link": "https://panel.volleystation.com/website/118/de/matches/2240345/",
+      "league": "DBL2",
+      "home": "Erzbergmadln Trofaiach Eisenerz/2",
+      "guest": "UVC Holding Graz/2"
+    },
+    {
+      "title": "DBL2: TV Oberndorf Volleyball vs blum VBC Höchst",
+      "location": "SMS {OBERNDORF}",
+      "dateT": "2026-01-10T18:00:00",
+      "link": "https://panel.volleystation.com/website/118/de/matches/2239636/",
+      "league": "DBL2",
+      "home": "TV Oberndorf Volleyball",
+      "guest": "blum VBC Höchst"
+    },
+    {
+      "title": "DBL2: USV FIDAS Volleys Jennersdorf vs TUS Bad Radkersburg",
+      "location": "BORG {JENNERSDORF}",
+      "dateT": "2026-01-10T19:00:00",
+      "link": "https://panel.volleystation.com/website/118/de/matches/2240374/",
+      "league": "DBL2",
+      "home": "USV FIDAS Volleys Jennersdorf",
+      "guest": "TUS Bad Radkersburg"
+    },
+    {
+      "title": "DBL2: Volleyteam Roadrunners Wien vs Union Raiffeisen Waldviertel",
+      "location": "Sporthalle Brigittenau {WIEN}",
+      "dateT": "2026-01-11T13:00:00",
+      "link": "https://panel.volleystation.com/website/118/de/matches/2239637/",
+      "league": "DBL2",
+      "home": "Volleyteam Roadrunners Wien",
+      "guest": "Union Raiffeisen Waldviertel"
+    },
+    {
+      "title": "DBL2: UVC Holding Graz/2 vs ATSE Graz",
+      "location": "Raiffeisen Sportpark {GRAZ}",
+      "dateT": "2026-01-17T12:30:00",
+      "link": "https://panel.volleystation.com/website/118/de/matches/2239979/",
+      "league": "DBL2",
+      "home": "UVC Holding Graz/2",
+      "guest": "ATSE Graz"
+    },
+    {
+      "title": "DBL2: Union Raiffeisen Waldviertel vs LINZ AG Steelvolleys/2",
+      "location": "Stadthalle {ZWETTL}",
+      "dateT": "2026-01-17T14:00:00",
+      "link": "https://panel.volleystation.com/website/118/de/matches/2239639/",
+      "league": "DBL2",
+      "home": "Union Raiffeisen Waldviertel",
+      "guest": "LINZ AG Steelvolleys/2"
+    },
+    {
+      "title": "DBL2: TI-volley vs Volleyteam Roadrunners Wien",
+      "location": "Uni-Sportinstitut {INNSBRUCK}",
+      "dateT": "2026-01-17T16:00:00",
+      "link": "https://panel.volleystation.com/website/118/de/matches/2240726/",
+      "league": "DBL2",
+      "home": "TI-volley",
+      "guest": "Volleyteam Roadrunners Wien"
+    },
+    {
+      "title": "DBL2: VBC TLC Weiz vs TUS Bad Radkersburg",
+      "location": "Bundesschulzentrum {WEIZ}",
+      "dateT": "2026-01-17T16:00:00",
+      "link": "https://panel.volleystation.com/website/118/de/matches/2241112/",
+      "league": "DBL2",
+      "home": "VBC TLC Weiz",
+      "guest": "TUS Bad Radkersburg"
+    },
+    {
+      "title": "DBL2: ATSC Kelag Wildcats Klagenfurt/2 vs Akademie Graz",
+      "location": "BG Lerchenfeldstraße {KLAGENFURT}",
+      "dateT": "2026-01-17T16:30:00",
+      "link": "https://panel.volleystation.com/website/118/de/matches/2239689/",
+      "league": "DBL2",
+      "home": "ATSC Kelag Wildcats Klagenfurt/2",
+      "guest": "Akademie Graz"
+    },
+    {
+      "title": "DBL2: VC Hausmannstätten vs VBK Kelag Wörther-See-Löwen Klagenfurt",
+      "location": "Sporthalle {HAUSMANNSTÄTTEN}",
+      "dateT": "2026-01-17T17:00:00",
+      "link": "https://panel.volleystation.com/website/118/de/matches/2239690/",
+      "league": "DBL2",
+      "home": "VC Hausmannstätten",
+      "guest": "VBK Kelag Wörther-See-Löwen Klagenfurt"
+    },
+    {
+      "title": "DBL2: SU Inzingvolley/VC Mils vs hotVolleys Wien",
+      "location": "ASO Halle {ZIRL}",
+      "dateT": "2026-01-17T19:00:00",
+      "link": "https://panel.volleystation.com/website/118/de/matches/2239640/",
+      "league": "DBL2",
+      "home": "SU Inzingvolley/VC Mils",
+      "guest": "hotVolleys Wien"
+    },
+    {
+      "title": "DBL2: USV FIDAS Volleys Jennersdorf vs Erzbergmadln Trofaiach Eisenerz/2",
+      "location": "BORG {JENNERSDORF}",
+      "dateT": "2026-01-17T19:00:00",
+      "link": "https://panel.volleystation.com/website/118/de/matches/2240379/",
+      "league": "DBL2",
+      "home": "USV FIDAS Volleys Jennersdorf",
+      "guest": "Erzbergmadln Trofaiach Eisenerz/2"
+    },
+    {
+      "title": "DBL2: Mühlviertel Volleys vs TV Oberndorf Volleyball",
+      "location": "Bezirkssporthalle {PERG}",
+      "dateT": "2026-01-17T19:00:00",
+      "link": "https://panel.volleystation.com/website/118/de/matches/2239641/",
+      "league": "DBL2",
+      "home": "Mühlviertel Volleys",
+      "guest": "TV Oberndorf Volleyball"
+    },
+    {
+      "title": "DBL2: VC Raiffeisen Dornbirn vs blum VBC Höchst",
+      "location": "Messehalle 1 {DORNBIRN}",
+      "dateT": "2026-01-18T10:30:00",
+      "link": "https://panel.volleystation.com/website/118/de/matches/2239960/",
+      "league": "DBL2",
+      "home": "VC Raiffeisen Dornbirn",
+      "guest": "blum VBC Höchst"
+    },
+    {
+      "title": "DBL2: SU Inzingvolley/VC Mils vs Volleyteam Roadrunners Wien",
+      "location": "ASO Halle {ZIRL}",
+      "dateT": "2026-01-18T11:00:00",
+      "link": "https://panel.volleystation.com/website/118/de/matches/2239622/",
+      "league": "DBL2",
+      "home": "SU Inzingvolley/VC Mils",
+      "guest": "Volleyteam Roadrunners Wien"
+    },
+    {
+      "title": "DBL2: TI-volley vs hotVolleys Wien",
+      "location": "Uni-Sportinstitut {INNSBRUCK}",
+      "dateT": "2026-01-18T12:30:00",
+      "link": "https://panel.volleystation.com/website/118/de/matches/2240727/",
+      "league": "DBL2",
+      "home": "TI-volley",
+      "guest": "hotVolleys Wien"
+    },
+    {
+      "title": "DBL2: ATSE Graz vs VBK Kelag Wörther-See-Löwen Klagenfurt",
+      "location": "ASKÖ-Halle Eggenberg {GRAZ}",
+      "dateT": "2026-01-24T14:15:00",
+      "link": "https://panel.volleystation.com/website/118/de/matches/2239691/",
+      "league": "DBL2",
+      "home": "ATSE Graz",
+      "guest": "VBK Kelag Wörther-See-Löwen Klagenfurt"
+    },
+    {
+      "title": "DBL2: VC Raiffeisen Dornbirn vs TI-volley",
+      "location": "Messehalle 1 {DORNBIRN}",
+      "dateT": "2026-01-24T16:00:00",
+      "link": "https://panel.volleystation.com/website/118/de/matches/2239965/",
+      "league": "DBL2",
+      "home": "VC Raiffeisen Dornbirn",
+      "guest": "TI-volley"
+    },
+    {
+      "title": "DBL2: Mühlviertel Volleys vs Union Raiffeisen Waldviertel",
+      "location": "Bezirkssporthalle {PERG}",
+      "dateT": "2026-01-24T16:30:00",
+      "link": "https://panel.volleystation.com/website/118/de/matches/2239643/",
+      "league": "DBL2",
+      "home": "Mühlviertel Volleys",
+      "guest": "Union Raiffeisen Waldviertel"
+    },
+    {
+      "title": "DBL2: VBC TLC Weiz vs ATSC Kelag Wildcats Klagenfurt/2",
+      "location": "HS {WEIZ}",
+      "dateT": "2026-01-24T17:00:00",
+      "link": "https://panel.volleystation.com/website/118/de/matches/2239980/",
+      "league": "DBL2",
+      "home": "VBC TLC Weiz",
+      "guest": "ATSC Kelag Wildcats Klagenfurt/2"
+    },
+    {
+      "title": "DBL2: hotVolleys Wien vs Volleyteam Roadrunners Wien",
+      "location": "RH Simmering {WIEN}",
+      "dateT": "2026-01-24T17:00:00",
+      "link": "https://panel.volleystation.com/website/118/de/matches/2240894/",
+      "league": "DBL2",
+      "home": "hotVolleys Wien",
+      "guest": "Volleyteam Roadrunners Wien"
+    },
+    {
+      "title": "DBL2: TV Oberndorf Volleyball vs SU Inzingvolley/VC Mils",
+      "location": "SMS {OBERNDORF}",
+      "dateT": "2026-01-24T18:00:00",
+      "link": "https://panel.volleystation.com/website/118/de/matches/2239644/",
+      "league": "DBL2",
+      "home": "TV Oberndorf Volleyball",
+      "guest": "SU Inzingvolley/VC Mils"
+    },
+    {
+      "title": "DBL2: Erzbergmadln Trofaiach Eisenerz/2 vs VC Hausmannstätten",
+      "location": "SH {EISENERZ}",
+      "dateT": "2026-01-24T18:00:00",
+      "link": "https://panel.volleystation.com/website/118/de/matches/2240346/",
+      "league": "DBL2",
+      "home": "Erzbergmadln Trofaiach Eisenerz/2",
+      "guest": "VC Hausmannstätten"
+    },
+    {
+      "title": "DBL2: TUS Bad Radkersburg vs UVC Holding Graz/2",
+      "location": "MS {STRADEN}",
+      "dateT": "2026-01-24T18:00:00",
+      "link": "https://panel.volleystation.com/website/118/de/matches/2240049/",
+      "league": "DBL2",
+      "home": "TUS Bad Radkersburg",
+      "guest": "UVC Holding Graz/2"
+    },
+    {
+      "title": "DBL2: USV FIDAS Volleys Jennersdorf vs Akademie Graz",
+      "location": "BORG {JENNERSDORF}",
+      "dateT": "2026-01-24T19:00:00",
+      "link": "https://panel.volleystation.com/website/118/de/matches/2240380/",
+      "league": "DBL2",
+      "home": "USV FIDAS Volleys Jennersdorf",
+      "guest": "Akademie Graz"
+    },
+    {
+      "title": "DBL2: Mühlviertel Volleys vs VC Raiffeisen Dornbirn",
+      "location": "MS {SCHWERTBERG}",
+      "dateT": "2026-01-25T13:00:00",
+      "link": "https://panel.volleystation.com/website/118/de/matches/2239653/",
+      "league": "DBL2",
+      "home": "Mühlviertel Volleys",
+      "guest": "VC Raiffeisen Dornbirn"
+    },
+    {
+      "title": "DBL2: Union Raiffeisen Waldviertel vs TV Oberndorf Volleyball",
+      "location": "Stadthalle {ZWETTL}",
+      "dateT": "2026-01-31T14:00:00",
+      "link": "https://panel.volleystation.com/website/118/de/matches/2239646/",
+      "league": "DBL2",
+      "home": "Union Raiffeisen Waldviertel",
+      "guest": "TV Oberndorf Volleyball"
+    },
+    {
+      "title": "DBL2: VBK Kelag Wörther-See-Löwen Klagenfurt vs Erzbergmadln Trofaiach Eisenerz/2",
+      "location": "BSH Sportpark {KLAGENFURT}",
+      "dateT": "2026-01-31T14:30:00",
+      "link": "https://panel.volleystation.com/website/118/de/matches/2239692/",
+      "league": "DBL2",
+      "home": "VBK Kelag Wörther-See-Löwen Klagenfurt",
+      "guest": "Erzbergmadln Trofaiach Eisenerz/2"
+    },
+    {
+      "title": "DBL2: UVC Holding Graz/2 vs USV FIDAS Volleys Jennersdorf",
+      "location": "Raiffeisen Sportpark {GRAZ}",
+      "dateT": "2026-01-31T15:00:00",
+      "link": "https://panel.volleystation.com/website/118/de/matches/2239981/",
+      "league": "DBL2",
+      "home": "UVC Holding Graz/2",
+      "guest": "USV FIDAS Volleys Jennersdorf"
+    },
+    {
+      "title": "DBL2: LINZ AG Steelvolleys/2 vs Mühlviertel Volleys",
+      "location": "SMS Kleinmünchen {LINZ}",
+      "dateT": "2026-01-31T15:30:00",
+      "link": "https://panel.volleystation.com/website/118/de/matches/2239647/",
+      "league": "DBL2",
+      "home": "LINZ AG Steelvolleys/2",
+      "guest": "Mühlviertel Volleys"
+    },
+    {
+      "title": "DBL2: ATSC Kelag Wildcats Klagenfurt/2 vs TUS Bad Radkersburg",
+      "location": "BG Lerchenfeldstraße {KLAGENFURT}",
+      "dateT": "2026-01-31T16:30:00",
+      "link": "https://panel.volleystation.com/website/118/de/matches/2239693/",
+      "league": "DBL2",
+      "home": "ATSC Kelag Wildcats Klagenfurt/2",
+      "guest": "TUS Bad Radkersburg"
+    },
+    {
+      "title": "DBL2: VC Hausmannstätten vs ATSE Graz",
+      "location": "Sporthalle {HAUSMANNSTÄTTEN}",
+      "dateT": "2026-01-31T17:00:00",
+      "link": "https://panel.volleystation.com/website/118/de/matches/2239694/",
+      "league": "DBL2",
+      "home": "VC Hausmannstätten",
+      "guest": "ATSE Graz"
+    },
+    {
+      "title": "DBL2: Akademie Graz vs VBC TLC Weiz",
+      "location": "Bluebox-Arena {GRAZ}",
+      "dateT": "2026-01-31T17:30:00",
+      "link": "https://panel.volleystation.com/website/118/de/matches/2239695/",
+      "league": "DBL2",
+      "home": "Akademie Graz",
+      "guest": "VBC TLC Weiz"
+    },
+    {
+      "title": "DBL2: VBK Kelag Wörther-See-Löwen Klagenfurt vs UVC Holding Graz/2",
+      "location": "BSH Sportpark {KLAGENFURT}",
+      "dateT": "2026-02-07T14:30:00",
+      "link": "https://panel.volleystation.com/website/118/de/matches/2239697/",
+      "league": "DBL2",
+      "home": "VBK Kelag Wörther-See-Löwen Klagenfurt",
+      "guest": "UVC Holding Graz/2"
+    },
+    {
+      "title": "DBL2: VC Raiffeisen Dornbirn vs TV Oberndorf Volleyball",
+      "location": "Messehalle 1 {DORNBIRN}",
+      "dateT": "2026-02-07T16:00:00",
+      "link": "https://panel.volleystation.com/website/118/de/matches/2239966/",
+      "league": "DBL2",
+      "home": "VC Raiffeisen Dornbirn",
+      "guest": "TV Oberndorf Volleyball"
+    },
+    {
+      "title": "DBL2: Erzbergmadln Trofaiach Eisenerz/2 vs TUS Bad Radkersburg",
+      "location": "SH {TROFAIACH}",
+      "dateT": "2026-02-07T17:00:00",
+      "link": "https://panel.volleystation.com/website/118/de/matches/2240347/",
+      "league": "DBL2",
+      "home": "Erzbergmadln Trofaiach Eisenerz/2",
+      "guest": "TUS Bad Radkersburg"
+    },
+    {
+      "title": "DBL2: USV FIDAS Volleys Jennersdorf vs VBC TLC Weiz",
+      "location": "BORG {JENNERSDORF}",
+      "dateT": "2026-02-07T19:00:00",
+      "link": "https://panel.volleystation.com/website/118/de/matches/2240381/",
+      "league": "DBL2",
+      "home": "USV FIDAS Volleys Jennersdorf",
+      "guest": "VBC TLC Weiz"
+    },
+    {
+      "title": "DBL2: VC Hausmannstätten vs ATSC Kelag Wildcats Klagenfurt/2",
+      "location": "Sporthalle {HAUSMANNSTÄTTEN}",
+      "dateT": "2026-02-07T19:30:00",
+      "link": "https://panel.volleystation.com/website/118/de/matches/2239698/",
+      "league": "DBL2",
+      "home": "VC Hausmannstätten",
+      "guest": "ATSC Kelag Wildcats Klagenfurt/2"
+    },
+    {
+      "title": "DBL2: hotVolleys Wien vs LINZ AG Steelvolleys/2",
+      "location": "Sporthalle Brigittenau {WIEN}",
+      "dateT": "2026-02-08T16:00:00",
+      "link": "https://panel.volleystation.com/website/118/de/matches/2240729/",
+      "league": "DBL2",
+      "home": "hotVolleys Wien",
+      "guest": "LINZ AG Steelvolleys/2"
+    },
+    {
+      "title": "DBL2: Akademie Graz vs ATSE Graz",
+      "location": "Bluebox-Arena {GRAZ}",
+      "dateT": "2026-02-08T16:00:00",
+      "link": "https://panel.volleystation.com/website/118/de/matches/2239696/",
+      "league": "DBL2",
+      "home": "Akademie Graz",
+      "guest": "ATSE Graz"
+    },
+    {
+      "title": "DBL2: Akademie Graz vs VC Hausmannstätten",
+      "location": "Bluebox-Arena {GRAZ}",
+      "dateT": "2026-02-11T18:00:00",
+      "link": "https://panel.volleystation.com/website/118/de/matches/2239688/",
+      "league": "DBL2",
+      "home": "Akademie Graz",
+      "guest": "VC Hausmannstätten"
+    },
+    {
+      "title": "DBL2: blum VBC Höchst vs SU Inzingvolley/VC Mils",
+      "location": "NMS {HÖCHST}",
+      "dateT": "2026-02-13T00:00:00",
+      "link": "https://panel.volleystation.com/website/118/de/matches/2239616/",
+      "league": "DBL2",
+      "home": "blum VBC Höchst",
+      "guest": "SU Inzingvolley/VC Mils"
+    },
+    {
+      "title": "DBL2: ATSC Kelag Wildcats Klagenfurt/2 vs USV FIDAS Volleys Jennersdorf",
+      "location": "BG Lerchenfeldstraße {KLAGENFURT}",
+      "dateT": "2026-02-13T20:00:00",
+      "link": "https://panel.volleystation.com/website/118/de/matches/2239699/",
+      "league": "DBL2",
+      "home": "ATSC Kelag Wildcats Klagenfurt/2",
+      "guest": "USV FIDAS Volleys Jennersdorf"
+    },
+    {
+      "title": "DBL2: LINZ AG Steelvolleys/2 vs Volleyteam Roadrunners Wien",
+      "location": "SMS Kleinmünchen {LINZ}",
+      "dateT": "2026-02-14T15:30:00",
+      "link": "https://panel.volleystation.com/website/118/de/matches/2239651/",
+      "league": "DBL2",
+      "home": "LINZ AG Steelvolleys/2",
+      "guest": "Volleyteam Roadrunners Wien"
+    },
+    {
+      "title": "DBL2: Union Raiffeisen Waldviertel vs blum VBC Höchst",
+      "location": "Stadthalle {ZWETTL}",
+      "dateT": "2026-02-14T16:30:00",
+      "link": "https://panel.volleystation.com/website/118/de/matches/2239652/",
+      "league": "DBL2",
+      "home": "Union Raiffeisen Waldviertel",
+      "guest": "blum VBC Höchst"
+    },
+    {
+      "title": "DBL2: VBC TLC Weiz vs Erzbergmadln Trofaiach Eisenerz/2",
+      "location": "HS {WEIZ}",
+      "dateT": "2026-02-14T17:00:00",
+      "link": "https://panel.volleystation.com/website/118/de/matches/2239982/",
+      "league": "DBL2",
+      "home": "VBC TLC Weiz",
+      "guest": "Erzbergmadln Trofaiach Eisenerz/2"
+    },
+    {
+      "title": "DBL2: TUS Bad Radkersburg vs ATSE Graz",
+      "location": "MS {STRADEN}",
+      "dateT": "2026-02-14T18:00:00",
+      "link": "https://panel.volleystation.com/website/118/de/matches/2240050/",
+      "league": "DBL2",
+      "home": "TUS Bad Radkersburg",
+      "guest": "ATSE Graz"
+    },
+    {
+      "title": "DBL2: TV Oberndorf Volleyball vs hotVolleys Wien",
+      "location": "Stadthalle {OBERNDORF}",
+      "dateT": "2026-02-14T18:00:00",
+      "link": "https://panel.volleystation.com/website/118/de/matches/2239654/",
+      "league": "DBL2",
+      "home": "TV Oberndorf Volleyball",
+      "guest": "hotVolleys Wien"
+    },
+    {
+      "title": "DBL2: SU Inzingvolley/VC Mils vs TI-volley",
+      "location": "ASO Halle {ZIRL}",
+      "dateT": "2026-02-14T19:00:00",
+      "link": "https://panel.volleystation.com/website/118/de/matches/2239655/",
+      "league": "DBL2",
+      "home": "SU Inzingvolley/VC Mils",
+      "guest": "TI-volley"
+    },
+    {
+      "title": "DBL2: Mühlviertel Volleys vs blum VBC Höchst",
+      "location": "Bezirkssporthalle {PERG}",
+      "dateT": "2026-02-15T11:00:00",
+      "link": "https://panel.volleystation.com/website/118/de/matches/2240603/",
+      "league": "DBL2",
+      "home": "Mühlviertel Volleys",
+      "guest": "blum VBC Höchst"
+    },
+    {
+      "title": "DBL2: UVC Holding Graz/2 vs VC Hausmannstätten",
+      "location": "Raiffeisen Sportpark {GRAZ}",
+      "dateT": "2026-02-15T11:00:00",
+      "link": "https://panel.volleystation.com/website/118/de/matches/2239983/",
+      "league": "DBL2",
+      "home": "UVC Holding Graz/2",
+      "guest": "VC Hausmannstätten"
+    },
+    {
+      "title": "DBL2: Union Raiffeisen Waldviertel vs VC Raiffeisen Dornbirn",
+      "location": "Stadthalle {ZWETTL}",
+      "dateT": "2026-02-15T13:30:00",
+      "link": "https://panel.volleystation.com/website/118/de/matches/2239634/",
+      "league": "DBL2",
+      "home": "Union Raiffeisen Waldviertel",
+      "guest": "VC Raiffeisen Dornbirn"
+    },
+    {
+      "title": "DBL2: Akademie Graz vs VBK Kelag Wörther-See-Löwen Klagenfurt",
+      "location": "Bluebox-Arena {GRAZ}",
+      "dateT": "2026-02-15T18:30:00",
+      "link": "https://panel.volleystation.com/website/118/de/matches/2239700/",
+      "league": "DBL2",
+      "home": "Akademie Graz",
+      "guest": "VBK Kelag Wörther-See-Löwen Klagenfurt"
+    },
+    {
+      "title": "DBL: VB NÖ Sokol/Post vs Erzbergmadln Trofaiach Eisenerz",
+      "location": "Sport Arena {WIEN}",
+      "dateT": "2025-12-13T16:30:00",
+      "link": "https://panel.volleystation.com/website/121/de/matches/2240370/",
+      "league": "DBL",
+      "home": "VB NÖ Sokol/Post",
+      "guest": "Erzbergmadln Trofaiach Eisenerz"
+    },
+    {
+      "title": "DBL: LINZ AG Steelvolleys vs PSV Volleyballgemeinschaft Salzburg",
+      "location": "SMS Kleinmünchen {LINZ}",
+      "dateT": "2025-12-13T18:30:00",
+      "link": "https://panel.volleystation.com/website/121/de/matches/2239472/",
+      "league": "DBL",
+      "home": "LINZ AG Steelvolleys",
+      "guest": "PSV Volleyballgemeinschaft Salzburg"
+    },
+    {
+      "title": "DBL: ASKÖ Volksbank Purgstall vs TSV Sparkasse Hartberg",
+      "location": "SH {PURGSTALL/ERLAUF}",
+      "dateT": "2025-12-13T19:00:00",
+      "link": "https://panel.volleystation.com/website/121/de/matches/2239473/",
+      "league": "DBL",
+      "home": "ASKÖ Volksbank Purgstall",
+      "guest": "TSV Sparkasse Hartberg"
+    },
+    {
+      "title": "DBL: UVC Holding Graz vs ATSC Kelag Wildcats Klagenfurt",
+      "location": "Raiffeisen Sportpark {GRAZ}",
+      "dateT": "2025-12-13T20:00:00",
+      "link": "https://panel.volleystation.com/website/121/de/matches/2240013/",
+      "league": "DBL",
+      "home": "UVC Holding Graz",
+      "guest": "ATSC Kelag Wildcats Klagenfurt"
+    },
+    {
+      "title": "DBL: SPORTUNION z+p St. Pölten vs UNIONvolleys Bisamberg-Hollabrunn",
+      "location": "Sportzentrum NÖ {ST. PÖLTEN}",
+      "dateT": "2025-12-14T18:00:00",
+      "link": "https://panel.volleystation.com/website/121/de/matches/2239474/",
+      "league": "DBL",
+      "home": "SPORTUNION z+p St. Pölten",
+      "guest": "UNIONvolleys Bisamberg-Hollabrunn"
+    },
+    {
+      "title": "DBL: ATSC Kelag Wildcats Klagenfurt vs Erzbergmadln Trofaiach Eisenerz",
+      "location": "BG Lerchenfeldstraße {KLAGENFURT}",
+      "dateT": "2025-12-19T20:00:00",
+      "link": "https://panel.volleystation.com/website/121/de/matches/2239477/",
+      "league": "DBL",
+      "home": "ATSC Kelag Wildcats Klagenfurt",
+      "guest": "Erzbergmadln Trofaiach Eisenerz"
+    },
+    {
+      "title": "DBL: SPORTUNION z+p St. Pölten vs PSV Volleyballgemeinschaft Salzburg",
+      "location": "Sportzentrum NÖ {ST. PÖLTEN}",
+      "dateT": "2025-12-20T16:30:00",
+      "link": "https://panel.volleystation.com/website/121/de/matches/2239475/",
+      "league": "DBL",
+      "home": "SPORTUNION z+p St. Pölten",
+      "guest": "PSV Volleyballgemeinschaft Salzburg"
+    },
+    {
+      "title": "DBL: TSV Sparkasse Hartberg vs VB NÖ Sokol/Post",
+      "location": "Hartberghalle {HARTBERG}",
+      "dateT": "2025-12-20T16:30:00",
+      "link": "https://panel.volleystation.com/website/121/de/matches/2239476/",
+      "league": "DBL",
+      "home": "TSV Sparkasse Hartberg",
+      "guest": "VB NÖ Sokol/Post"
+    },
+    {
+      "title": "DBL: UVC Holding Graz vs LINZ AG Steelvolleys",
+      "location": "Raiffeisen Sportpark {GRAZ}",
+      "dateT": "2025-12-20T17:30:00",
+      "link": "https://panel.volleystation.com/website/121/de/matches/2240014/",
+      "league": "DBL",
+      "home": "UVC Holding Graz",
+      "guest": "LINZ AG Steelvolleys"
+    },
+    {
+      "title": "DBL: UNIONvolleys Bisamberg-Hollabrunn vs ASKÖ Volksbank Purgstall",
+      "location": "BG/BRG {KORNEUBURG}",
+      "dateT": "2025-12-20T19:30:00",
+      "link": "https://panel.volleystation.com/website/121/de/matches/2239478/",
+      "league": "DBL",
+      "home": "UNIONvolleys Bisamberg-Hollabrunn",
+      "guest": "ASKÖ Volksbank Purgstall"
+    },
+    {
+      "title": "DBL: Erzbergmadln Trofaiach Eisenerz vs UVC Holding Graz",
+      "location": "SH {EISENERZ}",
+      "dateT": "2026-01-09T20:00:00",
+      "link": "https://panel.volleystation.com/website/121/de/matches/2239479/",
+      "league": "DBL",
+      "home": "Erzbergmadln Trofaiach Eisenerz",
+      "guest": "UVC Holding Graz"
+    },
+    {
+      "title": "DBL: VB NÖ Sokol/Post vs UNIONvolleys Bisamberg-Hollabrunn",
+      "location": "Sport Arena {WIEN}",
+      "dateT": "2026-01-10T16:30:00",
+      "link": "https://panel.volleystation.com/website/121/de/matches/2240371/",
+      "league": "DBL",
+      "home": "VB NÖ Sokol/Post",
+      "guest": "UNIONvolleys Bisamberg-Hollabrunn"
+    },
+    {
+      "title": "DBL: LINZ AG Steelvolleys vs SPORTUNION z+p St. Pölten",
+      "location": "SMS Kleinmünchen {LINZ}",
+      "dateT": "2026-01-10T18:30:00",
+      "link": "https://panel.volleystation.com/website/121/de/matches/2239480/",
+      "league": "DBL",
+      "home": "LINZ AG Steelvolleys",
+      "guest": "SPORTUNION z+p St. Pölten"
+    },
+    {
+      "title": "DBL: ASKÖ Volksbank Purgstall vs ATSC Kelag Wildcats Klagenfurt",
+      "location": "SH {PURGSTALL/ERLAUF}",
+      "dateT": "2026-01-10T19:00:00",
+      "link": "https://panel.volleystation.com/website/121/de/matches/2239481/",
+      "league": "DBL",
+      "home": "ASKÖ Volksbank Purgstall",
+      "guest": "ATSC Kelag Wildcats Klagenfurt"
+    },
+    {
+      "title": "DBL: PSV Volleyballgemeinschaft Salzburg vs TSV Sparkasse Hartberg",
+      "location": "Sportzentrum Rif {HALLEIN}",
+      "dateT": "2026-01-10T19:00:00",
+      "link": "https://panel.volleystation.com/website/121/de/matches/2239482/",
+      "league": "DBL",
+      "home": "PSV Volleyballgemeinschaft Salzburg",
+      "guest": "TSV Sparkasse Hartberg"
+    },
+    {
+      "title": "DBL: ATSC Kelag Wildcats Klagenfurt vs LINZ AG Steelvolleys",
+      "location": "BG Lerchenfeldstraße {KLAGENFURT}",
+      "dateT": "2026-01-17T19:00:00",
+      "link": "https://panel.volleystation.com/website/121/de/matches/2239483/",
+      "league": "DBL",
+      "home": "ATSC Kelag Wildcats Klagenfurt",
+      "guest": "LINZ AG Steelvolleys"
+    },
+    {
+      "title": "DBL: UNIONvolleys Bisamberg-Hollabrunn vs PSV Volleyballgemeinschaft Salzburg",
+      "location": "BG/BRG {KORNEUBURG}",
+      "dateT": "2026-01-17T19:30:00",
+      "link": "https://panel.volleystation.com/website/121/de/matches/2239484/",
+      "league": "DBL",
+      "home": "UNIONvolleys Bisamberg-Hollabrunn",
+      "guest": "PSV Volleyballgemeinschaft Salzburg"
+    },
+    {
+      "title": "DBL: UVC Holding Graz vs VB NÖ Sokol/Post",
+      "location": "Raiffeisen Sportpark {GRAZ}",
+      "dateT": "2026-01-17T20:00:00",
+      "link": "https://panel.volleystation.com/website/121/de/matches/2240015/",
+      "league": "DBL",
+      "home": "UVC Holding Graz",
+      "guest": "VB NÖ Sokol/Post"
+    },
+    {
+      "title": "DBL: TSV Sparkasse Hartberg vs Erzbergmadln Trofaiach Eisenerz",
+      "location": "Hartberghalle {HARTBERG}",
+      "dateT": "2026-01-18T16:30:00",
+      "link": "https://panel.volleystation.com/website/121/de/matches/2239485/",
+      "league": "DBL",
+      "home": "TSV Sparkasse Hartberg",
+      "guest": "Erzbergmadln Trofaiach Eisenerz"
+    },
+    {
+      "title": "DBL: SPORTUNION z+p St. Pölten vs ASKÖ Volksbank Purgstall",
+      "location": "Sportzentrum NÖ {ST. PÖLTEN}",
+      "dateT": "2026-01-18T18:00:00",
+      "link": "https://panel.volleystation.com/website/121/de/matches/2239486/",
+      "league": "DBL",
+      "home": "SPORTUNION z+p St. Pölten",
+      "guest": "ASKÖ Volksbank Purgstall"
+    },
+    {
+      "title": "DBL: Erzbergmadln Trofaiach Eisenerz vs SPORTUNION z+p St. Pölten",
+      "location": "SH {EISENERZ}",
+      "dateT": "2026-01-23T20:00:00",
+      "link": "https://panel.volleystation.com/website/121/de/matches/2239487/",
+      "league": "DBL",
+      "home": "Erzbergmadln Trofaiach Eisenerz",
+      "guest": "SPORTUNION z+p St. Pölten"
+    },
+    {
+      "title": "DBL: TSV Sparkasse Hartberg vs LINZ AG Steelvolleys",
+      "location": "Hartberghalle {HARTBERG}",
+      "dateT": "2026-01-24T16:30:00",
+      "link": "https://panel.volleystation.com/website/121/de/matches/2239488/",
+      "league": "DBL",
+      "home": "TSV Sparkasse Hartberg",
+      "guest": "LINZ AG Steelvolleys"
+    },
+    {
+      "title": "DBL: UNIONvolleys Bisamberg-Hollabrunn vs ATSC Kelag Wildcats Klagenfurt",
+      "location": "BG/BRG {KORNEUBURG}",
+      "dateT": "2026-01-24T17:00:00",
+      "link": "https://panel.volleystation.com/website/121/de/matches/2239489/",
+      "league": "DBL",
+      "home": "UNIONvolleys Bisamberg-Hollabrunn",
+      "guest": "ATSC Kelag Wildcats Klagenfurt"
+    },
+    {
+      "title": "DBL: VB NÖ Sokol/Post vs ASKÖ Volksbank Purgstall",
+      "location": "Sport Arena {WIEN}",
+      "dateT": "2026-01-24T19:00:00",
+      "link": "https://panel.volleystation.com/website/121/de/matches/2240372/",
+      "league": "DBL",
+      "home": "VB NÖ Sokol/Post",
+      "guest": "ASKÖ Volksbank Purgstall"
+    },
+    {
+      "title": "DBL: PSV Volleyballgemeinschaft Salzburg vs UVC Holding Graz",
+      "location": "Sportzentrum Rif {HALLEIN}",
+      "dateT": "2026-01-24T19:00:00",
+      "link": "https://panel.volleystation.com/website/121/de/matches/2239490/",
+      "league": "DBL",
+      "home": "PSV Volleyballgemeinschaft Salzburg",
+      "guest": "UVC Holding Graz"
+    },
+    {
+      "title": "DBL: SPORTUNION z+p St. Pölten vs VB NÖ Sokol/Post",
+      "location": "Sportzentrum NÖ {ST. PÖLTEN}",
+      "dateT": "2026-01-30T17:00:00",
+      "link": "https://panel.volleystation.com/website/121/de/matches/2239491/",
+      "league": "DBL",
+      "home": "SPORTUNION z+p St. Pölten",
+      "guest": "VB NÖ Sokol/Post"
+    },
+    {
+      "title": "DBL: UVC Holding Graz vs TSV Sparkasse Hartberg",
+      "location": "Raiffeisen Sportpark {GRAZ}",
+      "dateT": "2026-01-31T17:30:00",
+      "link": "https://panel.volleystation.com/website/121/de/matches/2240016/",
+      "league": "DBL",
+      "home": "UVC Holding Graz",
+      "guest": "TSV Sparkasse Hartberg"
+    },
+    {
+      "title": "DBL: LINZ AG Steelvolleys vs UNIONvolleys Bisamberg-Hollabrunn",
+      "location": "SMS Kleinmünchen {LINZ}",
+      "dateT": "2026-01-31T18:30:00",
+      "link": "https://panel.volleystation.com/website/121/de/matches/2239492/",
+      "league": "DBL",
+      "home": "LINZ AG Steelvolleys",
+      "guest": "UNIONvolleys Bisamberg-Hollabrunn"
+    },
+    {
+      "title": "DBL: ASKÖ Volksbank Purgstall vs Erzbergmadln Trofaiach Eisenerz",
+      "location": "SH {PURGSTALL/ERLAUF}",
+      "dateT": "2026-01-31T19:00:00",
+      "link": "https://panel.volleystation.com/website/121/de/matches/2239494/",
+      "league": "DBL",
+      "home": "ASKÖ Volksbank Purgstall",
+      "guest": "Erzbergmadln Trofaiach Eisenerz"
+    },
+    {
+      "title": "DBL: ATSC Kelag Wildcats Klagenfurt vs PSV Volleyballgemeinschaft Salzburg",
+      "location": "BG Lerchenfeldstraße {KLAGENFURT}",
+      "dateT": "2026-01-31T19:00:00",
+      "link": "https://panel.volleystation.com/website/121/de/matches/2239493/",
+      "league": "DBL",
+      "home": "ATSC Kelag Wildcats Klagenfurt",
+      "guest": "PSV Volleyballgemeinschaft Salzburg"
+    },
+    {
+      "title": "DBL: VB NÖ Sokol/Post vs LINZ AG Steelvolleys",
+      "location": "Sport Arena {WIEN}",
+      "dateT": "2026-02-07T16:30:00",
+      "link": "https://panel.volleystation.com/website/121/de/matches/2242669/",
+      "league": "DBL",
+      "home": "VB NÖ Sokol/Post",
+      "guest": "LINZ AG Steelvolleys"
+    },
+    {
+      "title": "DBL: TSV Sparkasse Hartberg vs UNIONvolleys Bisamberg-Hollabrunn",
+      "location": "Hartberghalle {HARTBERG}",
+      "dateT": "2026-02-07T16:30:00",
+      "link": "https://panel.volleystation.com/website/121/de/matches/2239496/",
+      "league": "DBL",
+      "home": "TSV Sparkasse Hartberg",
+      "guest": "UNIONvolleys Bisamberg-Hollabrunn"
+    },
+    {
+      "title": "DBL: SPORTUNION z+p St. Pölten vs ATSC Kelag Wildcats Klagenfurt",
+      "location": "Sportzentrum NÖ {ST. PÖLTEN}",
+      "dateT": "2026-02-07T16:30:00",
+      "link": "https://panel.volleystation.com/website/121/de/matches/2239495/",
+      "league": "DBL",
+      "home": "SPORTUNION z+p St. Pölten",
+      "guest": "ATSC Kelag Wildcats Klagenfurt"
+    },
+    {
+      "title": "DBL: ASKÖ Volksbank Purgstall vs UVC Holding Graz",
+      "location": "SH {PURGSTALL/ERLAUF}",
+      "dateT": "2026-02-07T19:00:00",
+      "link": "https://panel.volleystation.com/website/121/de/matches/2239497/",
+      "league": "DBL",
+      "home": "ASKÖ Volksbank Purgstall",
+      "guest": "UVC Holding Graz"
+    },
+    {
+      "title": "DBL: Erzbergmadln Trofaiach Eisenerz vs PSV Volleyballgemeinschaft Salzburg",
+      "location": "SH {TROFAIACH}",
+      "dateT": "2026-02-07T19:30:00",
+      "link": "https://panel.volleystation.com/website/121/de/matches/2239498/",
+      "league": "DBL",
+      "home": "Erzbergmadln Trofaiach Eisenerz",
+      "guest": "PSV Volleyballgemeinschaft Salzburg"
+    },
+    {
+      "title": "DBL: LINZ AG Steelvolleys vs ASKÖ Volksbank Purgstall",
+      "location": "SMS Kleinmünchen {LINZ}",
+      "dateT": "2026-02-14T18:30:00",
+      "link": "https://panel.volleystation.com/website/121/de/matches/2239499/",
+      "league": "DBL",
+      "home": "LINZ AG Steelvolleys",
+      "guest": "ASKÖ Volksbank Purgstall"
+    },
+    {
+      "title": "DBL: ATSC Kelag Wildcats Klagenfurt vs TSV Sparkasse Hartberg",
+      "location": "BG Lerchenfeldstraße {KLAGENFURT}",
+      "dateT": "2026-02-14T19:00:00",
+      "link": "https://panel.volleystation.com/website/121/de/matches/2239500/",
+      "league": "DBL",
+      "home": "ATSC Kelag Wildcats Klagenfurt",
+      "guest": "TSV Sparkasse Hartberg"
+    },
+    {
+      "title": "DBL: PSV Volleyballgemeinschaft Salzburg vs VB NÖ Sokol/Post",
+      "location": "Sportzentrum Rif {HALLEIN}",
+      "dateT": "2026-02-14T19:00:00",
+      "link": "https://panel.volleystation.com/website/121/de/matches/2239501/",
+      "league": "DBL",
+      "home": "PSV Volleyballgemeinschaft Salzburg",
+      "guest": "VB NÖ Sokol/Post"
+    },
+    {
+      "title": "DBL: UNIONvolleys Bisamberg-Hollabrunn vs Erzbergmadln Trofaiach Eisenerz",
+      "location": "BG/BRG {KORNEUBURG}",
+      "dateT": "2026-02-14T19:30:00",
+      "link": "https://panel.volleystation.com/website/121/de/matches/2239502/",
+      "league": "DBL",
+      "home": "UNIONvolleys Bisamberg-Hollabrunn",
+      "guest": "Erzbergmadln Trofaiach Eisenerz"
+    },
+    {
+      "title": "DBL: UVC Holding Graz vs SPORTUNION z+p St. Pölten",
+      "location": "Raiffeisen Sportpark {GRAZ}",
+      "dateT": "2026-02-15T16:00:00",
+      "link": "https://panel.volleystation.com/website/121/de/matches/2240017/",
+      "league": "DBL",
+      "home": "UVC Holding Graz",
+      "guest": "SPORTUNION z+p St. Pölten"
+    },
+    {
+      "title": "DBCUP: TSV Sparkasse Hartberg vs LINZ AG Steelvolleys",
+      "location": "Hartberghalle {HARTBERG}",
+      "dateT": "2025-12-17T20:15:00",
+      "link": "https://panel.volleystation.com/website/119/de/matches/2261466/",
+      "league": "DBCUP",
+      "home": "TSV Sparkasse Hartberg",
+      "guest": "LINZ AG Steelvolleys"
+    },
+    {
+      "title": "DBCUP: SU Inzingvolley/VC Mils vs blum VBC Höchst",
+      "location": "ASO Halle {ZIRL}",
+      "dateT": "2025-12-20T12:00:00",
+      "link": "https://panel.volleystation.com/website/119/de/matches/2261470/",
+      "league": "DBCUP",
+      "home": "SU Inzingvolley/VC Mils",
+      "guest": "blum VBC Höchst"
+    },
+    {
+      "title": "DBCUP: Erzbergmadln Trofaiach Eisenerz vs UVC Holding Graz",
+      "location": "Offen",
+      "dateT": "2025-12-21T00:00:00",
+      "link": "https://panel.volleystation.com/website/119/de/matches/2261468/",
+      "league": "DBCUP",
+      "home": "Erzbergmadln Trofaiach Eisenerz",
+      "guest": "UVC Holding Graz"
+    },
+    {
+      "title": "DBCUP: Volleyteam Roadrunners Wien vs ATSE Graz",
+      "location": "Sporthalle Brigittenau {WIEN}",
+      "dateT": "2025-12-21T14:00:00",
+      "link": "https://panel.volleystation.com/website/119/de/matches/2261473/",
+      "league": "DBCUP",
+      "home": "Volleyteam Roadrunners Wien",
+      "guest": "ATSE Graz"
+    },
+    {
+      "title": "DBCUP: USV Fidas Volleys Jennersdorf vs TI-volley",
+      "location": "BORG {JENNERSDORF}",
+      "dateT": "2025-12-21T15:00:00",
+      "link": "https://panel.volleystation.com/website/119/de/matches/2261471/",
+      "league": "DBCUP",
+      "home": "USV Fidas Volleys Jennersdorf",
+      "guest": "TI-volley"
+    },
+    {
+      "title": "DBCUP: LINZ AG Steelvolleys/2 vs Union Raiffeisen Waldviertel",
+      "location": "BG/BRG Urfahr {LINZ}",
+      "dateT": "2025-12-21T15:30:00",
+      "link": "https://panel.volleystation.com/website/119/de/matches/2261472/",
+      "league": "DBCUP",
+      "home": "LINZ AG Steelvolleys/2",
+      "guest": "Union Raiffeisen Waldviertel"
+    },
+    {
+      "title": "DBCUP: VB NÖ Sokol/Post vs UNIONvolleys Bisamberg-Hollabrunn",
+      "location": "Sport Arena {WIEN}",
+      "dateT": "2025-12-21T16:00:00",
+      "link": "https://panel.volleystation.com/website/119/de/matches/2261469/",
+      "league": "DBCUP",
+      "home": "VB NÖ Sokol/Post",
+      "guest": "UNIONvolleys Bisamberg-Hollabrunn"
+    },
+    {
+      "title": "DBCUP: PSV Volleyballgemeinschaft Salzburg vs ATSC Kelag Wildcats Klagenfurt",
+      "location": "Sportzentrum Rif {HALLEIN}",
+      "dateT": "2025-12-21T16:00:00",
+      "link": "https://panel.volleystation.com/website/119/de/matches/2261467/",
+      "league": "DBCUP",
+      "home": "PSV Volleyballgemeinschaft Salzburg",
+      "guest": "ATSC Kelag Wildcats Klagenfurt"
+    },
+    {
+      "title": "DBCUP: Sieger Viertelfinale vs Sieger Viertelfinale",
+      "location": "Offen",
+      "dateT": "2026-01-25T00:00:00",
+      "link": "https://panel.volleystation.com/website/119/de/matches/2269727/",
+      "league": "DBCUP",
+      "home": "Sieger Viertelfinale",
+      "guest": "Sieger Viertelfinale"
+    },
+    {
+      "title": "DBCUP: Sieger Viertelfinale vs Sieger Viertelfinale",
+      "location": "Offen",
+      "dateT": "2026-01-25T00:00:00",
+      "link": "https://panel.volleystation.com/website/119/de/matches/2269726/",
+      "league": "DBCUP",
+      "home": "Sieger Viertelfinale",
+      "guest": "Sieger Viertelfinale"
+    },
+    {
+      "title": "DBCUP: Sieger Viertelfinale vs Sieger Viertelfinale",
+      "location": "Offen",
+      "dateT": "2026-01-25T00:00:00",
+      "link": "https://panel.volleystation.com/website/119/de/matches/2269735/",
+      "league": "DBCUP",
+      "home": "Sieger Viertelfinale",
+      "guest": "Sieger Viertelfinale"
+    },
+    {
+      "title": "DBCUP: Sieger Viertelfinale vs Sieger Viertelfinale",
+      "location": "Offen",
+      "dateT": "2026-01-25T00:00:00",
+      "link": "https://panel.volleystation.com/website/119/de/matches/2269736/",
+      "league": "DBCUP",
+      "home": "Sieger Viertelfinale",
+      "guest": "Sieger Viertelfinale"
+    },
+    {
+      "title": "DBCUP: Sieger Halbfinale vs Sieger Halbfinale",
+      "location": "Offen",
+      "dateT": "2026-02-28T00:00:00",
+      "link": "https://panel.volleystation.com/website/119/de/matches/2269728/",
+      "league": "DBCUP",
+      "home": "Sieger Halbfinale",
+      "guest": "Sieger Halbfinale"
+    },
+    {
+      "title": "DBCUP: Sieger Halbfinale vs Sieger Halbfinale",
+      "location": "Offen",
+      "dateT": "2026-02-28T00:00:00",
+      "link": "https://panel.volleystation.com/website/119/de/matches/2269737/",
+      "league": "DBCUP",
+      "home": "Sieger Halbfinale",
+      "guest": "Sieger Halbfinale"
+    },
+    {
+      "title": "13m1: Döbling 1 vs VTR 1",
+      "location": "RH Simmering",
+      "dateT": "2026-01-18T14:00:00",
+      "link": "https://www.volleyball-wien.at/index.php?option=com_oevv&view=oevv&Style=Standard&BID=37533",
+      "league": "13m1",
+      "home": "Döbling 1",
+      "guest": "VTR 1"
+    },
+    {
+      "title": "13m1: Sokol V/1 vs Post 1",
+      "location": "RH Simmering",
+      "dateT": "2026-01-18T14:00:00",
+      "link": "https://www.volleyball-wien.at/index.php?option=com_oevv&view=oevv&Style=Standard&BID=37533",
+      "league": "13m1",
+      "home": "Sokol V/1",
+      "guest": "Post 1"
+    },
+    {
+      "title": "13m1: VTR 1 vs hotvolleys 1",
+      "location": "RH Simmering",
+      "dateT": "2026-01-18T15:00:00",
+      "link": "https://www.volleyball-wien.at/index.php?option=com_oevv&view=oevv&Style=Standard&BID=37533",
+      "league": "13m1",
+      "home": "VTR 1",
+      "guest": "hotvolleys 1"
+    },
+    {
+      "title": "13m1: Post 1 vs Döbling 1",
+      "location": "RH Simmering",
+      "dateT": "2026-01-18T15:00:00",
+      "link": "https://www.volleyball-wien.at/index.php?option=com_oevv&view=oevv&Style=Standard&BID=37533",
+      "league": "13m1",
+      "home": "Post 1",
+      "guest": "Döbling 1"
+    },
+    {
+      "title": "13m1: hotvolleys 1 vs Sokol V/1",
+      "location": "RH Simmering",
+      "dateT": "2026-01-18T16:00:00",
+      "link": "https://www.volleyball-wien.at/index.php?option=com_oevv&view=oevv&Style=Standard&BID=37533",
+      "league": "13m1",
+      "home": "hotvolleys 1",
+      "guest": "Sokol V/1"
+    },
+    {
+      "title": "13wQ: volley16/1 vs Real 1",
+      "location": "RH Simmering",
+      "dateT": "2026-01-18T09:00:00",
+      "link": "https://www.volleyball-wien.at/index.php?option=com_oevv&view=oevv&Style=Standard&BID=37537",
+      "league": "13wQ",
+      "home": "volley16/1",
+      "guest": "Real 1"
+    },
+    {
+      "title": "13wQ: Sokol V/1 vs UWW 1",
+      "location": "RH Simmering",
+      "dateT": "2026-01-18T09:00:00",
+      "link": "https://www.volleyball-wien.at/index.php?option=com_oevv&view=oevv&Style=Standard&BID=37537",
+      "league": "13wQ",
+      "home": "Sokol V/1",
+      "guest": "UWW 1"
+    },
+    {
+      "title": "13wQ: hotvolleys 1 vs UAB 1",
+      "location": "RH Simmering",
+      "dateT": "2026-01-18T09:00:00",
+      "link": "https://www.volleyball-wien.at/index.php?option=com_oevv&view=oevv&Style=Standard&BID=37537",
+      "league": "13wQ",
+      "home": "hotvolleys 1",
+      "guest": "UAB 1"
+    },
+    {
+      "title": "13wQ: Real 1 vs hotvolleys 1",
+      "location": "RH Simmering",
+      "dateT": "2026-01-18T10:30:00",
+      "link": "https://www.volleyball-wien.at/index.php?option=com_oevv&view=oevv&Style=Standard&BID=37537",
+      "league": "13wQ",
+      "home": "Real 1",
+      "guest": "hotvolleys 1"
+    },
+    {
+      "title": "13wQ: UWW 1 vs volley16/1",
+      "location": "RH Simmering",
+      "dateT": "2026-01-18T10:30:00",
+      "link": "https://www.volleyball-wien.at/index.php?option=com_oevv&view=oevv&Style=Standard&BID=37537",
+      "league": "13wQ",
+      "home": "UWW 1",
+      "guest": "volley16/1"
+    },
+    {
+      "title": "13wQ: UAB 1 vs Sokol V/1",
+      "location": "RH Simmering",
+      "dateT": "2026-01-18T10:30:00",
+      "link": "https://www.volleyball-wien.at/index.php?option=com_oevv&view=oevv&Style=Standard&BID=37537",
+      "league": "13wQ",
+      "home": "UAB 1",
+      "guest": "Sokol V/1"
+    },
+    {
+      "title": "13wQ: Sokol V/1 vs Real 1",
+      "location": "RH Simmering",
+      "dateT": "2026-01-18T12:00:00",
+      "link": "https://www.volleyball-wien.at/index.php?option=com_oevv&view=oevv&Style=Standard&BID=37537",
+      "league": "13wQ",
+      "home": "Sokol V/1",
+      "guest": "Real 1"
+    },
+    {
+      "title": "13wQ: hotvolleys 1 vs UWW 1",
+      "location": "RH Simmering",
+      "dateT": "2026-01-18T12:00:00",
+      "link": "https://www.volleyball-wien.at/index.php?option=com_oevv&view=oevv&Style=Standard&BID=37537",
+      "league": "13wQ",
+      "home": "hotvolleys 1",
+      "guest": "UWW 1"
+    },
+    {
+      "title": "13wQ: UAB 1 vs volley16/1",
+      "location": "RH Simmering",
+      "dateT": "2026-01-18T12:00:00",
+      "link": "https://www.volleyball-wien.at/index.php?option=com_oevv&view=oevv&Style=Standard&BID=37537",
+      "league": "13wQ",
+      "home": "UAB 1",
+      "guest": "volley16/1"
+    },
+    {
+      "title": "14m1: hotvolleys 1 vs VTR 1",
+      "location": "Sporthalle Brigittenau",
+      "dateT": "2026-01-11T09:30:00",
+      "link": "https://www.volleyball-wien.at/index.php?option=com_oevv&view=oevv&Style=Standard&BID=37532",
+      "league": "14m1",
+      "home": "hotvolleys 1",
+      "guest": "VTR 1"
+    },
+    {
+      "title": "14m1: Sokol V/1 vs Döbling 1",
+      "location": "Sporthalle Brigittenau",
+      "dateT": "2026-01-11T09:30:00",
+      "link": "https://www.volleyball-wien.at/index.php?option=com_oevv&view=oevv&Style=Standard&BID=37532",
+      "league": "14m1",
+      "home": "Sokol V/1",
+      "guest": "Döbling 1"
+    },
+    {
+      "title": "14m1: VTR 1 vs Sokol V/1",
+      "location": "Sporthalle Brigittenau",
+      "dateT": "2026-01-11T11:00:00",
+      "link": "https://www.volleyball-wien.at/index.php?option=com_oevv&view=oevv&Style=Standard&BID=37532",
+      "league": "14m1",
+      "home": "VTR 1",
+      "guest": "Sokol V/1"
+    },
+    {
+      "title": "14m1: Döbling 1 vs hotvolleys 1",
+      "location": "Sporthalle Brigittenau",
+      "dateT": "2026-01-11T11:00:00",
+      "link": "https://www.volleyball-wien.at/index.php?option=com_oevv&view=oevv&Style=Standard&BID=37532",
+      "league": "14m1",
+      "home": "Döbling 1",
+      "guest": "hotvolleys 1"
+    },
+    {
+      "title": "14wQ: Sokol V/1 vs UAB 1",
+      "location": "Sporthalle Brigittenau",
+      "dateT": "2026-01-17T09:00:00",
+      "link": "https://www.volleyball-wien.at/index.php?option=com_oevv&view=oevv&Style=Standard&BID=37534",
+      "league": "14wQ",
+      "home": "Sokol V/1",
+      "guest": "UAB 1"
+    },
+    {
+      "title": "14wQ: Döbling 1 vs Real 1",
+      "location": "Sporthalle Brigittenau",
+      "dateT": "2026-01-17T09:00:00",
+      "link": "https://www.volleyball-wien.at/index.php?option=com_oevv&view=oevv&Style=Standard&BID=37534",
+      "league": "14wQ",
+      "home": "Döbling 1",
+      "guest": "Real 1"
+    },
+    {
+      "title": "14wQ: Phönix 1 vs volley16/1",
+      "location": "Sporthalle Brigittenau",
+      "dateT": "2026-01-17T09:00:00",
+      "link": "https://www.volleyball-wien.at/index.php?option=com_oevv&view=oevv&Style=Standard&BID=37534",
+      "league": "14wQ",
+      "home": "Phönix 1",
+      "guest": "volley16/1"
+    },
+    {
+      "title": "14wQ: UWW 1 vs hotvolleys 1",
+      "location": "Sporthalle Brigittenau",
+      "dateT": "2026-01-17T09:00:00",
+      "link": "https://www.volleyball-wien.at/index.php?option=com_oevv&view=oevv&Style=Standard&BID=37534",
+      "league": "14wQ",
+      "home": "UWW 1",
+      "guest": "hotvolleys 1"
+    },
+    {
+      "title": "14wQ: UAB 1 vs Döbling 1",
+      "location": "Sporthalle Brigittenau",
+      "dateT": "2026-01-17T10:30:00",
+      "link": "https://www.volleyball-wien.at/index.php?option=com_oevv&view=oevv&Style=Standard&BID=37534",
+      "league": "14wQ",
+      "home": "UAB 1",
+      "guest": "Döbling 1"
+    },
+    {
+      "title": "14wQ: volley16/1 vs Sokol V/1",
+      "location": "Sporthalle Brigittenau",
+      "dateT": "2026-01-17T10:30:00",
+      "link": "https://www.volleyball-wien.at/index.php?option=com_oevv&view=oevv&Style=Standard&BID=37534",
+      "league": "14wQ",
+      "home": "volley16/1",
+      "guest": "Sokol V/1"
+    },
+    {
+      "title": "14wQ: Real 1 vs hotvolleys 1",
+      "location": "Sporthalle Brigittenau",
+      "dateT": "2026-01-17T10:30:00",
+      "link": "https://www.volleyball-wien.at/index.php?option=com_oevv&view=oevv&Style=Standard&BID=37534",
+      "league": "14wQ",
+      "home": "Real 1",
+      "guest": "hotvolleys 1"
+    },
+    {
+      "title": "14wQ: Phönix 1 vs UWW 1",
+      "location": "Sporthalle Brigittenau",
+      "dateT": "2026-01-17T10:30:00",
+      "link": "https://www.volleyball-wien.at/index.php?option=com_oevv&view=oevv&Style=Standard&BID=37534",
+      "league": "14wQ",
+      "home": "Phönix 1",
+      "guest": "UWW 1"
+    },
+    {
+      "title": "14wQ: Sokol V/1 vs Döbling 1",
+      "location": "Sporthalle Brigittenau",
+      "dateT": "2026-01-17T12:00:00",
+      "link": "https://www.volleyball-wien.at/index.php?option=com_oevv&view=oevv&Style=Standard&BID=37534",
+      "league": "14wQ",
+      "home": "Sokol V/1",
+      "guest": "Döbling 1"
+    },
+    {
+      "title": "14wQ: UAB 1 vs Real 1",
+      "location": "Sporthalle Brigittenau",
+      "dateT": "2026-01-17T12:00:00",
+      "link": "https://www.volleyball-wien.at/index.php?option=com_oevv&view=oevv&Style=Standard&BID=37534",
+      "league": "14wQ",
+      "home": "UAB 1",
+      "guest": "Real 1"
+    },
+    {
+      "title": "14wQ: hotvolleys 1 vs Phönix 1",
+      "location": "Sporthalle Brigittenau",
+      "dateT": "2026-01-17T12:00:00",
+      "link": "https://www.volleyball-wien.at/index.php?option=com_oevv&view=oevv&Style=Standard&BID=37534",
+      "league": "14wQ",
+      "home": "hotvolleys 1",
+      "guest": "Phönix 1"
+    },
+    {
+      "title": "14wQ: volley16/1 vs UWW 1",
+      "location": "Sporthalle Brigittenau",
+      "dateT": "2026-01-17T12:00:00",
+      "link": "https://www.volleyball-wien.at/index.php?option=com_oevv&view=oevv&Style=Standard&BID=37534",
+      "league": "14wQ",
+      "home": "volley16/1",
+      "guest": "UWW 1"
+    },
+    {
+      "title": "15m1: VTR 1 vs hotvolleys 1",
+      "location": "Sporthalle Brigittenau",
+      "dateT": "2025-12-14T09:00:00",
+      "link": "https://www.volleyball-wien.at/index.php?option=com_oevv&view=oevv&Style=Standard&BID=37383",
+      "league": "15m1",
+      "home": "VTR 1",
+      "guest": "hotvolleys 1"
+    },
+    {
+      "title": "15m1: Döbling 1 vs Sokol V/1",
+      "location": "Sporthalle Brigittenau",
+      "dateT": "2025-12-20T12:30:00",
+      "link": "https://www.volleyball-wien.at/index.php?option=com_oevv&view=oevv&Style=Standard&BID=37383",
+      "league": "15m1",
+      "home": "Döbling 1",
+      "guest": "Sokol V/1"
+    },
+    {
+      "title": "15m1: VTR 1 vs Döbling 1",
+      "location": "RH Simmering",
+      "dateT": "2026-01-10T09:30:00",
+      "link": "https://www.volleyball-wien.at/index.php?option=com_oevv&view=oevv&Style=Standard&BID=37383",
+      "league": "15m1",
+      "home": "VTR 1",
+      "guest": "Döbling 1"
+    },
+    {
+      "title": "15m1: hotvolleys 1 vs Sokol V/1",
+      "location": "RH Simmering",
+      "dateT": "2026-01-10T09:30:00",
+      "link": "https://www.volleyball-wien.at/index.php?option=com_oevv&view=oevv&Style=Standard&BID=37383",
+      "league": "15m1",
+      "home": "hotvolleys 1",
+      "guest": "Sokol V/1"
+    },
+    {
+      "title": "15w1: Phönix 1 vs Sokol V/1",
+      "location": "Sporthalle Brigittenau",
+      "dateT": "2026-01-10T15:00:00",
+      "link": "https://www.volleyball-wien.at/index.php?option=com_oevv&view=oevv&Style=Standard&BID=37397",
+      "league": "15w1",
+      "home": "Phönix 1",
+      "guest": "Sokol V/1"
+    },
+    {
+      "title": "15w1: Fem-force 1 vs hotvolleys 1",
+      "location": "Sporthalle Brigittenau",
+      "dateT": "2026-01-11T09:30:00",
+      "link": "https://www.volleyball-wien.at/index.php?option=com_oevv&view=oevv&Style=Standard&BID=37397",
+      "league": "15w1",
+      "home": "Fem-force 1",
+      "guest": "hotvolleys 1"
+    },
+    {
+      "title": "15w1: UWW 1 vs volley16/1",
+      "location": "Sporthalle Fünfhaus",
+      "dateT": "2026-01-11T13:00:00",
+      "link": "https://www.volleyball-wien.at/index.php?option=com_oevv&view=oevv&Style=Standard&BID=37397",
+      "league": "15w1",
+      "home": "UWW 1",
+      "guest": "volley16/1"
+    },
+    {
+      "title": "15w1: Real 1 vs Tigers 1",
+      "location": "Sporthalle Fünfhaus",
+      "dateT": "2026-01-11T13:00:00",
+      "link": "https://www.volleyball-wien.at/index.php?option=com_oevv&view=oevv&Style=Standard&BID=37397",
+      "league": "15w1",
+      "home": "Real 1",
+      "guest": "Tigers 1"
+    },
+    {
+      "title": "16mpl: Döbling 1 vs VTR 1",
+      "location": "RH Simmering",
+      "dateT": "2026-01-17T09:30:00",
+      "link": "https://www.volleyball-wien.at/index.php?option=com_oevv&view=oevv&Style=Standard&BID=37381",
+      "league": "16mpl",
+      "home": "Döbling 1",
+      "guest": "VTR 1"
+    },
+    {
+      "title": "16mpl: Sokol V/1 vs VTR 1",
+      "location": "RH Simmering",
+      "dateT": "2026-01-17T11:00:00",
+      "link": "https://www.volleyball-wien.at/index.php?option=com_oevv&view=oevv&Style=Standard&BID=37381",
+      "league": "16mpl",
+      "home": "Sokol V/1",
+      "guest": "VTR 1"
+    },
+    {
+      "title": "16mpl: Tigers 1 vs Döbling 1",
+      "location": "RH Simmering",
+      "dateT": "2026-01-17T12:30:00",
+      "link": "https://www.volleyball-wien.at/index.php?option=com_oevv&view=oevv&Style=Standard&BID=37381",
+      "league": "16mpl",
+      "home": "Tigers 1",
+      "guest": "Döbling 1"
+    },
+    {
+      "title": "16mpl: Sokol V/1 vs hotvolleys 1",
+      "location": "RH Simmering",
+      "dateT": "2026-01-17T14:00:00",
+      "link": "https://www.volleyball-wien.at/index.php?option=com_oevv&view=oevv&Style=Standard&BID=37381",
+      "league": "16mpl",
+      "home": "Sokol V/1",
+      "guest": "hotvolleys 1"
+    },
+    {
+      "title": "16mpl: hotvolleys 1 vs Tigers 1",
+      "location": "RH Simmering",
+      "dateT": "2026-01-17T15:30:00",
+      "link": "https://www.volleyball-wien.at/index.php?option=com_oevv&view=oevv&Style=Standard&BID=37381",
+      "league": "16mpl",
+      "home": "hotvolleys 1",
+      "guest": "Tigers 1"
+    },
+    {
+      "title": "16mpl: Tigers 1 vs Sokol V/1",
+      "location": "Sporthalle Brigittenau",
+      "dateT": "2026-01-31T09:00:00",
+      "link": "https://www.volleyball-wien.at/index.php?option=com_oevv&view=oevv&Style=Standard&BID=37381",
+      "league": "16mpl",
+      "home": "Tigers 1",
+      "guest": "Sokol V/1"
+    },
+    {
+      "title": "16mpl: VTR 1 vs hotvolleys 1",
+      "location": "Sporthalle Brigittenau",
+      "dateT": "2026-01-31T10:30:00",
+      "link": "https://www.volleyball-wien.at/index.php?option=com_oevv&view=oevv&Style=Standard&BID=37381",
+      "league": "16mpl",
+      "home": "VTR 1",
+      "guest": "hotvolleys 1"
+    },
+    {
+      "title": "16mpl: hotvolleys 1 vs Döbling 1",
+      "location": "Sporthalle Brigittenau",
+      "dateT": "2026-01-31T12:00:00",
+      "link": "https://www.volleyball-wien.at/index.php?option=com_oevv&view=oevv&Style=Standard&BID=37381",
+      "league": "16mpl",
+      "home": "hotvolleys 1",
+      "guest": "Döbling 1"
+    },
+    {
+      "title": "16wA: Real 1 vs Döbling 1",
+      "location": "Sporthalle Brigittenau",
+      "dateT": "2025-12-13T12:00:00",
+      "link": "https://www.volleyball-wien.at/index.php?option=com_oevv&view=oevv&Style=Standard&BID=37389",
+      "league": "16wA",
+      "home": "Real 1",
+      "guest": "Döbling 1"
+    },
+    {
+      "title": "16wA: Phönix 2 vs Fem-force 1",
+      "location": "Sporthalle Brigittenau",
+      "dateT": "2026-01-10T09:00:00",
+      "link": "https://www.volleyball-wien.at/index.php?option=com_oevv&view=oevv&Style=Standard&BID=37389",
+      "league": "16wA",
+      "home": "Phönix 2",
+      "guest": "Fem-force 1"
+    },
+    {
+      "title": "16wA: VTR 1 vs Döbling 1",
+      "location": "Sporthalle Brigittenau",
+      "dateT": "2026-01-10T09:00:00",
+      "link": "https://www.volleyball-wien.at/index.php?option=com_oevv&view=oevv&Style=Standard&BID=37389",
+      "league": "16wA",
+      "home": "VTR 1",
+      "guest": "Döbling 1"
+    },
+    {
+      "title": "16wA: Sokol V/1 vs UAB 1",
+      "location": "Sporthalle Brigittenau",
+      "dateT": "2026-01-10T09:00:00",
+      "link": "https://www.volleyball-wien.at/index.php?option=com_oevv&view=oevv&Style=Standard&BID=37389",
+      "league": "16wA",
+      "home": "Sokol V/1",
+      "guest": "UAB 1"
+    },
+    {
+      "title": "16wA: UAB 1 vs Phönix 2",
+      "location": "Sporthalle Brigittenau",
+      "dateT": "2026-01-10T11:00:00",
+      "link": "https://www.volleyball-wien.at/index.php?option=com_oevv&view=oevv&Style=Standard&BID=37389",
+      "league": "16wA",
+      "home": "UAB 1",
+      "guest": "Phönix 2"
+    },
+    {
+      "title": "16wA: volley16/2 vs Real 1",
+      "location": "Sporthalle Brigittenau",
+      "dateT": "2026-01-10T11:00:00",
+      "link": "https://www.volleyball-wien.at/index.php?option=com_oevv&view=oevv&Style=Standard&BID=37389",
+      "league": "16wA",
+      "home": "volley16/2",
+      "guest": "Real 1"
+    },
+    {
+      "title": "16wA: hotvolleys 1 vs Sokol V/1",
+      "location": "Sporthalle Brigittenau",
+      "dateT": "2026-01-10T11:00:00",
+      "link": "https://www.volleyball-wien.at/index.php?option=com_oevv&view=oevv&Style=Standard&BID=37389",
+      "league": "16wA",
+      "home": "hotvolleys 1",
+      "guest": "Sokol V/1"
+    },
+    {
+      "title": "16wA: Fem-force 1 vs volley16/2",
+      "location": "Sporthalle Brigittenau",
+      "dateT": "2026-01-10T13:00:00",
+      "link": "https://www.volleyball-wien.at/index.php?option=com_oevv&view=oevv&Style=Standard&BID=37389",
+      "league": "16wA",
+      "home": "Fem-force 1",
+      "guest": "volley16/2"
+    },
+    {
+      "title": "16wA: Real 1 vs VTR 1",
+      "location": "Sporthalle Brigittenau",
+      "dateT": "2026-01-10T13:00:00",
+      "link": "https://www.volleyball-wien.at/index.php?option=com_oevv&view=oevv&Style=Standard&BID=37389",
+      "league": "16wA",
+      "home": "Real 1",
+      "guest": "VTR 1"
+    },
+    {
+      "title": "16wA: Döbling 1 vs hotvolleys 1",
+      "location": "Sporthalle Brigittenau",
+      "dateT": "2026-01-10T13:00:00",
+      "link": "https://www.volleyball-wien.at/index.php?option=com_oevv&view=oevv&Style=Standard&BID=37389",
+      "league": "16wA",
+      "home": "Döbling 1",
+      "guest": "hotvolleys 1"
+    },
+    {
+      "title": "16wB: Real 2 vs Tigers 1",
+      "location": "Sporthalle Fünfhaus",
+      "dateT": "2026-01-11T09:00:00",
+      "link": "https://www.volleyball-wien.at/index.php?option=com_oevv&view=oevv&Style=Standard&BID=37390",
+      "league": "16wB",
+      "home": "Real 2",
+      "guest": "Tigers 1"
+    },
+    {
+      "title": "16wB: UWW 1 vs Phönix 1",
+      "location": "Sporthalle Fünfhaus",
+      "dateT": "2026-01-11T09:00:00",
+      "link": "https://www.volleyball-wien.at/index.php?option=com_oevv&view=oevv&Style=Standard&BID=37390",
+      "league": "16wB",
+      "home": "UWW 1",
+      "guest": "Phönix 1"
+    },
+    {
+      "title": "16wB: Post 1 vs volley16/1",
+      "location": "Sporthalle Fünfhaus",
+      "dateT": "2026-01-11T09:00:00",
+      "link": "https://www.volleyball-wien.at/index.php?option=com_oevv&view=oevv&Style=Standard&BID=37390",
+      "league": "16wB",
+      "home": "Post 1",
+      "guest": "volley16/1"
+    },
+    {
+      "title": "16wB: volley16/1 vs Real 2",
+      "location": "Sporthalle Fünfhaus",
+      "dateT": "2026-01-11T11:00:00",
+      "link": "https://www.volleyball-wien.at/index.php?option=com_oevv&view=oevv&Style=Standard&BID=37390",
+      "league": "16wB",
+      "home": "volley16/1",
+      "guest": "Real 2"
+    },
+    {
+      "title": "16wB: Tigers 1 vs UWW 1",
+      "location": "Sporthalle Fünfhaus",
+      "dateT": "2026-01-11T11:00:00",
+      "link": "https://www.volleyball-wien.at/index.php?option=com_oevv&view=oevv&Style=Standard&BID=37390",
+      "league": "16wB",
+      "home": "Tigers 1",
+      "guest": "UWW 1"
+    },
+    {
+      "title": "16wB: Phönix 1 vs Simmering 1",
+      "location": "Sporthalle Fünfhaus",
+      "dateT": "2026-01-11T11:00:00",
+      "link": "https://www.volleyball-wien.at/index.php?option=com_oevv&view=oevv&Style=Standard&BID=37390",
+      "league": "16wB",
+      "home": "Phönix 1",
+      "guest": "Simmering 1"
+    },
+    {
+      "title": "16wB: Favoriten 1 vs Post 1",
+      "location": "Sporthalle Fünfhaus",
+      "dateT": "2026-01-11T13:00:00",
+      "link": "https://www.volleyball-wien.at/index.php?option=com_oevv&view=oevv&Style=Standard&BID=37390",
+      "league": "16wB",
+      "home": "Favoriten 1",
+      "guest": "Post 1"
+    },
+    {
+      "title": "16wB: Simmering 1 vs Favoriten 1",
+      "location": "Sporthalle Fünfhaus",
+      "dateT": "2026-01-11T15:00:00",
+      "link": "https://www.volleyball-wien.at/index.php?option=com_oevv&view=oevv&Style=Standard&BID=37390",
+      "league": "16wB",
+      "home": "Simmering 1",
+      "guest": "Favoriten 1"
+    },
+    {
+      "title": "18mA: VTR 2 vs Döbling 1",
+      "location": "Sporthalle Brigittenau",
+      "dateT": "2025-12-20T09:00:00",
+      "link": "https://www.volleyball-wien.at/index.php?option=com_oevv&view=oevv&Style=Standard&BID=37377",
+      "league": "18mA",
+      "home": "VTR 2",
+      "guest": "Döbling 1"
+    },
+    {
+      "title": "18mA: Simmering 1 vs Real 1",
+      "location": "Sporthalle Brigittenau",
+      "dateT": "2025-12-20T09:00:00",
+      "link": "https://www.volleyball-wien.at/index.php?option=com_oevv&view=oevv&Style=Standard&BID=37377",
+      "league": "18mA",
+      "home": "Simmering 1",
+      "guest": "Real 1"
+    },
+    {
+      "title": "18mB: Sokol V/1 vs VTR 1",
+      "location": "RH Simmering",
+      "dateT": "2025-12-13T10:30:00",
+      "link": "https://www.volleyball-wien.at/index.php?option=com_oevv&view=oevv&Style=Standard&BID=37378",
+      "league": "18mB",
+      "home": "Sokol V/1",
+      "guest": "VTR 1"
+    },
+    {
+      "title": "18mB: Tigers 1 vs Döbling 2",
+      "location": "RH Simmering",
+      "dateT": "2025-12-13T12:30:00",
+      "link": "https://www.volleyball-wien.at/index.php?option=com_oevv&view=oevv&Style=Standard&BID=37378",
+      "league": "18mB",
+      "home": "Tigers 1",
+      "guest": "Döbling 2"
+    },
+    {
+      "title": "18mB: Döbling 2 vs Sokol V/1",
+      "location": "Sporthalle Brigittenau",
+      "dateT": "2025-12-20T10:30:00",
+      "link": "https://www.volleyball-wien.at/index.php?option=com_oevv&view=oevv&Style=Standard&BID=37378",
+      "league": "18mB",
+      "home": "Döbling 2",
+      "guest": "Sokol V/1"
+    },
+    {
+      "title": "18mB: VTR 1 vs hotvolleys 2",
+      "location": "Sporthalle Brigittenau",
+      "dateT": "2025-12-20T10:30:00",
+      "link": "https://www.volleyball-wien.at/index.php?option=com_oevv&view=oevv&Style=Standard&BID=37378",
+      "league": "18mB",
+      "home": "VTR 1",
+      "guest": "hotvolleys 2"
+    },
+    {
+      "title": "18wX: hotvolleys 1 vs UAB 1",
+      "location": "RH Simmering",
+      "dateT": "2025-12-13T12:30:00",
+      "link": "https://www.volleyball-wien.at/index.php?option=com_oevv&view=oevv&Style=Standard&BID=37394",
+      "league": "18wX",
+      "home": "hotvolleys 1",
+      "guest": "UAB 1"
+    },
+    {
+      "title": "18wX: Fem-force 1 vs volley16/2",
+      "location": "RH Simmering",
+      "dateT": "2025-12-14T15:00:00",
+      "link": "https://www.volleyball-wien.at/index.php?option=com_oevv&view=oevv&Style=Standard&BID=37394",
+      "league": "18wX",
+      "home": "Fem-force 1",
+      "guest": "volley16/2"
+    },
+    {
+      "title": "18wX: Sokol V/1 vs hotvolleys 1",
+      "location": "RH Simmering",
+      "dateT": "2025-12-14T17:00:00",
+      "link": "https://www.volleyball-wien.at/index.php?option=com_oevv&view=oevv&Style=Standard&BID=37394",
+      "league": "18wX",
+      "home": "Sokol V/1",
+      "guest": "hotvolleys 1"
+    },
+    {
+      "title": "18wX: volley16/2 vs volley16/1",
+      "location": "RH Simmering",
+      "dateT": "2025-12-14T17:00:00",
+      "link": "https://www.volleyball-wien.at/index.php?option=com_oevv&view=oevv&Style=Standard&BID=37394",
+      "league": "18wX",
+      "home": "volley16/2",
+      "guest": "volley16/1"
+    },
+    {
+      "title": "18wX: hotvolleys 1 vs Fem-force 1",
+      "location": "RH Simmering",
+      "dateT": "2026-01-24T09:00:00",
+      "link": "https://www.volleyball-wien.at/index.php?option=com_oevv&view=oevv&Style=Standard&BID=37394",
+      "league": "18wX",
+      "home": "hotvolleys 1",
+      "guest": "Fem-force 1"
+    },
+    {
+      "title": "18wX: Sokol V/1 vs volley16/2",
+      "location": "RH Simmering",
+      "dateT": "2026-01-24T09:00:00",
+      "link": "https://www.volleyball-wien.at/index.php?option=com_oevv&view=oevv&Style=Standard&BID=37394",
+      "league": "18wX",
+      "home": "Sokol V/1",
+      "guest": "volley16/2"
+    },
+    {
+      "title": "18wX: volley16/1 vs hotvolleys 1",
+      "location": "RH Simmering",
+      "dateT": "2026-01-24T10:30:00",
+      "link": "https://www.volleyball-wien.at/index.php?option=com_oevv&view=oevv&Style=Standard&BID=37394",
+      "league": "18wX",
+      "home": "volley16/1",
+      "guest": "hotvolleys 1"
+    },
+    {
+      "title": "18wX: UAB 1 vs Sokol V/1",
+      "location": "RH Simmering",
+      "dateT": "2026-01-24T10:30:00",
+      "link": "https://www.volleyball-wien.at/index.php?option=com_oevv&view=oevv&Style=Standard&BID=37394",
+      "league": "18wX",
+      "home": "UAB 1",
+      "guest": "Sokol V/1"
+    },
+    {
+      "title": "18wX: Fem-force 1 vs volley16/1",
+      "location": "RH Simmering",
+      "dateT": "2026-01-24T12:00:00",
+      "link": "https://www.volleyball-wien.at/index.php?option=com_oevv&view=oevv&Style=Standard&BID=37394",
+      "league": "18wX",
+      "home": "Fem-force 1",
+      "guest": "volley16/1"
+    },
+    {
+      "title": "18wX: volley16/2 vs UAB 1",
+      "location": "RH Simmering",
+      "dateT": "2026-01-24T12:00:00",
+      "link": "https://www.volleyball-wien.at/index.php?option=com_oevv&view=oevv&Style=Standard&BID=37394",
+      "league": "18wX",
+      "home": "volley16/2",
+      "guest": "UAB 1"
+    },
+    {
+      "title": "18wY: VTR 1 vs Real 1",
+      "location": "Sporthalle Brigittenau",
+      "dateT": "2025-12-14T11:00:00",
+      "link": "https://www.volleyball-wien.at/index.php?option=com_oevv&view=oevv&Style=Standard&BID=37395",
+      "league": "18wY",
+      "home": "VTR 1",
+      "guest": "Real 1"
+    },
+    {
+      "title": "18wY: Simmering 1 vs UWW 1",
+      "location": "Sporthalle Brigittenau",
+      "dateT": "2025-12-14T11:00:00",
+      "link": "https://www.volleyball-wien.at/index.php?option=com_oevv&view=oevv&Style=Standard&BID=37395",
+      "league": "18wY",
+      "home": "Simmering 1",
+      "guest": "UWW 1"
+    },
+    {
+      "title": "18wY: Real 1 vs Favoriten 1",
+      "location": "Sporthalle Brigittenau",
+      "dateT": "2025-12-14T12:15:00",
+      "link": "https://www.volleyball-wien.at/index.php?option=com_oevv&view=oevv&Style=Standard&BID=37395",
+      "league": "18wY",
+      "home": "Real 1",
+      "guest": "Favoriten 1"
+    },
+    {
+      "title": "18wY: UWW 1 vs Phönix 2",
+      "location": "Sporthalle Brigittenau",
+      "dateT": "2025-12-14T12:15:00",
+      "link": "https://www.volleyball-wien.at/index.php?option=com_oevv&view=oevv&Style=Standard&BID=37395",
+      "league": "18wY",
+      "home": "UWW 1",
+      "guest": "Phönix 2"
+    },
+    {
+      "title": "18wY: Favoriten 1 vs VTR 1",
+      "location": "Sporthalle Brigittenau",
+      "dateT": "2025-12-14T13:30:00",
+      "link": "https://www.volleyball-wien.at/index.php?option=com_oevv&view=oevv&Style=Standard&BID=37395",
+      "league": "18wY",
+      "home": "Favoriten 1",
+      "guest": "VTR 1"
+    },
+    {
+      "title": "18wY: Phönix 2 vs Simmering 1",
+      "location": "Sporthalle Brigittenau",
+      "dateT": "2025-12-14T13:30:00",
+      "link": "https://www.volleyball-wien.at/index.php?option=com_oevv&view=oevv&Style=Standard&BID=37395",
+      "league": "18wY",
+      "home": "Phönix 2",
+      "guest": "Simmering 1"
+    },
+    {
+      "title": "18wY: Phönix 2 vs VTR 1",
+      "location": "Sporthalle Brigittenau",
+      "dateT": "2026-01-17T14:00:00",
+      "link": "https://www.volleyball-wien.at/index.php?option=com_oevv&view=oevv&Style=Standard&BID=37395",
+      "league": "18wY",
+      "home": "Phönix 2",
+      "guest": "VTR 1"
+    },
+    {
+      "title": "18wY: Real 1 vs UWW 1",
+      "location": "Sporthalle Brigittenau",
+      "dateT": "2026-01-17T14:00:00",
+      "link": "https://www.volleyball-wien.at/index.php?option=com_oevv&view=oevv&Style=Standard&BID=37395",
+      "league": "18wY",
+      "home": "Real 1",
+      "guest": "UWW 1"
+    },
+    {
+      "title": "18wY: VTR 1 vs Simmering 1",
+      "location": "Sporthalle Brigittenau",
+      "dateT": "2026-01-17T15:30:00",
+      "link": "https://www.volleyball-wien.at/index.php?option=com_oevv&view=oevv&Style=Standard&BID=37395",
+      "league": "18wY",
+      "home": "VTR 1",
+      "guest": "Simmering 1"
+    },
+    {
+      "title": "18wY: UWW 1 vs Favoriten 1",
+      "location": "Sporthalle Brigittenau",
+      "dateT": "2026-01-17T15:30:00",
+      "link": "https://www.volleyball-wien.at/index.php?option=com_oevv&view=oevv&Style=Standard&BID=37395",
+      "league": "18wY",
+      "home": "UWW 1",
+      "guest": "Favoriten 1"
+    },
+    {
+      "title": "18wY: Simmering 1 vs Real 1",
+      "location": "Sporthalle Brigittenau",
+      "dateT": "2026-01-17T17:00:00",
+      "link": "https://www.volleyball-wien.at/index.php?option=com_oevv&view=oevv&Style=Standard&BID=37395",
+      "league": "18wY",
+      "home": "Simmering 1",
+      "guest": "Real 1"
+    },
+    {
+      "title": "18wY: Favoriten 1 vs Phönix 2",
+      "location": "Sporthalle Brigittenau",
+      "dateT": "2026-01-17T17:00:00",
+      "link": "https://www.volleyball-wien.at/index.php?option=com_oevv&view=oevv&Style=Standard&BID=37395",
+      "league": "18wY",
+      "home": "Favoriten 1",
+      "guest": "Phönix 2"
+    },
+    {
+      "title": "18wZ: volley16/3 vs Phönix 1",
+      "location": "Sporthalle Brigittenau",
+      "dateT": "2025-12-20T12:30:00",
+      "link": "https://www.volleyball-wien.at/index.php?option=com_oevv&view=oevv&Style=Standard&BID=37396",
+      "league": "18wZ",
+      "home": "volley16/3",
+      "guest": "Phönix 1"
+    },
+    {
+      "title": "18wZ: Döbling 1 vs Fem-force 2",
+      "location": "Sporthalle Brigittenau",
+      "dateT": "2025-12-20T12:30:00",
+      "link": "https://www.volleyball-wien.at/index.php?option=com_oevv&view=oevv&Style=Standard&BID=37396",
+      "league": "18wZ",
+      "home": "Döbling 1",
+      "guest": "Fem-force 2"
+    },
+    {
+      "title": "18wZ: Fem-force 3 vs UWW 2",
+      "location": "Sporthalle Brigittenau",
+      "dateT": "2025-12-21T09:00:00",
+      "link": "https://www.volleyball-wien.at/index.php?option=com_oevv&view=oevv&Style=Standard&BID=37396",
+      "league": "18wZ",
+      "home": "Fem-force 3",
+      "guest": "UWW 2"
+    },
+    {
+      "title": "18wZ: Fem-force 3 vs Döbling 1",
+      "location": "Sporthalle Brigittenau",
+      "dateT": "2026-01-18T14:30:00",
+      "link": "https://www.volleyball-wien.at/index.php?option=com_oevv&view=oevv&Style=Standard&BID=37396",
+      "league": "18wZ",
+      "home": "Fem-force 3",
+      "guest": "Döbling 1"
+    },
+    {
+      "title": "18wZ: VTR 2 vs Phönix 1",
+      "location": "Sporthalle Brigittenau",
+      "dateT": "2026-01-18T14:30:00",
+      "link": "https://www.volleyball-wien.at/index.php?option=com_oevv&view=oevv&Style=Standard&BID=37396",
+      "league": "18wZ",
+      "home": "VTR 2",
+      "guest": "Phönix 1"
+    },
+    {
+      "title": "18wZ: Phönix 3 vs volley16/3",
+      "location": "Sporthalle Brigittenau",
+      "dateT": "2026-01-18T16:00:00",
+      "link": "https://www.volleyball-wien.at/index.php?option=com_oevv&view=oevv&Style=Standard&BID=37396",
+      "league": "18wZ",
+      "home": "Phönix 3",
+      "guest": "volley16/3"
+    },
+    {
+      "title": "18wZ: Tigers 1 vs UWW 2",
+      "location": "Sporthalle Brigittenau",
+      "dateT": "2026-01-18T16:00:00",
+      "link": "https://www.volleyball-wien.at/index.php?option=com_oevv&view=oevv&Style=Standard&BID=37396",
+      "league": "18wZ",
+      "home": "Tigers 1",
+      "guest": "UWW 2"
+    },
+    {
+      "title": "18wZ: Phönix 1 vs Fem-force 2",
+      "location": "Sporthalle Brigittenau",
+      "dateT": "2026-01-18T17:30:00",
+      "link": "https://www.volleyball-wien.at/index.php?option=com_oevv&view=oevv&Style=Standard&BID=37396",
+      "league": "18wZ",
+      "home": "Phönix 1",
+      "guest": "Fem-force 2"
+    },
+    {
+      "title": "18wZ: Fem-force 2 vs Tigers 1",
+      "location": "Sporthalle Fünfhaus",
+      "dateT": "2026-01-25T09:00:00",
+      "link": "https://www.volleyball-wien.at/index.php?option=com_oevv&view=oevv&Style=Standard&BID=37396",
+      "league": "18wZ",
+      "home": "Fem-force 2",
+      "guest": "Tigers 1"
+    },
+    {
+      "title": "18wZ: Döbling 1 vs Phönix 1",
+      "location": "Sporthalle Fünfhaus",
+      "dateT": "2026-01-25T09:00:00",
+      "link": "https://www.volleyball-wien.at/index.php?option=com_oevv&view=oevv&Style=Standard&BID=37396",
+      "league": "18wZ",
+      "home": "Döbling 1",
+      "guest": "Phönix 1"
+    },
+    {
+      "title": "18wZ: Phönix 3 vs VTR 2",
+      "location": "Sporthalle Fünfhaus",
+      "dateT": "2026-01-25T09:00:00",
+      "link": "https://www.volleyball-wien.at/index.php?option=com_oevv&view=oevv&Style=Standard&BID=37396",
+      "league": "18wZ",
+      "home": "Phönix 3",
+      "guest": "VTR 2"
+    },
+    {
+      "title": "18wZ: Fem-force 2 vs volley16/3",
+      "location": "Sporthalle Fünfhaus",
+      "dateT": "2026-01-25T10:30:00",
+      "link": "https://www.volleyball-wien.at/index.php?option=com_oevv&view=oevv&Style=Standard&BID=37396",
+      "league": "18wZ",
+      "home": "Fem-force 2",
+      "guest": "volley16/3"
+    },
+    {
+      "title": "18wZ: Phönix 1 vs UWW 2",
+      "location": "Sporthalle Fünfhaus",
+      "dateT": "2026-01-25T10:30:00",
+      "link": "https://www.volleyball-wien.at/index.php?option=com_oevv&view=oevv&Style=Standard&BID=37396",
+      "league": "18wZ",
+      "home": "Phönix 1",
+      "guest": "UWW 2"
+    },
+    {
+      "title": "18wZ: VTR 2 vs Fem-force 3",
+      "location": "Sporthalle Fünfhaus",
+      "dateT": "2026-01-25T10:30:00",
+      "link": "https://www.volleyball-wien.at/index.php?option=com_oevv&view=oevv&Style=Standard&BID=37396",
+      "league": "18wZ",
+      "home": "VTR 2",
+      "guest": "Fem-force 3"
+    },
+    {
+      "title": "18wZ: volley16/3 vs Tigers 1",
+      "location": "Sporthalle Fünfhaus",
+      "dateT": "2026-01-25T12:00:00",
+      "link": "https://www.volleyball-wien.at/index.php?option=com_oevv&view=oevv&Style=Standard&BID=37396",
+      "league": "18wZ",
+      "home": "volley16/3",
+      "guest": "Tigers 1"
+    },
+    {
+      "title": "18wZ: UWW 2 vs Döbling 1",
+      "location": "Sporthalle Fünfhaus",
+      "dateT": "2026-01-25T12:00:00",
+      "link": "https://www.volleyball-wien.at/index.php?option=com_oevv&view=oevv&Style=Standard&BID=37396",
+      "league": "18wZ",
+      "home": "UWW 2",
+      "guest": "Döbling 1"
+    },
+    {
+      "title": "18wZ: Fem-force 3 vs Phönix 3",
+      "location": "Sporthalle Fünfhaus",
+      "dateT": "2026-01-25T12:00:00",
+      "link": "https://www.volleyball-wien.at/index.php?option=com_oevv&view=oevv&Style=Standard&BID=37396",
+      "league": "18wZ",
+      "home": "Fem-force 3",
+      "guest": "Phönix 3"
+    },
+    {
+      "title": "20m1: Döbling 1 vs hotvolleys 1",
+      "location": "Sporthalle Brigittenau",
+      "dateT": "2025-12-14T09:00:00",
+      "link": "https://www.volleyball-wien.at/index.php?option=com_oevv&view=oevv&Style=Standard&BID=37374",
+      "league": "20m1",
+      "home": "Döbling 1",
+      "guest": "hotvolleys 1"
+    },
+    {
+      "title": "20m1: Sokol V/1 vs VTR 1",
+      "location": "Sporthalle Brigittenau",
+      "dateT": "2025-12-14T09:00:00",
+      "link": "https://www.volleyball-wien.at/index.php?option=com_oevv&view=oevv&Style=Standard&BID=37374",
+      "league": "20m1",
+      "home": "Sokol V/1",
+      "guest": "VTR 1"
+    },
+    {
+      "title": "20m2: hotvolleys 2 vs Döbling 2",
+      "location": "Sporthalle Brigittenau",
+      "dateT": "2025-12-20T12:30:00",
+      "link": "https://www.volleyball-wien.at/index.php?option=com_oevv&view=oevv&Style=Standard&BID=37375",
+      "league": "20m2",
+      "home": "hotvolleys 2",
+      "guest": "Döbling 2"
+    },
+    {
+      "title": "20m2: Döbling 3 vs VTR 2",
+      "location": "Sporthalle Brigittenau",
+      "dateT": "2025-12-21T11:30:00",
+      "link": "https://www.volleyball-wien.at/index.php?option=com_oevv&view=oevv&Style=Standard&BID=37375",
+      "league": "20m2",
+      "home": "Döbling 3",
+      "guest": "VTR 2"
+    },
+    {
+      "title": "20m2: VTR 2 vs hotvolleys 2",
+      "location": "RH Simmering",
+      "dateT": "2026-01-10T13:30:00",
+      "link": "https://www.volleyball-wien.at/index.php?option=com_oevv&view=oevv&Style=Standard&BID=37375",
+      "league": "20m2",
+      "home": "VTR 2",
+      "guest": "hotvolleys 2"
+    },
+    {
+      "title": "20m2: Döbling 2 vs Döbling 3",
+      "location": "Sporthalle Brigittenau",
+      "dateT": "2026-02-08T09:00:00",
+      "link": "https://www.volleyball-wien.at/index.php?option=com_oevv&view=oevv&Style=Standard&BID=37375",
+      "league": "20m2",
+      "home": "Döbling 2",
+      "guest": "Döbling 3"
+    },
+    {
+      "title": "20m3: Tigers 1 vs Favoriten 1",
+      "location": "RH Simmering",
+      "dateT": "2025-12-14T15:00:00",
+      "link": "https://www.volleyball-wien.at/index.php?option=com_oevv&view=oevv&Style=Standard&BID=37376",
+      "league": "20m3",
+      "home": "Tigers 1",
+      "guest": "Favoriten 1"
+    },
+    {
+      "title": "20m3: Simmering 1 vs Real 1",
+      "location": "Sporthalle Brigittenau",
+      "dateT": "2025-12-21T09:00:00",
+      "link": "https://www.volleyball-wien.at/index.php?option=com_oevv&view=oevv&Style=Standard&BID=37376",
+      "league": "20m3",
+      "home": "Simmering 1",
+      "guest": "Real 1"
+    },
+    {
+      "title": "20m3: Real 1 vs Tigers 1",
+      "location": "Sporthalle Brigittenau",
+      "dateT": "2026-01-11T17:30:00",
+      "link": "https://www.volleyball-wien.at/index.php?option=com_oevv&view=oevv&Style=Standard&BID=37376",
+      "league": "20m3",
+      "home": "Real 1",
+      "guest": "Tigers 1"
+    },
+    {
+      "title": "20m3: Favoriten 1 vs Simmering 1",
+      "location": "Sporthalle Brigittenau",
+      "dateT": "2026-01-11T17:30:00",
+      "link": "https://www.volleyball-wien.at/index.php?option=com_oevv&view=oevv&Style=Standard&BID=37376",
+      "league": "20m3",
+      "home": "Favoriten 1",
+      "guest": "Simmering 1"
+    },
+    {
+      "title": "20w1: Sokol V/1 vs hotvolleys 1",
+      "location": "RH Simmering",
+      "dateT": "2025-12-14T15:00:00",
+      "link": "https://www.volleyball-wien.at/index.php?option=com_oevv&view=oevv&Style=Standard&BID=37386",
+      "league": "20w1",
+      "home": "Sokol V/1",
+      "guest": "hotvolleys 1"
+    },
+    {
+      "title": "20w1: UWW 1 vs volley16/1",
+      "location": "Sporthalle Brigittenau",
+      "dateT": "2025-12-20T09:00:00",
+      "link": "https://www.volleyball-wien.at/index.php?option=com_oevv&view=oevv&Style=Standard&BID=37386",
+      "league": "20w1",
+      "home": "UWW 1",
+      "guest": "volley16/1"
+    },
+    {
+      "title": "20w2: Real 2 vs volley16/2",
+      "location": "Sporthalle Brigittenau",
+      "dateT": "2025-12-20T09:00:00",
+      "link": "https://www.volleyball-wien.at/index.php?option=com_oevv&view=oevv&Style=Standard&BID=37387",
+      "league": "20w2",
+      "home": "Real 2",
+      "guest": "volley16/2"
+    },
+    {
+      "title": "20w2: UAB 1 vs UWW 2",
+      "location": "Sporthalle Brigittenau",
+      "dateT": "2026-01-10T15:00:00",
+      "link": "https://www.volleyball-wien.at/index.php?option=com_oevv&view=oevv&Style=Standard&BID=37387",
+      "league": "20w2",
+      "home": "UAB 1",
+      "guest": "UWW 2"
+    },
+    {
+      "title": "20w2: volley16/3 vs Real 2",
+      "location": "Sporthalle Brigittenau",
+      "dateT": "2026-01-10T15:00:00",
+      "link": "https://www.volleyball-wien.at/index.php?option=com_oevv&view=oevv&Style=Standard&BID=37387",
+      "league": "20w2",
+      "home": "volley16/3",
+      "guest": "Real 2"
+    },
+    {
+      "title": "20w2: UAB 1 vs volley16/2",
+      "location": "Sporthalle Fünfhaus",
+      "dateT": "2026-01-11T15:00:00",
+      "link": "https://www.volleyball-wien.at/index.php?option=com_oevv&view=oevv&Style=Standard&BID=37387",
+      "league": "20w2",
+      "home": "UAB 1",
+      "guest": "volley16/2"
+    },
+    {
+      "title": "20w2: volley16/2 vs Favoriten 1",
+      "location": "Sporthalle Brigittenau",
+      "dateT": "2026-02-08T09:00:00",
+      "link": "https://www.volleyball-wien.at/index.php?option=com_oevv&view=oevv&Style=Standard&BID=37387",
+      "league": "20w2",
+      "home": "volley16/2",
+      "guest": "Favoriten 1"
+    },
+    {
+      "title": "20w3: Döbling 1 vs VTR 1",
+      "location": "Sporthalle Brigittenau",
+      "dateT": "2025-12-20T10:30:00",
+      "link": "https://www.volleyball-wien.at/index.php?option=com_oevv&view=oevv&Style=Standard&BID=37388",
+      "league": "20w3",
+      "home": "Döbling 1",
+      "guest": "VTR 1"
+    },
+    {
+      "title": "20w3: Real 1 vs Simmering 1",
+      "location": "Sporthalle Brigittenau",
+      "dateT": "2025-12-20T10:30:00",
+      "link": "https://www.volleyball-wien.at/index.php?option=com_oevv&view=oevv&Style=Standard&BID=37388",
+      "league": "20w3",
+      "home": "Real 1",
+      "guest": "Simmering 1"
+    },
+    {
+      "title": "20w3: Döbling 1 vs UAB 2",
+      "location": "Sporthalle Fünfhaus",
+      "dateT": "2026-01-11T15:00:00",
+      "link": "https://www.volleyball-wien.at/index.php?option=com_oevv&view=oevv&Style=Standard&BID=37388",
+      "league": "20w3",
+      "home": "Döbling 1",
+      "guest": "UAB 2"
+    },
+    {
+      "title": "DCup: hotvolleys 2 vs Tigers 1",
+      "location": "RH Simmering",
+      "dateT": "2025-12-14T09:00:00",
+      "link": "https://www.volleyball-wien.at/index.php?option=com_oevv&view=oevv&Style=Standard&BID=37133",
+      "league": "DCup",
+      "home": "hotvolleys 2",
+      "guest": "Tigers 1"
+    },
+    {
+      "title": "DCup: Simmering 1 vs Sokol V/2",
+      "location": "Sporthalle Brigittenau",
+      "dateT": "2025-12-20T17:00:00",
+      "link": "https://www.volleyball-wien.at/index.php?option=com_oevv&view=oevv&Style=Standard&BID=37133",
+      "league": "DCup",
+      "home": "Simmering 1",
+      "guest": "Sokol V/2"
+    },
+    {
+      "title": "DCup: Fem-force 1 vs VTR 2",
+      "location": "Sporthalle Brigittenau",
+      "dateT": "2025-12-21T19:00:00",
+      "link": "https://www.volleyball-wien.at/index.php?option=com_oevv&view=oevv&Style=Standard&BID=37133",
+      "league": "DCup",
+      "home": "Fem-force 1",
+      "guest": "VTR 2"
+    },
+    {
+      "title": "DCup: Kagran 1 vs UAB 1",
+      "location": "Sporthalle Brigittenau",
+      "dateT": "2026-01-17T14:00:00",
+      "link": "https://www.volleyball-wien.at/index.php?option=com_oevv&view=oevv&Style=Standard&BID=37133",
+      "league": "DCup",
+      "home": "Kagran 1",
+      "guest": "UAB 1"
+    },
+    {
+      "title": "DHO: Nova 1 vs UAB 3",
+      "location": "Sporthalle Brigittenau",
+      "dateT": "2025-12-14T16:30:00",
+      "link": "https://www.volleyball-wien.at/index.php?option=com_oevv&view=oevv&Style=Standard&BID=37777",
+      "league": "DHO",
+      "home": "Nova 1",
+      "guest": "UAB 3"
+    },
+    {
+      "title": "DHO: Fem-force 1 vs VTR 4",
+      "location": "RH Simmering",
+      "dateT": "2025-12-14T17:00:00",
+      "link": "https://www.volleyball-wien.at/index.php?option=com_oevv&view=oevv&Style=Standard&BID=37777",
+      "league": "DHO",
+      "home": "Fem-force 1",
+      "guest": "VTR 4"
+    },
+    {
+      "title": "DHO: volley16/2 vs UAB 1",
+      "location": "RH Simmering",
+      "dateT": "2025-12-14T19:30:00",
+      "link": "https://www.volleyball-wien.at/index.php?option=com_oevv&view=oevv&Style=Standard&BID=37777",
+      "league": "DHO",
+      "home": "volley16/2",
+      "guest": "UAB 1"
+    },
+    {
+      "title": "DHO: Real 1 vs volley16/2",
+      "location": "Sporthalle Brigittenau",
+      "dateT": "2025-12-21T16:30:00",
+      "link": "https://www.volleyball-wien.at/index.php?option=com_oevv&view=oevv&Style=Standard&BID=37777",
+      "league": "DHO",
+      "home": "Real 1",
+      "guest": "volley16/2"
+    },
+    {
+      "title": "DHO: UAB 1 vs Döbling 1",
+      "location": "Sporthalle Brigittenau",
+      "dateT": "2025-12-21T19:00:00",
+      "link": "https://www.volleyball-wien.at/index.php?option=com_oevv&view=oevv&Style=Standard&BID=37777",
+      "league": "DHO",
+      "home": "UAB 1",
+      "guest": "Döbling 1"
+    },
+    {
+      "title": "DHO: volley16/2 vs UAB 3",
+      "location": "Sporthalle Brigittenau",
+      "dateT": "2026-01-10T17:00:00",
+      "link": "https://www.volleyball-wien.at/index.php?option=com_oevv&view=oevv&Style=Standard&BID=37777",
+      "league": "DHO",
+      "home": "volley16/2",
+      "guest": "UAB 3"
+    },
+    {
+      "title": "DHO: Döbling 1 vs Fem-force 1",
+      "location": "RH Simmering",
+      "dateT": "2026-01-17T09:30:00",
+      "link": "https://www.volleyball-wien.at/index.php?option=com_oevv&view=oevv&Style=Standard&BID=37777",
+      "league": "DHO",
+      "home": "Döbling 1",
+      "guest": "Fem-force 1"
+    },
+    {
+      "title": "DHO: UAB 3 vs VTR 4",
+      "location": "Sporthalle Brigittenau",
+      "dateT": "2026-01-18T09:30:00",
+      "link": "https://www.volleyball-wien.at/index.php?option=com_oevv&view=oevv&Style=Standard&BID=37777",
+      "league": "DHO",
+      "home": "UAB 3",
+      "guest": "VTR 4"
+    },
+    {
+      "title": "DHO: UAB 1 vs Nova 1",
+      "location": "Sporthalle Brigittenau",
+      "dateT": "2026-01-18T09:30:00",
+      "link": "https://www.volleyball-wien.at/index.php?option=com_oevv&view=oevv&Style=Standard&BID=37777",
+      "league": "DHO",
+      "home": "UAB 1",
+      "guest": "Nova 1"
+    },
+    {
+      "title": "DHO: Fem-force 1 vs Real 1",
+      "location": "Sporthalle Brigittenau",
+      "dateT": "2026-01-18T12:00:00",
+      "link": "https://www.volleyball-wien.at/index.php?option=com_oevv&view=oevv&Style=Standard&BID=37777",
+      "league": "DHO",
+      "home": "Fem-force 1",
+      "guest": "Real 1"
+    },
+    {
+      "title": "DHO: VTR 4 vs volley16/2",
+      "location": "RH Simmering",
+      "dateT": "2026-01-24T14:30:00",
+      "link": "https://www.volleyball-wien.at/index.php?option=com_oevv&view=oevv&Style=Standard&BID=37777",
+      "league": "DHO",
+      "home": "VTR 4",
+      "guest": "volley16/2"
+    },
+    {
+      "title": "DHO: UAB 3 vs Döbling 1",
+      "location": "Sporthalle Fünfhaus",
+      "dateT": "2026-01-25T14:30:00",
+      "link": "https://www.volleyball-wien.at/index.php?option=com_oevv&view=oevv&Style=Standard&BID=37777",
+      "league": "DHO",
+      "home": "UAB 3",
+      "guest": "Döbling 1"
+    },
+    {
+      "title": "DHO: Real 1 vs Nova 1",
+      "location": "Sporthalle Brigittenau",
+      "dateT": "2026-01-31T09:00:00",
+      "link": "https://www.volleyball-wien.at/index.php?option=com_oevv&view=oevv&Style=Standard&BID=37777",
+      "league": "DHO",
+      "home": "Real 1",
+      "guest": "Nova 1"
+    },
+    {
+      "title": "DHO: VTR 4 vs Döbling 1",
+      "location": "Sporthalle Brigittenau",
+      "dateT": "2026-02-01T11:30:00",
+      "link": "https://www.volleyball-wien.at/index.php?option=com_oevv&view=oevv&Style=Standard&BID=37777",
+      "league": "DHO",
+      "home": "VTR 4",
+      "guest": "Döbling 1"
+    },
+    {
+      "title": "DHO: Fem-force 1 vs UAB 1",
+      "location": "Sporthalle Brigittenau",
+      "dateT": "2026-02-01T16:30:00",
+      "link": "https://www.volleyball-wien.at/index.php?option=com_oevv&view=oevv&Style=Standard&BID=37777",
+      "league": "DHO",
+      "home": "Fem-force 1",
+      "guest": "UAB 1"
+    },
+    {
+      "title": "DHO: Nova 1 vs volley16/2",
+      "location": "Sporthalle Brigittenau",
+      "dateT": "2026-02-08T16:00:00",
+      "link": "https://www.volleyball-wien.at/index.php?option=com_oevv&view=oevv&Style=Standard&BID=37777",
+      "league": "DHO",
+      "home": "Nova 1",
+      "guest": "volley16/2"
+    },
+    {
+      "title": "DPL: UAB 2 vs volley16/1",
+      "location": "Sporthalle Brigittenau",
+      "dateT": "2025-12-13T14:30:00",
+      "link": "https://www.volleyball-wien.at/index.php?option=com_oevv&view=oevv&Style=Standard&BID=37776",
+      "league": "DPL",
+      "home": "UAB 2",
+      "guest": "volley16/1"
+    },
+    {
+      "title": "DPL: Sokol V/2 vs Tigers 1",
+      "location": "Sporthalle Brigittenau",
+      "dateT": "2025-12-13T17:00:00",
+      "link": "https://www.volleyball-wien.at/index.php?option=com_oevv&view=oevv&Style=Standard&BID=37776",
+      "league": "DPL",
+      "home": "Sokol V/2",
+      "guest": "Tigers 1"
+    },
+    {
+      "title": "DPL: Kagran 1 vs VTR 2",
+      "location": "Sporthalle Brigittenau",
+      "dateT": "2025-12-13T19:30:00",
+      "link": "https://www.volleyball-wien.at/index.php?option=com_oevv&view=oevv&Style=Standard&BID=37776",
+      "league": "DPL",
+      "home": "Kagran 1",
+      "guest": "VTR 2"
+    },
+    {
+      "title": "DPL: VTR 2 vs UAB 2",
+      "location": "Sporthalle Brigittenau",
+      "dateT": "2025-12-14T16:30:00",
+      "link": "https://www.volleyball-wien.at/index.php?option=com_oevv&view=oevv&Style=Standard&BID=37776",
+      "league": "DPL",
+      "home": "VTR 2",
+      "guest": "UAB 2"
+    },
+    {
+      "title": "DPL: volley16/1 vs Kagran 1",
+      "location": "RH Simmering",
+      "dateT": "2025-12-14T19:30:00",
+      "link": "https://www.volleyball-wien.at/index.php?option=com_oevv&view=oevv&Style=Standard&BID=37776",
+      "league": "DPL",
+      "home": "volley16/1",
+      "guest": "Kagran 1"
+    },
+    {
+      "title": "DPL: VTR 2 vs Tigers 1",
+      "location": "Sporthalle Brigittenau",
+      "dateT": "2026-01-10T19:30:00",
+      "link": "https://www.volleyball-wien.at/index.php?option=com_oevv&view=oevv&Style=Standard&BID=37776",
+      "league": "DPL",
+      "home": "VTR 2",
+      "guest": "Tigers 1"
+    },
+    {
+      "title": "DPL: volley16/1 vs Sokol V/2",
+      "location": "RH Simmering",
+      "dateT": "2026-01-17T12:30:00",
+      "link": "https://www.volleyball-wien.at/index.php?option=com_oevv&view=oevv&Style=Standard&BID=37776",
+      "league": "DPL",
+      "home": "volley16/1",
+      "guest": "Sokol V/2"
+    },
+    {
+      "title": "DPL: Kagran 1 vs UAB 2",
+      "location": "Sporthalle Brigittenau",
+      "dateT": "2026-01-18T12:00:00",
+      "link": "https://www.volleyball-wien.at/index.php?option=com_oevv&view=oevv&Style=Standard&BID=37776",
+      "league": "DPL",
+      "home": "Kagran 1",
+      "guest": "UAB 2"
+    },
+    {
+      "title": "DPL: Tigers 1 vs Kagran 1",
+      "location": "Rundhalle Kagran",
+      "dateT": "2026-01-24T14:00:00",
+      "link": "https://www.volleyball-wien.at/index.php?option=com_oevv&view=oevv&Style=Standard&BID=37776",
+      "league": "DPL",
+      "home": "Tigers 1",
+      "guest": "Kagran 1"
+    },
+    {
+      "title": "DPL: UAB 2 vs Tigers 1",
+      "location": "Sporthalle Brigittenau",
+      "dateT": "2026-01-31T12:00:00",
+      "link": "https://www.volleyball-wien.at/index.php?option=com_oevv&view=oevv&Style=Standard&BID=37776",
+      "league": "DPL",
+      "home": "UAB 2",
+      "guest": "Tigers 1"
+    },
+    {
+      "title": "DPL: UAB 2 vs Sokol V/2",
+      "location": "Sporthalle Brigittenau",
+      "dateT": "2026-02-08T11:00:00",
+      "link": "https://www.volleyball-wien.at/index.php?option=com_oevv&view=oevv&Style=Standard&BID=37776",
+      "league": "DPL",
+      "home": "UAB 2",
+      "guest": "Sokol V/2"
+    },
+    {
+      "title": "DPL: VTR 2 vs volley16/1",
+      "location": "Sporthalle Brigittenau",
+      "dateT": "2026-02-08T13:30:00",
+      "link": "https://www.volleyball-wien.at/index.php?option=com_oevv&view=oevv&Style=Standard&BID=37776",
+      "league": "DPL",
+      "home": "VTR 2",
+      "guest": "volley16/1"
+    },
+    {
+      "title": "DQ1: Sokol V/3 vs Simmering 1",
+      "location": "RH Simmering",
+      "dateT": "2025-12-14T19:30:00",
+      "link": "https://www.volleyball-wien.at/index.php?option=com_oevv&view=oevv&Style=Standard&BID=37778",
+      "league": "DQ1",
+      "home": "Sokol V/3",
+      "guest": "Simmering 1"
+    },
+    {
+      "title": "DQ1: UWW 1 vs UWW 2",
+      "location": "Sporthalle Brigittenau",
+      "dateT": "2025-12-20T14:30:00",
+      "link": "https://www.volleyball-wien.at/index.php?option=com_oevv&view=oevv&Style=Standard&BID=37778",
+      "league": "DQ1",
+      "home": "UWW 1",
+      "guest": "UWW 2"
+    },
+    {
+      "title": "DQ1: VTR 3 vs Sokol V/3",
+      "location": "Sporthalle Brigittenau",
+      "dateT": "2025-12-20T19:30:00",
+      "link": "https://www.volleyball-wien.at/index.php?option=com_oevv&view=oevv&Style=Standard&BID=37778",
+      "league": "DQ1",
+      "home": "VTR 3",
+      "guest": "Sokol V/3"
+    },
+    {
+      "title": "DQ1: UWW 2 vs hotvolleys 2",
+      "location": "Sporthalle Brigittenau",
+      "dateT": "2025-12-21T11:30:00",
+      "link": "https://www.volleyball-wien.at/index.php?option=com_oevv&view=oevv&Style=Standard&BID=37778",
+      "league": "DQ1",
+      "home": "UWW 2",
+      "guest": "hotvolleys 2"
+    },
+    {
+      "title": "DQ1: Simmering 1 vs UWW 1",
+      "location": "Sporthalle Brigittenau",
+      "dateT": "2025-12-21T14:00:00",
+      "link": "https://www.volleyball-wien.at/index.php?option=com_oevv&view=oevv&Style=Standard&BID=37778",
+      "league": "DQ1",
+      "home": "Simmering 1",
+      "guest": "UWW 1"
+    },
+    {
+      "title": "DQ1: UWW 2 vs Sokol V/3",
+      "location": "Sporthalle Brigittenau",
+      "dateT": "2026-01-10T17:00:00",
+      "link": "https://www.volleyball-wien.at/index.php?option=com_oevv&view=oevv&Style=Standard&BID=37778",
+      "league": "DQ1",
+      "home": "UWW 2",
+      "guest": "Sokol V/3"
+    },
+    {
+      "title": "DQ1: VTR 3 vs UWW 1",
+      "location": "RH Simmering",
+      "dateT": "2026-01-17T15:30:00",
+      "link": "https://www.volleyball-wien.at/index.php?option=com_oevv&view=oevv&Style=Standard&BID=37778",
+      "league": "DQ1",
+      "home": "VTR 3",
+      "guest": "UWW 1"
+    },
+    {
+      "title": "DQ1: Sokol V/3 vs hotvolleys 2",
+      "location": "RH Simmering",
+      "dateT": "2026-01-17T18:00:00",
+      "link": "https://www.volleyball-wien.at/index.php?option=com_oevv&view=oevv&Style=Standard&BID=37778",
+      "league": "DQ1",
+      "home": "Sokol V/3",
+      "guest": "hotvolleys 2"
+    },
+    {
+      "title": "DQ1: Simmering 1 vs VTR 3",
+      "location": "Sporthalle Brigittenau",
+      "dateT": "2026-01-18T09:30:00",
+      "link": "https://www.volleyball-wien.at/index.php?option=com_oevv&view=oevv&Style=Standard&BID=37778",
+      "league": "DQ1",
+      "home": "Simmering 1",
+      "guest": "VTR 3"
+    },
+    {
+      "title": "DQ1: UWW 1 vs hotvolleys 2",
+      "location": "Sporthalle Brigittenau",
+      "dateT": "2026-01-18T12:00:00",
+      "link": "https://www.volleyball-wien.at/index.php?option=com_oevv&view=oevv&Style=Standard&BID=37778",
+      "league": "DQ1",
+      "home": "UWW 1",
+      "guest": "hotvolleys 2"
+    },
+    {
+      "title": "DQ1: Sokol V/3 vs UWW 1",
+      "location": "RH Simmering",
+      "dateT": "2026-01-24T14:30:00",
+      "link": "https://www.volleyball-wien.at/index.php?option=com_oevv&view=oevv&Style=Standard&BID=37778",
+      "league": "DQ1",
+      "home": "Sokol V/3",
+      "guest": "UWW 1"
+    },
+    {
+      "title": "DQ1: hotvolleys 2 vs Simmering 1",
+      "location": "RH Simmering",
+      "dateT": "2026-01-24T14:30:00",
+      "link": "https://www.volleyball-wien.at/index.php?option=com_oevv&view=oevv&Style=Standard&BID=37778",
+      "league": "DQ1",
+      "home": "hotvolleys 2",
+      "guest": "Simmering 1"
+    },
+    {
+      "title": "DQ1: UWW 2 vs VTR 3",
+      "location": "Rundhalle Kagran",
+      "dateT": "2026-01-24T16:30:00",
+      "link": "https://www.volleyball-wien.at/index.php?option=com_oevv&view=oevv&Style=Standard&BID=37778",
+      "league": "DQ1",
+      "home": "UWW 2",
+      "guest": "VTR 3"
+    },
+    {
+      "title": "DQ1: Simmering 1 vs UWW 2",
+      "location": "Sporthalle Fünfhaus",
+      "dateT": "2026-01-25T14:30:00",
+      "link": "https://www.volleyball-wien.at/index.php?option=com_oevv&view=oevv&Style=Standard&BID=37778",
+      "league": "DQ1",
+      "home": "Simmering 1",
+      "guest": "UWW 2"
+    },
+    {
+      "title": "DQ2: Dimitrios 1 vs Favoriten 1",
+      "location": "Sporthalle Brigittenau",
+      "dateT": "2025-12-14T19:00:00",
+      "link": "https://www.volleyball-wien.at/index.php?option=com_oevv&view=oevv&Style=Standard&BID=37779",
+      "league": "DQ2",
+      "home": "Dimitrios 1",
+      "guest": "Favoriten 1"
+    },
+    {
+      "title": "DQ2: Tigers 3 vs Favoriten 1",
+      "location": "Sporthalle Fünfhaus",
+      "dateT": "2026-01-11T17:00:00",
+      "link": "https://www.volleyball-wien.at/index.php?option=com_oevv&view=oevv&Style=Standard&BID=37779",
+      "league": "DQ2",
+      "home": "Tigers 3",
+      "guest": "Favoriten 1"
+    },
+    {
+      "title": "DQ2: S-B-G 1 vs Tigers 2",
+      "location": "Sporthalle Brigittenau",
+      "dateT": "2026-01-18T19:30:00",
+      "link": "https://www.volleyball-wien.at/index.php?option=com_oevv&view=oevv&Style=Standard&BID=37779",
+      "league": "DQ2",
+      "home": "S-B-G 1",
+      "guest": "Tigers 2"
+    },
+    {
+      "title": "DQ2: VTR 5 vs S-B-G 1",
+      "location": "Rundhalle Kagran",
+      "dateT": "2026-01-24T14:00:00",
+      "link": "https://www.volleyball-wien.at/index.php?option=com_oevv&view=oevv&Style=Standard&BID=37779",
+      "league": "DQ2",
+      "home": "VTR 5",
+      "guest": "S-B-G 1"
+    },
+    {
+      "title": "DQ2: Tigers 3 vs Dimitrios 1",
+      "location": "Rundhalle Kagran",
+      "dateT": "2026-01-24T16:30:00",
+      "link": "https://www.volleyball-wien.at/index.php?option=com_oevv&view=oevv&Style=Standard&BID=37779",
+      "league": "DQ2",
+      "home": "Tigers 3",
+      "guest": "Dimitrios 1"
+    },
+    {
+      "title": "DQ2: Tigers 2 vs Favoriten 1",
+      "location": "Rundhalle Kagran",
+      "dateT": "2026-01-24T19:00:00",
+      "link": "https://www.volleyball-wien.at/index.php?option=com_oevv&view=oevv&Style=Standard&BID=37779",
+      "league": "DQ2",
+      "home": "Tigers 2",
+      "guest": "Favoriten 1"
+    },
+    {
+      "title": "DQ2: Dimitrios 1 vs VTR 5",
+      "location": "Sporthalle Brigittenau",
+      "dateT": "2026-02-01T14:00:00",
+      "link": "https://www.volleyball-wien.at/index.php?option=com_oevv&view=oevv&Style=Standard&BID=37779",
+      "league": "DQ2",
+      "home": "Dimitrios 1",
+      "guest": "VTR 5"
+    },
+    {
+      "title": "H Q: VTR 3 vs Favoriten 3",
+      "location": "Sporthalle Brigittenau",
+      "dateT": "2025-12-13T17:00:00",
+      "link": "https://www.volleyball-wien.at/index.php?option=com_oevv&view=oevv&Style=Standard&BID=37775",
+      "league": "H Q",
+      "home": "VTR 3",
+      "guest": "Favoriten 3"
+    },
+    {
+      "title": "H Q: Tigers 2 vs Döbling 4",
+      "location": "RH Simmering",
+      "dateT": "2025-12-14T09:00:00",
+      "link": "https://www.volleyball-wien.at/index.php?option=com_oevv&view=oevv&Style=Standard&BID=37775",
+      "league": "H Q",
+      "home": "Tigers 2",
+      "guest": "Döbling 4"
+    },
+    {
+      "title": "H Q: VTR 3 vs Tigers 1",
+      "location": "Sporthalle Brigittenau",
+      "dateT": "2025-12-14T19:00:00",
+      "link": "https://www.volleyball-wien.at/index.php?option=com_oevv&view=oevv&Style=Standard&BID=37775",
+      "league": "H Q",
+      "home": "VTR 3",
+      "guest": "Tigers 1"
+    },
+    {
+      "title": "H Q: Sokol V/3 vs VTR 3",
+      "location": "Sporthalle Brigittenau",
+      "dateT": "2025-12-20T19:30:00",
+      "link": "https://www.volleyball-wien.at/index.php?option=com_oevv&view=oevv&Style=Standard&BID=37775",
+      "league": "H Q",
+      "home": "Sokol V/3",
+      "guest": "VTR 3"
+    },
+    {
+      "title": "H Q: Titans 1 vs Simmering 2",
+      "location": "Sporthalle Brigittenau",
+      "dateT": "2025-12-21T14:00:00",
+      "link": "https://www.volleyball-wien.at/index.php?option=com_oevv&view=oevv&Style=Standard&BID=37775",
+      "league": "H Q",
+      "home": "Titans 1",
+      "guest": "Simmering 2"
+    },
+    {
+      "title": "H Q: Favoriten 3 vs Dimitrios 2",
+      "location": "Sporthalle Brigittenau",
+      "dateT": "2025-12-21T16:30:00",
+      "link": "https://www.volleyball-wien.at/index.php?option=com_oevv&view=oevv&Style=Standard&BID=37775",
+      "league": "H Q",
+      "home": "Favoriten 3",
+      "guest": "Dimitrios 2"
+    },
+    {
+      "title": "H Q: Tigers 2 vs Dimitrios 2",
+      "location": "RH Simmering",
+      "dateT": "2026-01-10T15:30:00",
+      "link": "https://www.volleyball-wien.at/index.php?option=com_oevv&view=oevv&Style=Standard&BID=37775",
+      "league": "H Q",
+      "home": "Tigers 2",
+      "guest": "Dimitrios 2"
+    },
+    {
+      "title": "H Q: VTR 3 vs Tigers 2",
+      "location": "Sporthalle Brigittenau",
+      "dateT": "2026-01-11T13:00:00",
+      "link": "https://www.volleyball-wien.at/index.php?option=com_oevv&view=oevv&Style=Standard&BID=37775",
+      "league": "H Q",
+      "home": "VTR 3",
+      "guest": "Tigers 2"
+    },
+    {
+      "title": "H Q: Sokol V/3 vs Titans 1",
+      "location": "Sporthalle Brigittenau",
+      "dateT": "2026-01-11T15:30:00",
+      "link": "https://www.volleyball-wien.at/index.php?option=com_oevv&view=oevv&Style=Standard&BID=37775",
+      "league": "H Q",
+      "home": "Sokol V/3",
+      "guest": "Titans 1"
+    },
+    {
+      "title": "H Q: Tigers 1 vs Döbling 4",
+      "location": "Sporthalle Brigittenau",
+      "dateT": "2026-01-11T15:30:00",
+      "link": "https://www.volleyball-wien.at/index.php?option=com_oevv&view=oevv&Style=Standard&BID=37775",
+      "league": "H Q",
+      "home": "Tigers 1",
+      "guest": "Döbling 4"
+    },
+    {
+      "title": "H Q: Simmering 2 vs Dimitrios 2",
+      "location": "RH Simmering",
+      "dateT": "2026-01-17T09:30:00",
+      "link": "https://www.volleyball-wien.at/index.php?option=com_oevv&view=oevv&Style=Standard&BID=37775",
+      "league": "H Q",
+      "home": "Simmering 2",
+      "guest": "Dimitrios 2"
+    },
+    {
+      "title": "H Q: Titans 1 vs VTR 3",
+      "location": "RH Simmering",
+      "dateT": "2026-01-17T12:30:00",
+      "link": "https://www.volleyball-wien.at/index.php?option=com_oevv&view=oevv&Style=Standard&BID=37775",
+      "league": "H Q",
+      "home": "Titans 1",
+      "guest": "VTR 3"
+    },
+    {
+      "title": "H Q: Tigers 1 vs Sokol V/3",
+      "location": "RH Simmering",
+      "dateT": "2026-01-17T15:30:00",
+      "link": "https://www.volleyball-wien.at/index.php?option=com_oevv&view=oevv&Style=Standard&BID=37775",
+      "league": "H Q",
+      "home": "Tigers 1",
+      "guest": "Sokol V/3"
+    },
+    {
+      "title": "H Q: Tigers 2 vs Favoriten 3",
+      "location": "Sporthalle Brigittenau",
+      "dateT": "2026-01-17T19:30:00",
+      "link": "https://www.volleyball-wien.at/index.php?option=com_oevv&view=oevv&Style=Standard&BID=37775",
+      "league": "H Q",
+      "home": "Tigers 2",
+      "guest": "Favoriten 3"
+    },
+    {
+      "title": "H Q: Favoriten 3 vs Tigers 1",
+      "location": "Sporthalle Brigittenau",
+      "dateT": "2026-01-18T19:30:00",
+      "link": "https://www.volleyball-wien.at/index.php?option=com_oevv&view=oevv&Style=Standard&BID=37775",
+      "league": "H Q",
+      "home": "Favoriten 3",
+      "guest": "Tigers 1"
+    },
+    {
+      "title": "H Q: Dimitrios 2 vs Tigers 1",
+      "location": "Rundhalle Kagran",
+      "dateT": "2026-01-24T19:00:00",
+      "link": "https://www.volleyball-wien.at/index.php?option=com_oevv&view=oevv&Style=Standard&BID=37775",
+      "league": "H Q",
+      "home": "Dimitrios 2",
+      "guest": "Tigers 1"
+    },
+    {
+      "title": "H Q: Titans 1 vs Döbling 4",
+      "location": "Rundhalle Kagran",
+      "dateT": "2026-01-24T19:00:00",
+      "link": "https://www.volleyball-wien.at/index.php?option=com_oevv&view=oevv&Style=Standard&BID=37775",
+      "league": "H Q",
+      "home": "Titans 1",
+      "guest": "Döbling 4"
+    },
+    {
+      "title": "H Q: Favoriten 3 vs Simmering 2",
+      "location": "Sporthalle Brigittenau",
+      "dateT": "2026-01-31T09:00:00",
+      "link": "https://www.volleyball-wien.at/index.php?option=com_oevv&view=oevv&Style=Standard&BID=37775",
+      "league": "H Q",
+      "home": "Favoriten 3",
+      "guest": "Simmering 2"
+    },
+    {
+      "title": "H Q: Dimitrios 2 vs Sokol V/3",
+      "location": "Sporthalle Brigittenau",
+      "dateT": "2026-01-31T12:00:00",
+      "link": "https://www.volleyball-wien.at/index.php?option=com_oevv&view=oevv&Style=Standard&BID=37775",
+      "league": "H Q",
+      "home": "Dimitrios 2",
+      "guest": "Sokol V/3"
+    },
+    {
+      "title": "H Q: Döbling 4 vs VTR 3",
+      "location": "Sporthalle Brigittenau",
+      "dateT": "2026-01-31T14:30:00",
+      "link": "https://www.volleyball-wien.at/index.php?option=com_oevv&view=oevv&Style=Standard&BID=37775",
+      "league": "H Q",
+      "home": "Döbling 4",
+      "guest": "VTR 3"
+    },
+    {
+      "title": "H Q: Tigers 2 vs Tigers 1",
+      "location": "Sporthalle Brigittenau",
+      "dateT": "2026-01-31T17:00:00",
+      "link": "https://www.volleyball-wien.at/index.php?option=com_oevv&view=oevv&Style=Standard&BID=37775",
+      "league": "H Q",
+      "home": "Tigers 2",
+      "guest": "Tigers 1"
+    },
+    {
+      "title": "H Q: Favoriten 3 vs Titans 1",
+      "location": "Sporthalle Brigittenau",
+      "dateT": "2026-02-08T09:00:00",
+      "link": "https://www.volleyball-wien.at/index.php?option=com_oevv&view=oevv&Style=Standard&BID=37775",
+      "league": "H Q",
+      "home": "Favoriten 3",
+      "guest": "Titans 1"
+    },
+    {
+      "title": "H Q: Simmering 2 vs Döbling 4",
+      "location": "Sporthalle Brigittenau",
+      "dateT": "2026-02-08T11:00:00",
+      "link": "https://www.volleyball-wien.at/index.php?option=com_oevv&view=oevv&Style=Standard&BID=37775",
+      "league": "H Q",
+      "home": "Simmering 2",
+      "guest": "Döbling 4"
+    },
+    {
+      "title": "HCup: Döbling 4 vs Simmering 1",
+      "location": "Sporthalle Brigittenau",
+      "dateT": "2025-12-21T19:00:00",
+      "link": "https://www.volleyball-wien.at/index.php?option=com_oevv&view=oevv&Style=Standard&BID=36631",
+      "league": "HCup",
+      "home": "Döbling 4",
+      "guest": "Simmering 1"
+    },
+    {
+      "title": "HHO: Favoriten 2 vs Simmering 1",
+      "location": "Sporthalle Brigittenau",
+      "dateT": "2025-12-14T16:30:00",
+      "link": "https://www.volleyball-wien.at/index.php?option=com_oevv&view=oevv&Style=Standard&BID=37774",
+      "league": "HHO",
+      "home": "Favoriten 2",
+      "guest": "Simmering 1"
+    },
+    {
+      "title": "HHO: Nova 1 vs hotvolleys 2",
+      "location": "Sporthalle Brigittenau",
+      "dateT": "2025-12-14T19:00:00",
+      "link": "https://www.volleyball-wien.at/index.php?option=com_oevv&view=oevv&Style=Standard&BID=37774",
+      "league": "HHO",
+      "home": "Nova 1",
+      "guest": "hotvolleys 2"
+    },
+    {
+      "title": "HHO: Real 1 vs Favoriten 2",
+      "location": "Sporthalle Brigittenau",
+      "dateT": "2025-12-20T14:30:00",
+      "link": "https://www.volleyball-wien.at/index.php?option=com_oevv&view=oevv&Style=Standard&BID=37774",
+      "league": "HHO",
+      "home": "Real 1",
+      "guest": "Favoriten 2"
+    },
+    {
+      "title": "HHO: hotvolleys 2 vs hotvolleys 3",
+      "location": "Sporthalle Brigittenau",
+      "dateT": "2025-12-20T17:00:00",
+      "link": "https://www.volleyball-wien.at/index.php?option=com_oevv&view=oevv&Style=Standard&BID=37774",
+      "league": "HHO",
+      "home": "hotvolleys 2",
+      "guest": "hotvolleys 3"
+    },
+    {
+      "title": "HHO: Real 1 vs hotvolleys 3",
+      "location": "Sporthalle Brigittenau",
+      "dateT": "2026-01-11T13:00:00",
+      "link": "https://www.volleyball-wien.at/index.php?option=com_oevv&view=oevv&Style=Standard&BID=37774",
+      "league": "HHO",
+      "home": "Real 1",
+      "guest": "hotvolleys 3"
+    },
+    {
+      "title": "HHO: hotvolleys 2 vs Simmering 1",
+      "location": "RH Simmering",
+      "dateT": "2026-01-17T18:00:00",
+      "link": "https://www.volleyball-wien.at/index.php?option=com_oevv&view=oevv&Style=Standard&BID=37774",
+      "league": "HHO",
+      "home": "hotvolleys 2",
+      "guest": "Simmering 1"
+    },
+    {
+      "title": "HHO: Nova 1 vs Real 1",
+      "location": "Sporthalle Brigittenau",
+      "dateT": "2026-01-17T19:30:00",
+      "link": "https://www.volleyball-wien.at/index.php?option=com_oevv&view=oevv&Style=Standard&BID=37774",
+      "league": "HHO",
+      "home": "Nova 1",
+      "guest": "Real 1"
+    },
+    {
+      "title": "HHO: hotvolleys 3 vs Simmering 1",
+      "location": "Sporthalle Brigittenau",
+      "dateT": "2026-01-18T19:30:00",
+      "link": "https://www.volleyball-wien.at/index.php?option=com_oevv&view=oevv&Style=Standard&BID=37774",
+      "league": "HHO",
+      "home": "hotvolleys 3",
+      "guest": "Simmering 1"
+    },
+    {
+      "title": "HHO: Favoriten 2 vs hotvolleys 2",
+      "location": "Rundhalle Kagran",
+      "dateT": "2026-01-24T16:30:00",
+      "link": "https://www.volleyball-wien.at/index.php?option=com_oevv&view=oevv&Style=Standard&BID=37774",
+      "league": "HHO",
+      "home": "Favoriten 2",
+      "guest": "hotvolleys 2"
+    },
+    {
+      "title": "HHO: Simmering 1 vs Nova 1",
+      "location": "Sporthalle Brigittenau",
+      "dateT": "2026-01-31T17:00:00",
+      "link": "https://www.volleyball-wien.at/index.php?option=com_oevv&view=oevv&Style=Standard&BID=37774",
+      "league": "HHO",
+      "home": "Simmering 1",
+      "guest": "Nova 1"
+    },
+    {
+      "title": "HHO: Real 1 vs hotvolleys 2",
+      "location": "Sporthalle Brigittenau",
+      "dateT": "2026-01-31T17:00:00",
+      "link": "https://www.volleyball-wien.at/index.php?option=com_oevv&view=oevv&Style=Standard&BID=37774",
+      "league": "HHO",
+      "home": "Real 1",
+      "guest": "hotvolleys 2"
+    },
+    {
+      "title": "HHO: hotvolleys 3 vs Favoriten 2",
+      "location": "Sporthalle Brigittenau",
+      "dateT": "2026-02-01T14:00:00",
+      "link": "https://www.volleyball-wien.at/index.php?option=com_oevv&view=oevv&Style=Standard&BID=37774",
+      "league": "HHO",
+      "home": "hotvolleys 3",
+      "guest": "Favoriten 2"
+    },
+    {
+      "title": "HHO: Favoriten 2 vs Nova 1",
+      "location": "Sporthalle Brigittenau",
+      "dateT": "2026-02-08T13:30:00",
+      "link": "https://www.volleyball-wien.at/index.php?option=com_oevv&view=oevv&Style=Standard&BID=37774",
+      "league": "HHO",
+      "home": "Favoriten 2",
+      "guest": "Nova 1"
+    },
+    {
+      "title": "HPL: Favoriten 1 vs Dimitrios 1",
+      "location": "Sporthalle Brigittenau",
+      "dateT": "2025-12-13T14:30:00",
+      "link": "https://www.volleyball-wien.at/index.php?option=com_oevv&view=oevv&Style=Standard&BID=37773",
+      "league": "HPL",
+      "home": "Favoriten 1",
+      "guest": "Dimitrios 1"
+    },
+    {
+      "title": "HPL: Sokol V/2 vs VTR 2",
+      "location": "Sporthalle Brigittenau",
+      "dateT": "2025-12-13T19:30:00",
+      "link": "https://www.volleyball-wien.at/index.php?option=com_oevv&view=oevv&Style=Standard&BID=37773",
+      "league": "HPL",
+      "home": "Sokol V/2",
+      "guest": "VTR 2"
+    },
+    {
+      "title": "HPL: Dimitrios 1 vs Döbling 3",
+      "location": "Sporthalle Brigittenau",
+      "dateT": "2025-12-14T16:30:00",
+      "link": "https://www.volleyball-wien.at/index.php?option=com_oevv&view=oevv&Style=Standard&BID=37773",
+      "league": "HPL",
+      "home": "Dimitrios 1",
+      "guest": "Döbling 3"
+    },
+    {
+      "title": "HPL: VTR 2 vs Favoriten 1",
+      "location": "Sporthalle Brigittenau",
+      "dateT": "2025-12-14T19:00:00",
+      "link": "https://www.volleyball-wien.at/index.php?option=com_oevv&view=oevv&Style=Standard&BID=37773",
+      "league": "HPL",
+      "home": "VTR 2",
+      "guest": "Favoriten 1"
+    },
+    {
+      "title": "HPL: Döbling 3 vs Döbling 2",
+      "location": "Sporthalle Brigittenau",
+      "dateT": "2025-12-20T14:30:00",
+      "link": "https://www.volleyball-wien.at/index.php?option=com_oevv&view=oevv&Style=Standard&BID=37773",
+      "league": "HPL",
+      "home": "Döbling 3",
+      "guest": "Döbling 2"
+    },
+    {
+      "title": "HPL: Sokol V/2 vs Favoriten 1",
+      "location": "Sporthalle Brigittenau",
+      "dateT": "2026-01-11T19:30:00",
+      "link": "https://www.volleyball-wien.at/index.php?option=com_oevv&view=oevv&Style=Standard&BID=37773",
+      "league": "HPL",
+      "home": "Sokol V/2",
+      "guest": "Favoriten 1"
+    },
+    {
+      "title": "HPL: VTR 2 vs Döbling 3",
+      "location": "Sporthalle Brigittenau",
+      "dateT": "2026-01-11T19:30:00",
+      "link": "https://www.volleyball-wien.at/index.php?option=com_oevv&view=oevv&Style=Standard&BID=37773",
+      "league": "HPL",
+      "home": "VTR 2",
+      "guest": "Döbling 3"
+    },
+    {
+      "title": "HPL: Döbling 2 vs Dimitrios 1",
+      "location": "Sporthalle Brigittenau",
+      "dateT": "2026-01-11T19:30:00",
+      "link": "https://www.volleyball-wien.at/index.php?option=com_oevv&view=oevv&Style=Standard&BID=37773",
+      "league": "HPL",
+      "home": "Döbling 2",
+      "guest": "Dimitrios 1"
+    },
+    {
+      "title": "HPL: Döbling 3 vs Favoriten 1",
+      "location": "Sporthalle Brigittenau",
+      "dateT": "2026-01-17T17:00:00",
+      "link": "https://www.volleyball-wien.at/index.php?option=com_oevv&view=oevv&Style=Standard&BID=37773",
+      "league": "HPL",
+      "home": "Döbling 3",
+      "guest": "Favoriten 1"
+    },
+    {
+      "title": "HPL: Sokol V/2 vs Dimitrios 1",
+      "location": "RH Simmering",
+      "dateT": "2026-01-17T18:00:00",
+      "link": "https://www.volleyball-wien.at/index.php?option=com_oevv&view=oevv&Style=Standard&BID=37773",
+      "league": "HPL",
+      "home": "Sokol V/2",
+      "guest": "Dimitrios 1"
+    },
+    {
+      "title": "HPL: VTR 2 vs Döbling 2",
+      "location": "Rundhalle Kagran",
+      "dateT": "2026-01-24T14:00:00",
+      "link": "https://www.volleyball-wien.at/index.php?option=com_oevv&view=oevv&Style=Standard&BID=37773",
+      "league": "HPL",
+      "home": "VTR 2",
+      "guest": "Döbling 2"
+    },
+    {
+      "title": "HPL: Dimitrios 1 vs VTR 2",
+      "location": "Sporthalle Brigittenau",
+      "dateT": "2026-02-01T16:30:00",
+      "link": "https://www.volleyball-wien.at/index.php?option=com_oevv&view=oevv&Style=Standard&BID=37773",
+      "league": "HPL",
+      "home": "Dimitrios 1",
+      "guest": "VTR 2"
+    },
+    {
+      "title": "HPL: Favoriten 1 vs Döbling 2",
+      "location": "Sporthalle Brigittenau",
+      "dateT": "2026-02-01T19:00:00",
+      "link": "https://www.volleyball-wien.at/index.php?option=com_oevv&view=oevv&Style=Standard&BID=37773",
+      "league": "HPL",
+      "home": "Favoriten 1",
+      "guest": "Döbling 2"
+    },
+    {
+      "title": "HPL: Döbling 3 vs Sokol V/2",
+      "location": "Sporthalle Brigittenau",
+      "dateT": "2026-02-08T16:00:00",
+      "link": "https://www.volleyball-wien.at/index.php?option=com_oevv&view=oevv&Style=Standard&BID=37773",
+      "league": "HPL",
+      "home": "Döbling 3",
+      "guest": "Sokol V/2"
+    }
+  ]
+}
