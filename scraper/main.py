@@ -1,6 +1,7 @@
 from ovv_scraper import scrape_ovv
 from wvv_scraper import scrape_wvv
 from gendata import genICS, genJSON
+import time
 
 # links
 URL_HBL2 = "https://panel.volleystation.com/website/125/de/schedule/"
@@ -9,10 +10,11 @@ URL_DBL = "https://panel.volleystation.com/website/121/de/schedule/"
 URL_HBL = "https://panel.volleystation.com/website/122/de/schedule/"
 URL_HBCUP = "https://panel.volleystation.com/website/123/de/schedule/"
 URL_DBCUP = "https://panel.volleystation.com/website/119/de/schedule/"
-URL_WVV = "https://www.volleyball-wien.at/WVVJoomla3/termine-ergebnisse.html"
+URL_WVV = "https://www.volleyball-wien.at/termine-ergebnisse.html"
 
 if __name__ == "__main__":
     print("Running scraper...")
+    start_time = time.time()
     data = []
 
     data.extend(scrape_ovv(URL_HBL2, "HBL2"))
@@ -26,6 +28,10 @@ if __name__ == "__main__":
 
     data.extend(scrape_wvv(URL_WVV))
     print("[ALL] found ", len(data))
+
+    t = time.strftime('%M:%S', time.gmtime((time.time() - start_time)))
+    print("Duration:", t)
+
 
     path = "frontend/schedule.json"
     # genICS(data)

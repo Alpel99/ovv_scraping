@@ -5,7 +5,7 @@ from matchdate import matchdate
 headers = {
     "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) "
                   "AppleWebKit/537.36 (KHTML, like Gecko) "
-                  "Chrome/118.0.5993.117 Safari/537.36",
+                  "Chrome/120.0.0.0 Safari/537.36",
     "Accept-Language": "en-US,en;q=0.9",
     "Accept": "text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8",
 }
@@ -29,7 +29,10 @@ def getMatchList(url):
     import time, random
     scraper = cloudscraper.create_scraper()
     response = scraper.get(url, timeout=30)
+    time.sleep(1)
     html = response.text
+    # with open("response.html", "w", encoding="utf-8") as f:
+    #     f.write(html)
     soup = BeautifulSoup(html, "html.parser")
     matches = soup.find_all("a", class_="table-row")
     time.sleep(random.uniform(3,7))
@@ -52,6 +55,7 @@ def scrapeMatches(filteredMatchLinks, compName):
             print(f"Processing: {i}/{len(filteredMatchLinks)}")
         scraper = cloudscraper.create_scraper()
         response = scraper.get(link,  headers=headers, timeout=30)
+        # time.sleep(3)
         html = response.text
         soup = BeautifulSoup(html, "html.parser")
         # print(link)
