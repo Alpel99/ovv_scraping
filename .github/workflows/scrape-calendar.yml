@@ -1,0 +1,55 @@
+name: Scrape calendar and publish data
+
+on:
+  schedule:
+    # - cron: '0 */12 * * *'   # every 12 hours (adjust)
+    - cron: '0 13 * * *'    # every day at 13:00
+  workflow_dispatch:        # manual "Run workflow" button
+  # issue_comment:
+    # types: [created]        # allow triggering via an issue comment
+
+permissions:
+  contents: write           # allow the job to commit files
+
+jobs:
+  scrape:
+    # only run when an issue comment contains "/rescrape" OR the event is workflow_dispatch or schedule
+    if: |
+      github.event_name == 'workflow_dispatch' ||
+      github.event_name == 'schedule' ||
+      (github.event_name == 'issue_comment' && contains(github.event.comment.body, '/rescrape'))
+    runs-on: ubuntu-latest
+
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+
+      - name: Install Python dependencies
+        run: pip install -r requirements.txt
+
+      - name: Run scraper
+        run: python3 -u scraper/main.py
+
+      - name: Commit and push data to gh-pages branch
+        env:
+          GITHUB_TOKEN: ${{ secrets.ACTIONS_TOKEN }}
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+
+          git fetch origin gh-pages || true
+          git checkout --orphan gh-pages || git checkout -B gh-pages
+
+          if [ ! -f frontend/schedule.json ]; then
+            echo "Error: schedule.json not found"; exit 1
+          fi
+          
+          git add -f frontend/schedule.json
+          git commit -m "Update schedule data [skip ci]" || echo "no changes to commit"
+          git push --force origin gh-pages
